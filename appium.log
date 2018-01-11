@@ -1,0 +1,71 @@
+[Appium] Welcome to Appium v1.7.2
+[Appium] Non-default server args:
+[Appium]   port: 64139
+[Appium]   loglevel: info
+[Appium]   chromeDriverPort: 64140
+[Appium]   tmpDir: C:\Users\Pasindu\AppData\Local\Temp\\Katalon\Appium\Temp1515666362586
+[Appium] Appium REST http interface listener started on 0.0.0.0:64139
+[HTTP] --> GET /wd/hub/status {}
+[HTTP] <-- GET /wd/hub/status 200 8 ms - 72 
+[HTTP] --> GET /wd/hub/status {}
+[HTTP] <-- GET /wd/hub/status 200 3 ms - 72 
+[HTTP] --> POST /wd/hub/session {"desiredCapabilities":{"app":"C:\\Users\\Pasindu\\Desktop\\Avonet\\drive-download-20180104T074633Z-001\\app-passenger.apk","autoGrantPermissions":true,"deviceName":"samsung SM-G532G 6.0.1","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"ANDROID","platformName":"Android","udid":"92013592309a8469"},"capabilities":{"desiredCapabilities":{"app":"C:\\Users\\Pasindu\\Desktop\\Avonet\\drive-download-20180104T074633Z-001\\app-passenger.apk","autoGrantPermissions":true,"deviceName":"samsung SM-G532G 6.0.1","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"ANDROID","platformName":"Android","udid":"92013592309a8469"},"firstMatch":[{"platformName":"android"}]}}
+[Appium] Merged W3C capabilities {"desiredCapabilities":{"app":"C:\\Users\\Pasin... into desiredCapabilities object {"app":"C:\\Users\\Pasindu\\Desktop\\Avonet\\dr...
+[Appium] Creating new AndroidDriver (v1.37.0) session
+[Appium] Capabilities:
+[Appium]   app: C:\Users\Pasindu\Desktop\Avonet\drive-download-20180104T074633Z-001\app-passenger.apk
+[Appium]   autoGrantPermissions: true
+[Appium]   deviceName: samsung SM-G532G 6.0.1
+[Appium]   fullReset: false
+[Appium]   newCommandTimeout: 1800
+[Appium]   noReset: true
+[Appium]   platform: ANDROID
+[Appium]   platformName: android
+[Appium]   udid: 92013592309a8469
+[BaseDriver] The following capabilities were provided, but are not recognized by appium: platform.
+[BaseDriver] Session created with session id: 3a2dd27c-66d2-4bf0-ade4-2f3e7c12a1dd
+[AndroidDriver] Java version is: 1.8.0_102
+[ADB] Checking whether adb is present
+[ADB] Using adb.exe from C:\Users\Pasindu\.katalon\tools\android_sdk\platform-tools\adb.exe
+[AndroidDriver] Retrieving device list
+[AndroidDriver] Using device: 92013592309a8469
+[ADB] Checking whether adb is present
+[BaseDriver] Using local app 'C:\Users\Pasindu\Desktop\Avonet\drive-download-20180104T074633Z-001\app-passenger.apk'
+[AndroidDriver] Starting Android session
+[AndroidDriver] setDeviceLanguageCountry requires language or country.
+[AndroidDriver] Got language: 'null' and country: 'null'
+[ADB] Checking whether aapt is present
+[ADB] Using aapt.exe from C:\Users\Pasindu\.katalon\tools\android_sdk\build-tools\27.0.3\aapt.exe
+[ADB] Checking whether aapt is present
+[ADB] Getting device platform version
+[ADB] Checking whether aapt is present
+[ADB] Extracting package and launch activity from manifest
+[AndroidDriver] Remote apk path is /data/local/tmp/872f6dd04647cb9003991e6ecf0c62d8.apk
+[ADB] Checking whether aapt is present
+[ADB] Extracting package and launch activity from manifest
+[ADB] Cannot kill process 9592 in 1000 ms. Trying to force kill...
+[AndroidBootstrap] Android bootstrap socket is now connected
+[AndroidDriver] Screen already unlocked, doing nothing
+[Appium] New AndroidDriver session created successfully, session 3a2dd27c-66d2-4bf0-ade4-2f3e7c12a1dd added to master session list
+[HTTP] <-- POST /wd/hub/session 200 93573 ms - 1189 
+[HTTP] --> GET /wd/hub/status {}
+[HTTP] <-- GET /wd/hub/status 200 4 ms - 83 
+[HTTP] --> POST /wd/hub/session/3a2dd27c-66d2-4bf0-ade4-2f3e7c12a1dd/timeouts {"type":"implicit","ms":60000}
+[HTTP] <-- POST /wd/hub/session/3a2dd27c-66d2-4bf0-ade4-2f3e7c12a1dd/timeouts 200 7 ms - 76 
+[HTTP] --> GET /wd/hub/session/3a2dd27c-66d2-4bf0-ade4-2f3e7c12a1dd/source {}
+[HTTP] <-- GET /wd/hub/session/3a2dd27c-66d2-4bf0-ade4-2f3e7c12a1dd/source 200 85 ms - 2267 
+[HTTP] --> GET /wd/hub/session/3a2dd27c-66d2-4bf0-ade4-2f3e7c12a1dd/screenshot {}
+[HTTP] <-- GET /wd/hub/session/3a2dd27c-66d2-4bf0-ade4-2f3e7c12a1dd/screenshot 200 576 ms - 12306 
+[HTTP] --> GET /wd/hub/session/3a2dd27c-66d2-4bf0-ade4-2f3e7c12a1dd/source {}
+[HTTP] <-- GET /wd/hub/session/3a2dd27c-66d2-4bf0-ade4-2f3e7c12a1dd/source 200 84 ms - 18535 
+[HTTP] --> GET /wd/hub/session/3a2dd27c-66d2-4bf0-ade4-2f3e7c12a1dd/screenshot {}
+[HTTP] <-- GET /wd/hub/session/3a2dd27c-66d2-4bf0-ade4-2f3e7c12a1dd/screenshot 200 676 ms - 38142 
+[HTTP] --> GET /wd/hub/session/3a2dd27c-66d2-4bf0-ade4-2f3e7c12a1dd/source {}
+[HTTP] <-- GET /wd/hub/session/3a2dd27c-66d2-4bf0-ade4-2f3e7c12a1dd/source 200 94 ms - 18535 
+[HTTP] --> GET /wd/hub/session/3a2dd27c-66d2-4bf0-ade4-2f3e7c12a1dd/screenshot {}
+[HTTP] <-- GET /wd/hub/session/3a2dd27c-66d2-4bf0-ade4-2f3e7c12a1dd/screenshot 200 595 ms - 38086 
+[Appium] Closing session, cause was 'UiAUtomator shut down unexpectedly'
+[Appium] Removing session 3a2dd27c-66d2-4bf0-ade4-2f3e7c12a1dd from our master session list
+[AndroidBootstrap] Cannot shut down Android bootstrap; it has already shut down
+[HTTP] --> DELETE /wd/hub/session/3a2dd27c-66d2-4bf0-ade4-2f3e7c12a1dd {}
+[HTTP] <-- DELETE /wd/hub/session/3a2dd27c-66d2-4bf0-ade4-2f3e7c12a1dd 404 2 ms - 131 

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project>
+   <description></description>
+   <name>Katalon_BCON_Mobile</name>
+   <tag></tag>
+   <UUID>adf27855-e87a-4e32-975b-727094412c88</UUID>
+   <pageLoadTimeout>30</pageLoadTimeout>
+</Project>
