@@ -1,0 +1,437 @@
+[Appium] Welcome to Appium v1.7.2
+[Appium] Non-default server args:
+[Appium]   port: 50687
+[Appium]   loglevel: info
+[Appium]   chromeDriverPort: 50688
+[Appium]   tmpDir: C:\Users\Pasindu\AppData\Local\Temp\\Katalon\Appium\Temp1515746132907
+[Appium] Appium REST http interface listener started on 0.0.0.0:50687
+[HTTP] --> GET /wd/hub/status {}
+[HTTP] <-- GET /wd/hub/status 200 9 ms - 72 
+[HTTP] --> POST /wd/hub/session {"desiredCapabilities":{"app":"C:\\Users\\Pasindu\\Desktop\\Avonet\\drive-download-20180104T074633Z-001\\app-passenger.apk","autoGrantPermissions":true,"deviceName":"samsung SM-G570F 6.0.1","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platform":"ANDROID","platformName":"Android","udid":"421041ecd284741f"},"capabilities":{"desiredCapabilities":{"app":"C:\\Users\\Pasindu\\Desktop\\Avonet\\drive-download-20180104T074633Z-001\\app-passenger.apk","autoGrantPermissions":true,"deviceName":"samsung SM-G570F 6.0.1","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platform":"ANDROID","platformName":"Android","udid":"421041ecd284741f"},"firstMatch":[{"platformName":"android"}]}}
+[Appium] Merged W3C capabilities {"desiredCapabilities":{"app":"C:\\Users\\Pasin... into desiredCapabilities object {"app":"C:\\Users\\Pasindu\\Desktop\\Avonet\\dr...
+[Appium] Creating new AndroidDriver (v1.37.0) session
+[Appium] Capabilities:
+[Appium]   app: C:\Users\Pasindu\Desktop\Avonet\drive-download-20180104T074633Z-001\app-passenger.apk
+[Appium]   autoGrantPermissions: true
+[Appium]   deviceName: samsung SM-G570F 6.0.1
+[Appium]   fullReset: true
+[Appium]   newCommandTimeout: 1800
+[Appium]   noReset: false
+[Appium]   platform: ANDROID
+[Appium]   platformName: android
+[Appium]   udid: 421041ecd284741f
+[BaseDriver] The following capabilities were provided, but are not recognized by appium: platform.
+[BaseDriver] Session created with session id: 6c80fcfe-6bce-4c4f-84f4-f522353d4c38
+[AndroidDriver] Java version is: 1.8.0_102
+[ADB] Checking whether adb is present
+[ADB] Using adb.exe from C:\Users\Pasindu\.katalon\tools\android_sdk\platform-tools\adb.exe
+[AndroidDriver] Retrieving device list
+[AndroidDriver] Using device: 421041ecd284741f
+[ADB] Checking whether adb is present
+[BaseDriver] Using local app 'C:\Users\Pasindu\Desktop\Avonet\drive-download-20180104T074633Z-001\app-passenger.apk'
+[AndroidDriver] Starting Android session
+[AndroidDriver] setDeviceLanguageCountry requires language or country.
+[AndroidDriver] Got language: 'null' and country: 'null'
+[ADB] Checking whether aapt is present
+[ADB] Using aapt.exe from C:\Users\Pasindu\.katalon\tools\android_sdk\build-tools\27.0.3\aapt.exe
+[ADB] Checking whether aapt is present
+[ADB] Getting device platform version
+[ADB] Checking whether aapt is present
+[ADB] Extracting package and launch activity from manifest
+[ADB] net.theavo.bcon.passenger was successfully uninstalled
+[AndroidDriver] Remote apk path is /data/local/tmp/872f6dd04647cb9003991e6ecf0c62d8.apk
+[AndroidDriver] Apk is not yet installed
+[AndroidDriver] installing apk from remote
+[AndroidDriver] Clearing out any existing remote apks with the same hash
+[ADB] net.theavo.bcon.passenger was not uninstalled, because it was not present on the device
+[ADB] Checking whether aapt is present
+[ADB] Extracting package and launch activity from manifest
+[ADB] No uiautomator process found to kill, continuing...
+[AndroidBootstrap] Android bootstrap socket is now connected
+[AndroidDriver] Screen already unlocked, doing nothing
+[Appium] New AndroidDriver session created successfully, session 6c80fcfe-6bce-4c4f-84f4-f522353d4c38 added to master session list
+[HTTP] <-- POST /wd/hub/session 200 82444 ms - 1190 
+[HTTP] --> GET /wd/hub/status {}
+[HTTP] <-- GET /wd/hub/status 200 4 ms - 83 
+[HTTP] --> POST /wd/hub/session/6c80fcfe-6bce-4c4f-84f4-f522353d4c38/timeouts {"type":"implicit","ms":30000}
+[HTTP] <-- POST /wd/hub/session/6c80fcfe-6bce-4c4f-84f4-f522353d4c38/timeouts 200 8 ms - 76 
+[HTTP] --> GET /wd/hub/session/6c80fcfe-6bce-4c4f-84f4-f522353d4c38/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/6c80fcfe-6bce-4c4f-84f4-f522353d4c38/window/current/size 200 26 ms - 99 
+[HTTP] --> POST /wd/hub/session/6c80fcfe-6bce-4c4f-84f4-f522353d4c38/elements {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.ViewGroup\").instance(7)"}
+[HTTP] <-- POST /wd/hub/session/6c80fcfe-6bce-4c4f-84f4-f522353d4c38/elements 200 4831 ms - 89 
+[HTTP] --> GET /wd/hub/session/6c80fcfe-6bce-4c4f-84f4-f522353d4c38 {}
+[HTTP] <-- GET /wd/hub/session/6c80fcfe-6bce-4c4f-84f4-f522353d4c38 200 2 ms - 1190 
+[HTTP] --> GET /wd/hub/session/6c80fcfe-6bce-4c4f-84f4-f522353d4c38 {}
+[HTTP] <-- GET /wd/hub/session/6c80fcfe-6bce-4c4f-84f4-f522353d4c38 200 2 ms - 1190 
+[HTTP] --> GET /wd/hub/session/6c80fcfe-6bce-4c4f-84f4-f522353d4c38 {}
+[HTTP] <-- GET /wd/hub/session/6c80fcfe-6bce-4c4f-84f4-f522353d4c38 200 2 ms - 1190 
+[HTTP] --> GET /wd/hub/session/6c80fcfe-6bce-4c4f-84f4-f522353d4c38 {}
+[HTTP] <-- GET /wd/hub/session/6c80fcfe-6bce-4c4f-84f4-f522353d4c38 200 2 ms - 1190 
+[HTTP] --> GET /wd/hub/session/6c80fcfe-6bce-4c4f-84f4-f522353d4c38/element/1/location {}
+[HTTP] <-- GET /wd/hub/session/6c80fcfe-6bce-4c4f-84f4-f522353d4c38/element/1/location 200 18 ms - 89 
+[HTTP] --> POST /wd/hub/session/6c80fcfe-6bce-4c4f-84f4-f522353d4c38/touch/perform {"actions":[{"action":"tap","options":{"element":"1","x":1,"y":1}}]}
+[HTTP] <-- POST /wd/hub/session/6c80fcfe-6bce-4c4f-84f4-f522353d4c38/touch/perform 200 402 ms - 76 
+[HTTP] --> GET /wd/hub/session/6c80fcfe-6bce-4c4f-84f4-f522353d4c38/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/6c80fcfe-6bce-4c4f-84f4-f522353d4c38/window/current/size 200 23 ms - 99 
+[HTTP] --> POST /wd/hub/session/6c80fcfe-6bce-4c4f-84f4-f522353d4c38/elements {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").text(\"Mobile Number\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/6c80fcfe-6bce-4c4f-84f4-f522353d4c38/elements 200 590 ms - 89 
+[HTTP] --> GET /wd/hub/session/6c80fcfe-6bce-4c4f-84f4-f522353d4c38 {}
+[HTTP] <-- GET /wd/hub/session/6c80fcfe-6bce-4c4f-84f4-f522353d4c38 200 2 ms - 1190 
+[HTTP] --> GET /wd/hub/session/6c80fcfe-6bce-4c4f-84f4-f522353d4c38 {}
+[HTTP] <-- GET /wd/hub/session/6c80fcfe-6bce-4c4f-84f4-f522353d4c38 200 2 ms - 1190 
+[HTTP] --> GET /wd/hub/session/6c80fcfe-6bce-4c4f-84f4-f522353d4c38 {}
+[HTTP] <-- GET /wd/hub/session/6c80fcfe-6bce-4c4f-84f4-f522353d4c38 200 2 ms - 1190 
+[HTTP] --> GET /wd/hub/session/6c80fcfe-6bce-4c4f-84f4-f522353d4c38 {}
+[HTTP] <-- GET /wd/hub/session/6c80fcfe-6bce-4c4f-84f4-f522353d4c38 200 2 ms - 1190 
+[HTTP] --> GET /wd/hub/session/6c80fcfe-6bce-4c4f-84f4-f522353d4c38/element/2/location {}
+[HTTP] <-- GET /wd/hub/session/6c80fcfe-6bce-4c4f-84f4-f522353d4c38/element/2/location 200 27 ms - 89 
+[HTTP] --> POST /wd/hub/session/6c80fcfe-6bce-4c4f-84f4-f522353d4c38/element/2/clear {"id":"2"}
+[HTTP] <-- POST /wd/hub/session/6c80fcfe-6bce-4c4f-84f4-f522353d4c38/element/2/clear 200 2397 ms - 76 
+[HTTP] --> POST /wd/hub/session/6c80fcfe-6bce-4c4f-84f4-f522353d4c38/element/2/value {"id":"2","value":["0715645545"]}
+[HTTP] <-- POST /wd/hub/session/6c80fcfe-6bce-4c4f-84f4-f522353d4c38/element/2/value 200 6220 ms - 76 
+[HTTP] --> GET /wd/hub/session/6c80fcfe-6bce-4c4f-84f4-f522353d4c38/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/6c80fcfe-6bce-4c4f-84f4-f522353d4c38/window/current/size 200 5 ms - 99 
+[HTTP] --> POST /wd/hub/session/6c80fcfe-6bce-4c4f-84f4-f522353d4c38/elements {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").instance(1)"}
+[HTTP] <-- POST /wd/hub/session/6c80fcfe-6bce-4c4f-84f4-f522353d4c38/elements 200 1250 ms - 89 
+[HTTP] --> GET /wd/hub/session/6c80fcfe-6bce-4c4f-84f4-f522353d4c38 {}
+[HTTP] <-- GET /wd/hub/session/6c80fcfe-6bce-4c4f-84f4-f522353d4c38 200 2 ms - 1190 
+[HTTP] --> GET /wd/hub/session/6c80fcfe-6bce-4c4f-84f4-f522353d4c38 {}
+[HTTP] <-- GET /wd/hub/session/6c80fcfe-6bce-4c4f-84f4-f522353d4c38 200 3 ms - 1190 
+[HTTP] --> GET /wd/hub/session/6c80fcfe-6bce-4c4f-84f4-f522353d4c38 {}
+[HTTP] <-- GET /wd/hub/session/6c80fcfe-6bce-4c4f-84f4-f522353d4c38 200 2 ms - 1190 
+[HTTP] --> GET /wd/hub/session/6c80fcfe-6bce-4c4f-84f4-f522353d4c38 {}
+[HTTP] <-- GET /wd/hub/session/6c80fcfe-6bce-4c4f-84f4-f522353d4c38 200 2 ms - 1190 
+[HTTP] --> GET /wd/hub/session/6c80fcfe-6bce-4c4f-84f4-f522353d4c38/element/3/location {}
+[HTTP] <-- GET /wd/hub/session/6c80fcfe-6bce-4c4f-84f4-f522353d4c38/element/3/location 200 25 ms - 89 
+[HTTP] --> POST /wd/hub/session/6c80fcfe-6bce-4c4f-84f4-f522353d4c38/element/3/clear {"id":"3"}
+[HTTP] <-- POST /wd/hub/session/6c80fcfe-6bce-4c4f-84f4-f522353d4c38/element/3/clear 200 5035 ms - 76 
+[HTTP] --> POST /wd/hub/session/6c80fcfe-6bce-4c4f-84f4-f522353d4c38/element/3/value {"id":"3","value":["password123"]}
+[HTTP] <-- POST /wd/hub/session/6c80fcfe-6bce-4c4f-84f4-f522353d4c38/element/3/value 200 6715 ms - 76 
+[HTTP] --> GET /wd/hub/session/6c80fcfe-6bce-4c4f-84f4-f522353d4c38/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/6c80fcfe-6bce-4c4f-84f4-f522353d4c38/window/current/size 200 6 ms - 99 
+[HTTP] --> POST /wd/hub/session/6c80fcfe-6bce-4c4f-84f4-f522353d4c38/elements {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.ViewGroup\").instance(9)"}
+[HTTP] <-- POST /wd/hub/session/6c80fcfe-6bce-4c4f-84f4-f522353d4c38/elements 200 496 ms - 89 
+[HTTP] --> GET /wd/hub/session/6c80fcfe-6bce-4c4f-84f4-f522353d4c38 {}
+[HTTP] <-- GET /wd/hub/session/6c80fcfe-6bce-4c4f-84f4-f522353d4c38 200 2 ms - 1190 
+[HTTP] --> GET /wd/hub/session/6c80fcfe-6bce-4c4f-84f4-f522353d4c38 {}
+[HTTP] <-- GET /wd/hub/session/6c80fcfe-6bce-4c4f-84f4-f522353d4c38 200 2 ms - 1190 
+[HTTP] --> GET /wd/hub/session/6c80fcfe-6bce-4c4f-84f4-f522353d4c38 {}
+[HTTP] <-- GET /wd/hub/session/6c80fcfe-6bce-4c4f-84f4-f522353d4c38 200 2 ms - 1190 
+[HTTP] --> GET /wd/hub/session/6c80fcfe-6bce-4c4f-84f4-f522353d4c38 {}
+[HTTP] <-- GET /wd/hub/session/6c80fcfe-6bce-4c4f-84f4-f522353d4c38 200 2 ms - 1190 
+[HTTP] --> GET /wd/hub/session/6c80fcfe-6bce-4c4f-84f4-f522353d4c38/element/4/location {}
+[HTTP] <-- GET /wd/hub/session/6c80fcfe-6bce-4c4f-84f4-f522353d4c38/element/4/location 200 42 ms - 89 
+[HTTP] --> POST /wd/hub/session/6c80fcfe-6bce-4c4f-84f4-f522353d4c38/touch/perform {"actions":[{"action":"tap","options":{"element":"4","x":1,"y":1}}]}
+[HTTP] <-- POST /wd/hub/session/6c80fcfe-6bce-4c4f-84f4-f522353d4c38/touch/perform 200 873 ms - 76 
+[HTTP] --> GET /wd/hub/session/6c80fcfe-6bce-4c4f-84f4-f522353d4c38/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/6c80fcfe-6bce-4c4f-84f4-f522353d4c38/window/current/size 200 6 ms - 99 
+[HTTP] --> POST /wd/hub/session/6c80fcfe-6bce-4c4f-84f4-f522353d4c38/elements {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.ViewGroup\").instance(9)"}
+[HTTP] <-- POST /wd/hub/session/6c80fcfe-6bce-4c4f-84f4-f522353d4c38/elements 200 816 ms - 89 
+[HTTP] --> GET /wd/hub/session/6c80fcfe-6bce-4c4f-84f4-f522353d4c38 {}
+[HTTP] <-- GET /wd/hub/session/6c80fcfe-6bce-4c4f-84f4-f522353d4c38 200 2 ms - 1190 
+[HTTP] --> GET /wd/hub/session/6c80fcfe-6bce-4c4f-84f4-f522353d4c38 {}
+[HTTP] <-- GET /wd/hub/session/6c80fcfe-6bce-4c4f-84f4-f522353d4c38 200 2 ms - 1190 
+[HTTP] --> GET /wd/hub/session/6c80fcfe-6bce-4c4f-84f4-f522353d4c38 {}
+[HTTP] <-- GET /wd/hub/session/6c80fcfe-6bce-4c4f-84f4-f522353d4c38 200 2 ms - 1190 
+[HTTP] --> GET /wd/hub/session/6c80fcfe-6bce-4c4f-84f4-f522353d4c38 {}
+[HTTP] <-- GET /wd/hub/session/6c80fcfe-6bce-4c4f-84f4-f522353d4c38 200 2 ms - 1190 
+[HTTP] --> GET /wd/hub/session/6c80fcfe-6bce-4c4f-84f4-f522353d4c38/element/5/location {}
+[HTTP] <-- GET /wd/hub/session/6c80fcfe-6bce-4c4f-84f4-f522353d4c38/element/5/location 200 27 ms - 89 
+[HTTP] --> POST /wd/hub/session/6c80fcfe-6bce-4c4f-84f4-f522353d4c38/touch/perform {"actions":[{"action":"tap","options":{"element":"5","x":1,"y":1}}]}
+[HTTP] <-- POST /wd/hub/session/6c80fcfe-6bce-4c4f-84f4-f522353d4c38/touch/perform 200 323 ms - 76 
+[HTTP] --> GET /wd/hub/session/6c80fcfe-6bce-4c4f-84f4-f522353d4c38/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/6c80fcfe-6bce-4c4f-84f4-f522353d4c38/window/current/size 200 5 ms - 99 
+[HTTP] --> POST /wd/hub/session/6c80fcfe-6bce-4c4f-84f4-f522353d4c38/elements {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.ViewGroup\").instance(5)"}
+[HTTP] <-- POST /wd/hub/session/6c80fcfe-6bce-4c4f-84f4-f522353d4c38/elements 200 724 ms - 89 
+[HTTP] --> GET /wd/hub/session/6c80fcfe-6bce-4c4f-84f4-f522353d4c38 {}
+[HTTP] <-- GET /wd/hub/session/6c80fcfe-6bce-4c4f-84f4-f522353d4c38 200 2 ms - 1190 
+[HTTP] --> GET /wd/hub/session/6c80fcfe-6bce-4c4f-84f4-f522353d4c38 {}
+[HTTP] <-- GET /wd/hub/session/6c80fcfe-6bce-4c4f-84f4-f522353d4c38 200 2 ms - 1190 
+[HTTP] --> GET /wd/hub/session/6c80fcfe-6bce-4c4f-84f4-f522353d4c38 {}
+[HTTP] <-- GET /wd/hub/session/6c80fcfe-6bce-4c4f-84f4-f522353d4c38 200 2 ms - 1190 
+[HTTP] --> GET /wd/hub/session/6c80fcfe-6bce-4c4f-84f4-f522353d4c38 {}
+[HTTP] <-- GET /wd/hub/session/6c80fcfe-6bce-4c4f-84f4-f522353d4c38 200 2 ms - 1190 
+[HTTP] --> GET /wd/hub/session/6c80fcfe-6bce-4c4f-84f4-f522353d4c38/element/6/location {}
+[HTTP] <-- GET /wd/hub/session/6c80fcfe-6bce-4c4f-84f4-f522353d4c38/element/6/location 200 13 ms - 86 
+[HTTP] --> POST /wd/hub/session/6c80fcfe-6bce-4c4f-84f4-f522353d4c38/touch/perform {"actions":[{"action":"tap","options":{"element":"6","x":1,"y":1}}]}
+[HTTP] <-- POST /wd/hub/session/6c80fcfe-6bce-4c4f-84f4-f522353d4c38/touch/perform 200 151 ms - 76 
+[HTTP] --> GET /wd/hub/session/6c80fcfe-6bce-4c4f-84f4-f522353d4c38/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/6c80fcfe-6bce-4c4f-84f4-f522353d4c38/window/current/size 200 7 ms - 99 
+[HTTP] --> POST /wd/hub/session/6c80fcfe-6bce-4c4f-84f4-f522353d4c38/elements {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.ViewGroup\").instance(16)"}
+[HTTP] <-- POST /wd/hub/session/6c80fcfe-6bce-4c4f-84f4-f522353d4c38/elements 200 2859 ms - 89 
+[HTTP] --> GET /wd/hub/session/6c80fcfe-6bce-4c4f-84f4-f522353d4c38 {}
+[HTTP] <-- GET /wd/hub/session/6c80fcfe-6bce-4c4f-84f4-f522353d4c38 200 2 ms - 1190 
+[HTTP] --> GET /wd/hub/session/6c80fcfe-6bce-4c4f-84f4-f522353d4c38 {}
+[HTTP] <-- GET /wd/hub/session/6c80fcfe-6bce-4c4f-84f4-f522353d4c38 200 2 ms - 1190 
+[HTTP] --> GET /wd/hub/session/6c80fcfe-6bce-4c4f-84f4-f522353d4c38 {}
+[HTTP] <-- GET /wd/hub/session/6c80fcfe-6bce-4c4f-84f4-f522353d4c38 200 2 ms - 1190 
+[HTTP] --> GET /wd/hub/session/6c80fcfe-6bce-4c4f-84f4-f522353d4c38 {}
+[HTTP] <-- GET /wd/hub/session/6c80fcfe-6bce-4c4f-84f4-f522353d4c38 200 2 ms - 1190 
+[HTTP] --> GET /wd/hub/session/6c80fcfe-6bce-4c4f-84f4-f522353d4c38/element/7/location {}
+[HTTP] <-- GET /wd/hub/session/6c80fcfe-6bce-4c4f-84f4-f522353d4c38/element/7/location 200 21 ms - 87 
+[HTTP] --> POST /wd/hub/session/6c80fcfe-6bce-4c4f-84f4-f522353d4c38/touch/perform {"actions":[{"action":"tap","options":{"element":"7","x":1,"y":1}}]}
+[HTTP] <-- POST /wd/hub/session/6c80fcfe-6bce-4c4f-84f4-f522353d4c38/touch/perform 200 1330 ms - 76 
+[HTTP] --> GET /wd/hub/status {}
+[HTTP] <-- GET /wd/hub/status 200 4 ms - 83 
+[HTTP] --> POST /wd/hub/session {"desiredCapabilities":{"app":"C:\\Users\\Pasindu\\Desktop\\Avonet\\drive-download-20180104T074633Z-001\\app-passenger.apk","autoGrantPermissions":true,"deviceName":"samsung SM-G570F 6.0.1","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platform":"ANDROID","platformName":"Android","udid":"421041ecd284741f"},"capabilities":{"desiredCapabilities":{"app":"C:\\Users\\Pasindu\\Desktop\\Avonet\\drive-download-20180104T074633Z-001\\app-passenger.apk","autoGrantPermissions":true,"deviceName":"samsung SM-G570F 6.0.1","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platform":"ANDROID","platformName":"Android","udid":"421041ecd284741f"},"firstMatch":[{"platformName":"android"}]}}
+[Appium] Merged W3C capabilities {"desiredCapabilities":{"app":"C:\\Users\\Pasin... into desiredCapabilities object {"app":"C:\\Users\\Pasindu\\Desktop\\Avonet\\dr...
+[Appium] Creating new AndroidDriver (v1.37.0) session
+[Appium] Capabilities:
+[Appium]   app: C:\Users\Pasindu\Desktop\Avonet\drive-download-20180104T074633Z-001\app-passenger.apk
+[Appium]   autoGrantPermissions: true
+[Appium]   deviceName: samsung SM-G570F 6.0.1
+[Appium]   fullReset: true
+[Appium]   newCommandTimeout: 1800
+[Appium]   noReset: false
+[Appium]   platform: ANDROID
+[Appium]   platformName: android
+[Appium]   udid: 421041ecd284741f
+[BaseDriver] The following capabilities were provided, but are not recognized by appium: platform.
+[BaseDriver] Session created with session id: a751d75c-1c09-4135-8285-082dbe7786bf
+[AndroidDriver] Java version is: 1.8.0_102
+[ADB] Checking whether adb is present
+[AndroidDriver] Retrieving device list
+[AndroidDriver] Using device: 421041ecd284741f
+[ADB] Checking whether adb is present
+[BaseDriver] Using local app 'C:\Users\Pasindu\Desktop\Avonet\drive-download-20180104T074633Z-001\app-passenger.apk'
+[AndroidDriver] Starting Android session
+[AndroidDriver] setDeviceLanguageCountry requires language or country.
+[AndroidDriver] Got language: 'null' and country: 'null'
+[ADB] Checking whether aapt is present
+[ADB] Checking whether aapt is present
+[ADB] Getting device platform version
+[ADB] Checking whether aapt is present
+[ADB] Extracting package and launch activity from manifest
+[ADB] net.theavo.bcon.passenger was successfully uninstalled
+[AndroidDriver] Remote apk path is /data/local/tmp/872f6dd04647cb9003991e6ecf0c62d8.apk
+[AndroidDriver] Apk is not yet installed
+[AndroidDriver] installing apk from remote
+[AndroidDriver] Clearing out any existing remote apks with the same hash
+[ADB] net.theavo.bcon.passenger was not uninstalled, because it was not present on the device
+[ADB] Checking whether aapt is present
+[ADB] Extracting package and launch activity from manifest
+[Appium] Closing session, cause was 'UiAUtomator shut down unexpectedly'
+[Appium] Removing session 6c80fcfe-6bce-4c4f-84f4-f522353d4c38 from our master session list
+[ADB] Cannot kill process 16190 in 1000 ms. Trying to force kill...
+[AndroidBootstrap] Android bootstrap socket is now connected
+[AndroidDriver] Screen already unlocked, doing nothing
+[Appium] New AndroidDriver session created successfully, session a751d75c-1c09-4135-8285-082dbe7786bf added to master session list
+[HTTP] <-- POST /wd/hub/session 200 87356 ms - 1190 
+[HTTP] --> GET /wd/hub/status {}
+[HTTP] <-- GET /wd/hub/status 200 3 ms - 83 
+[HTTP] --> POST /wd/hub/session/a751d75c-1c09-4135-8285-082dbe7786bf/timeouts {"type":"implicit","ms":30000}
+[HTTP] <-- POST /wd/hub/session/a751d75c-1c09-4135-8285-082dbe7786bf/timeouts 200 2 ms - 76 
+[HTTP] --> GET /wd/hub/session/a751d75c-1c09-4135-8285-082dbe7786bf/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/a751d75c-1c09-4135-8285-082dbe7786bf/window/current/size 200 40 ms - 99 
+[HTTP] --> POST /wd/hub/session/a751d75c-1c09-4135-8285-082dbe7786bf/elements {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.ViewGroup\").instance(7)"}
+[ADB] net.theavo.bcon.passenger was successfully uninstalled
+[AndroidBootstrap] Cannot shut down Android bootstrap; it has already shut down
+[HTTP] <-- POST /wd/hub/session/a751d75c-1c09-4135-8285-082dbe7786bf/elements 200 30644 ms - 74 
+[HTTP] --> GET /wd/hub/status {}
+[HTTP] <-- GET /wd/hub/status 200 3 ms - 83 
+[HTTP] --> POST /wd/hub/session {"desiredCapabilities":{"app":"C:\\Users\\Pasindu\\Desktop\\Avonet\\drive-download-20180104T074633Z-001\\app-passenger.apk","autoGrantPermissions":true,"deviceName":"samsung SM-G570F 6.0.1","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platform":"ANDROID","platformName":"Android","udid":"421041ecd284741f"},"capabilities":{"desiredCapabilities":{"app":"C:\\Users\\Pasindu\\Desktop\\Avonet\\drive-download-20180104T074633Z-001\\app-passenger.apk","autoGrantPermissions":true,"deviceName":"samsung SM-G570F 6.0.1","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platform":"ANDROID","platformName":"Android","udid":"421041ecd284741f"},"firstMatch":[{"platformName":"android"}]}}
+[Appium] Merged W3C capabilities {"desiredCapabilities":{"app":"C:\\Users\\Pasin... into desiredCapabilities object {"app":"C:\\Users\\Pasindu\\Desktop\\Avonet\\dr...
+[Appium] Creating new AndroidDriver (v1.37.0) session
+[Appium] Capabilities:
+[Appium]   app: C:\Users\Pasindu\Desktop\Avonet\drive-download-20180104T074633Z-001\app-passenger.apk
+[Appium]   autoGrantPermissions: true
+[Appium]   deviceName: samsung SM-G570F 6.0.1
+[Appium]   fullReset: true
+[Appium]   newCommandTimeout: 1800
+[Appium]   noReset: false
+[Appium]   platform: ANDROID
+[Appium]   platformName: android
+[Appium]   udid: 421041ecd284741f
+[BaseDriver] The following capabilities were provided, but are not recognized by appium: platform.
+[BaseDriver] Session created with session id: 4350da78-81a9-456b-929b-4514bbd4274f
+[AndroidDriver] Java version is: 1.8.0_102
+[ADB] Checking whether adb is present
+[AndroidDriver] Retrieving device list
+[AndroidDriver] Using device: 421041ecd284741f
+[ADB] Checking whether adb is present
+[BaseDriver] Using local app 'C:\Users\Pasindu\Desktop\Avonet\drive-download-20180104T074633Z-001\app-passenger.apk'
+[AndroidDriver] Starting Android session
+[AndroidDriver] setDeviceLanguageCountry requires language or country.
+[AndroidDriver] Got language: 'null' and country: 'null'
+[ADB] Checking whether aapt is present
+[ADB] Checking whether aapt is present
+[ADB] Getting device platform version
+[ADB] Checking whether aapt is present
+[ADB] Extracting package and launch activity from manifest
+[ADB] net.theavo.bcon.passenger was not uninstalled, because it was not present on the device
+[AndroidDriver] Remote apk path is /data/local/tmp/872f6dd04647cb9003991e6ecf0c62d8.apk
+[AndroidDriver] Apk is not yet installed
+[AndroidDriver] installing apk from remote
+[AndroidDriver] Clearing out any existing remote apks with the same hash
+[ADB] net.theavo.bcon.passenger was not uninstalled, because it was not present on the device
+[ADB] Checking whether aapt is present
+[ADB] Extracting package and launch activity from manifest
+[Appium] Closing session, cause was 'UiAUtomator shut down unexpectedly'
+[Appium] Removing session a751d75c-1c09-4135-8285-082dbe7786bf from our master session list
+[ADB] Cannot kill process 19098 in 1000 ms. Trying to force kill...
+[AndroidBootstrap] Android bootstrap socket is now connected
+[AndroidDriver] Screen already unlocked, doing nothing
+[Appium] New AndroidDriver session created successfully, session 4350da78-81a9-456b-929b-4514bbd4274f added to master session list
+[HTTP] <-- POST /wd/hub/session 200 84690 ms - 1190 
+[HTTP] --> GET /wd/hub/status {}
+[HTTP] <-- GET /wd/hub/status 200 3 ms - 83 
+[HTTP] --> POST /wd/hub/session/4350da78-81a9-456b-929b-4514bbd4274f/timeouts {"type":"implicit","ms":30000}
+[HTTP] <-- POST /wd/hub/session/4350da78-81a9-456b-929b-4514bbd4274f/timeouts 200 3 ms - 76 
+[HTTP] --> GET /wd/hub/session/4350da78-81a9-456b-929b-4514bbd4274f/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/4350da78-81a9-456b-929b-4514bbd4274f/window/current/size 200 23 ms - 99 
+[HTTP] --> POST /wd/hub/session/4350da78-81a9-456b-929b-4514bbd4274f/elements {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.ViewGroup\").instance(6)"}
+[ADB] net.theavo.bcon.passenger was successfully uninstalled
+[AndroidBootstrap] Cannot shut down Android bootstrap; it has already shut down
+[HTTP] <-- POST /wd/hub/session/4350da78-81a9-456b-929b-4514bbd4274f/elements 200 30004 ms - 74 
+[HTTP] --> GET /wd/hub/status {}
+[HTTP] <-- GET /wd/hub/status 200 3 ms - 83 
+[HTTP] --> POST /wd/hub/session {"desiredCapabilities":{"app":"C:\\Users\\Pasindu\\Desktop\\Avonet\\drive-download-20180104T074633Z-001\\app-passenger.apk","autoGrantPermissions":true,"deviceName":"samsung SM-G570F 6.0.1","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platform":"ANDROID","platformName":"Android","udid":"421041ecd284741f"},"capabilities":{"desiredCapabilities":{"app":"C:\\Users\\Pasindu\\Desktop\\Avonet\\drive-download-20180104T074633Z-001\\app-passenger.apk","autoGrantPermissions":true,"deviceName":"samsung SM-G570F 6.0.1","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platform":"ANDROID","platformName":"Android","udid":"421041ecd284741f"},"firstMatch":[{"platformName":"android"}]}}
+[Appium] Merged W3C capabilities {"desiredCapabilities":{"app":"C:\\Users\\Pasin... into desiredCapabilities object {"app":"C:\\Users\\Pasindu\\Desktop\\Avonet\\dr...
+[Appium] Creating new AndroidDriver (v1.37.0) session
+[Appium] Capabilities:
+[Appium]   app: C:\Users\Pasindu\Desktop\Avonet\drive-download-20180104T074633Z-001\app-passenger.apk
+[Appium]   autoGrantPermissions: true
+[Appium]   deviceName: samsung SM-G570F 6.0.1
+[Appium]   fullReset: true
+[Appium]   newCommandTimeout: 1800
+[Appium]   noReset: false
+[Appium]   platform: ANDROID
+[Appium]   platformName: android
+[Appium]   udid: 421041ecd284741f
+[BaseDriver] The following capabilities were provided, but are not recognized by appium: platform.
+[BaseDriver] Session created with session id: 5f0bbcc2-5a24-415b-85ee-8bc9ca0ebeea
+[AndroidDriver] Java version is: 1.8.0_102
+[ADB] Checking whether adb is present
+[AndroidDriver] Retrieving device list
+[AndroidDriver] Using device: 421041ecd284741f
+[ADB] Checking whether adb is present
+[BaseDriver] Using local app 'C:\Users\Pasindu\Desktop\Avonet\drive-download-20180104T074633Z-001\app-passenger.apk'
+[AndroidDriver] Starting Android session
+[AndroidDriver] setDeviceLanguageCountry requires language or country.
+[AndroidDriver] Got language: 'null' and country: 'null'
+[ADB] Checking whether aapt is present
+[ADB] Checking whether aapt is present
+[ADB] Getting device platform version
+[ADB] Checking whether aapt is present
+[ADB] Extracting package and launch activity from manifest
+[ADB] net.theavo.bcon.passenger was not uninstalled, because it was not present on the device
+[AndroidDriver] Remote apk path is /data/local/tmp/872f6dd04647cb9003991e6ecf0c62d8.apk
+[AndroidDriver] Apk is not yet installed
+[AndroidDriver] installing apk from remote
+[AndroidDriver] Clearing out any existing remote apks with the same hash
+[ADB] net.theavo.bcon.passenger was not uninstalled, because it was not present on the device
+[ADB] Checking whether aapt is present
+[ADB] Extracting package and launch activity from manifest
+[Appium] Closing session, cause was 'UiAUtomator shut down unexpectedly'
+[Appium] Removing session 4350da78-81a9-456b-929b-4514bbd4274f from our master session list
+[ADB] Cannot kill process 21782 in 1000 ms. Trying to force kill...
+[AndroidBootstrap] Android bootstrap socket is now connected
+[AndroidDriver] Screen already unlocked, doing nothing
+[Appium] New AndroidDriver session created successfully, session 5f0bbcc2-5a24-415b-85ee-8bc9ca0ebeea added to master session list
+[HTTP] <-- POST /wd/hub/session 200 84005 ms - 1190 
+[HTTP] --> GET /wd/hub/status {}
+[HTTP] <-- GET /wd/hub/status 200 3 ms - 83 
+[HTTP] --> POST /wd/hub/session/5f0bbcc2-5a24-415b-85ee-8bc9ca0ebeea/timeouts {"type":"implicit","ms":30000}
+[HTTP] <-- POST /wd/hub/session/5f0bbcc2-5a24-415b-85ee-8bc9ca0ebeea/timeouts 200 3 ms - 76 
+[HTTP] --> GET /wd/hub/session/5f0bbcc2-5a24-415b-85ee-8bc9ca0ebeea/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/5f0bbcc2-5a24-415b-85ee-8bc9ca0ebeea/window/current/size 200 38 ms - 99 
+[HTTP] --> POST /wd/hub/session/5f0bbcc2-5a24-415b-85ee-8bc9ca0ebeea/elements {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.ViewGroup\").instance(7)"}
+[ADB] net.theavo.bcon.passenger was successfully uninstalled
+[AndroidBootstrap] Cannot shut down Android bootstrap; it has already shut down
+[HTTP] <-- POST /wd/hub/session/5f0bbcc2-5a24-415b-85ee-8bc9ca0ebeea/elements 200 30815 ms - 74 
+[HTTP] --> GET /wd/hub/status {}
+[HTTP] <-- GET /wd/hub/status 200 3 ms - 83 
+[HTTP] --> POST /wd/hub/session {"desiredCapabilities":{"app":"C:\\Users\\Pasindu\\Desktop\\Avonet\\drive-download-20180104T074633Z-001\\app-passenger.apk","autoGrantPermissions":true,"deviceName":"samsung SM-G570F 6.0.1","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platform":"ANDROID","platformName":"Android","udid":"421041ecd284741f"},"capabilities":{"desiredCapabilities":{"app":"C:\\Users\\Pasindu\\Desktop\\Avonet\\drive-download-20180104T074633Z-001\\app-passenger.apk","autoGrantPermissions":true,"deviceName":"samsung SM-G570F 6.0.1","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platform":"ANDROID","platformName":"Android","udid":"421041ecd284741f"},"firstMatch":[{"platformName":"android"}]}}
+[Appium] Merged W3C capabilities {"desiredCapabilities":{"app":"C:\\Users\\Pasin... into desiredCapabilities object {"app":"C:\\Users\\Pasindu\\Desktop\\Avonet\\dr...
+[Appium] Creating new AndroidDriver (v1.37.0) session
+[Appium] Capabilities:
+[Appium]   app: C:\Users\Pasindu\Desktop\Avonet\drive-download-20180104T074633Z-001\app-passenger.apk
+[Appium]   autoGrantPermissions: true
+[Appium]   deviceName: samsung SM-G570F 6.0.1
+[Appium]   fullReset: true
+[Appium]   newCommandTimeout: 1800
+[Appium]   noReset: false
+[Appium]   platform: ANDROID
+[Appium]   platformName: android
+[Appium]   udid: 421041ecd284741f
+[BaseDriver] The following capabilities were provided, but are not recognized by appium: platform.
+[BaseDriver] Session created with session id: 833909c0-7f87-4fd0-91fb-85b5cf5ad3c5
+[AndroidDriver] Java version is: 1.8.0_102
+[ADB] Checking whether adb is present
+[AndroidDriver] Retrieving device list
+[AndroidDriver] Using device: 421041ecd284741f
+[ADB] Checking whether adb is present
+[BaseDriver] Using local app 'C:\Users\Pasindu\Desktop\Avonet\drive-download-20180104T074633Z-001\app-passenger.apk'
+[AndroidDriver] Starting Android session
+[AndroidDriver] setDeviceLanguageCountry requires language or country.
+[AndroidDriver] Got language: 'null' and country: 'null'
+[ADB] Checking whether aapt is present
+[ADB] Checking whether aapt is present
+[ADB] Getting device platform version
+[ADB] Checking whether aapt is present
+[ADB] Extracting package and launch activity from manifest
+[ADB] net.theavo.bcon.passenger was not uninstalled, because it was not present on the device
+[AndroidDriver] Remote apk path is /data/local/tmp/872f6dd04647cb9003991e6ecf0c62d8.apk
+[AndroidDriver] Apk is not yet installed
+[AndroidDriver] installing apk from remote
+[AndroidDriver] Clearing out any existing remote apks with the same hash
+[ADB] net.theavo.bcon.passenger was not uninstalled, because it was not present on the device
+[ADB] Checking whether aapt is present
+[ADB] Extracting package and launch activity from manifest
+[Appium] Closing session, cause was 'UiAUtomator shut down unexpectedly'
+[Appium] Removing session 5f0bbcc2-5a24-415b-85ee-8bc9ca0ebeea from our master session list
+[ADB] Cannot kill process 24279 in 1000 ms. Trying to force kill...
+[AndroidBootstrap] Android bootstrap socket is now connected
+[AndroidDriver] Screen already unlocked, doing nothing
+[Appium] New AndroidDriver session created successfully, session 833909c0-7f87-4fd0-91fb-85b5cf5ad3c5 added to master session list
+[HTTP] <-- POST /wd/hub/session 200 83351 ms - 1190 
+[HTTP] --> GET /wd/hub/status {}
+[HTTP] <-- GET /wd/hub/status 200 4 ms - 83 
+[HTTP] --> POST /wd/hub/session/833909c0-7f87-4fd0-91fb-85b5cf5ad3c5/timeouts {"type":"implicit","ms":30000}
+[HTTP] <-- POST /wd/hub/session/833909c0-7f87-4fd0-91fb-85b5cf5ad3c5/timeouts 200 2 ms - 76 
+[HTTP] --> GET /wd/hub/session/833909c0-7f87-4fd0-91fb-85b5cf5ad3c5/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/833909c0-7f87-4fd0-91fb-85b5cf5ad3c5/window/current/size 200 32 ms - 99 
+[HTTP] --> POST /wd/hub/session/833909c0-7f87-4fd0-91fb-85b5cf5ad3c5/elements {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.ViewGroup\").instance(6)"}
+[ADB] net.theavo.bcon.passenger was successfully uninstalled
+[AndroidBootstrap] Cannot shut down Android bootstrap; it has already shut down
+[HTTP] <-- POST /wd/hub/session/833909c0-7f87-4fd0-91fb-85b5cf5ad3c5/elements 200 30230 ms - 74 
+[HTTP] --> GET /wd/hub/status {}
+[HTTP] <-- GET /wd/hub/status 200 4 ms - 83 
+[HTTP] --> POST /wd/hub/session {"desiredCapabilities":{"app":"C:\\Users\\Pasindu\\Desktop\\Avonet\\drive-download-20180104T074633Z-001\\app-passenger.apk","autoGrantPermissions":true,"deviceName":"samsung SM-G570F 6.0.1","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platform":"ANDROID","platformName":"Android","udid":"421041ecd284741f"},"capabilities":{"desiredCapabilities":{"app":"C:\\Users\\Pasindu\\Desktop\\Avonet\\drive-download-20180104T074633Z-001\\app-passenger.apk","autoGrantPermissions":true,"deviceName":"samsung SM-G570F 6.0.1","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platform":"ANDROID","platformName":"Android","udid":"421041ecd284741f"},"firstMatch":[{"platformName":"android"}]}}
+[Appium] Merged W3C capabilities {"desiredCapabilities":{"app":"C:\\Users\\Pasin... into desiredCapabilities object {"app":"C:\\Users\\Pasindu\\Desktop\\Avonet\\dr...
+[Appium] Creating new AndroidDriver (v1.37.0) session
+[Appium] Capabilities:
+[Appium]   app: C:\Users\Pasindu\Desktop\Avonet\drive-download-20180104T074633Z-001\app-passenger.apk
+[Appium]   autoGrantPermissions: true
+[Appium]   deviceName: samsung SM-G570F 6.0.1
+[Appium]   fullReset: true
+[Appium]   newCommandTimeout: 1800
+[Appium]   noReset: false
+[Appium]   platform: ANDROID
+[Appium]   platformName: android
+[Appium]   udid: 421041ecd284741f
+[BaseDriver] The following capabilities were provided, but are not recognized by appium: platform.
+[BaseDriver] Session created with session id: 9050568b-3f7d-4108-b4c5-8126c33b29c9
+[AndroidDriver] Java version is: 1.8.0_102
+[ADB] Checking whether adb is present
+[AndroidDriver] Retrieving device list
+[AndroidDriver] Using device: 421041ecd284741f
+[ADB] Checking whether adb is present
+[BaseDriver] Using local app 'C:\Users\Pasindu\Desktop\Avonet\drive-download-20180104T074633Z-001\app-passenger.apk'
+[AndroidDriver] Starting Android session
+[AndroidDriver] setDeviceLanguageCountry requires language or country.
+[AndroidDriver] Got language: 'null' and country: 'null'
+[ADB] Checking whether aapt is present
+[ADB] Checking whether aapt is present
+[ADB] Getting device platform version
+[ADB] Checking whether aapt is present
+[ADB] Extracting package and launch activity from manifest
+[ADB] net.theavo.bcon.passenger was not uninstalled, because it was not present on the device
+[AndroidDriver] Remote apk path is /data/local/tmp/872f6dd04647cb9003991e6ecf0c62d8.apk
+[AndroidDriver] Apk is not yet installed
+[AndroidDriver] installing apk from remote
+[AndroidDriver] Clearing out any existing remote apks with the same hash
+[ADB] net.theavo.bcon.passenger was not uninstalled, because it was not present on the device
+[HTTP] <-- POST /wd/hub/session - - ms - - 
+[ADB] Checking whether aapt is present
+[ADB] Extracting package and launch activity from manifest

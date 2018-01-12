@@ -39,3 +39,5 @@ Mobile.delay(7, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('ActiveTrips/android.view.ViewGroup18'), 0)
 
+Mobile.closeApplication()
+
