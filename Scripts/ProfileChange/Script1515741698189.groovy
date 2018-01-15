@@ -41,3 +41,7 @@ Mobile.setText(findTestObject('ProfileChange/android.widget.EditText0 - chathura
 
 Mobile.checkElement(findTestObject('ProfileChange/android.view.ViewGroup11'), 0)
 
+Mobile.delay(7, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.tap(findTestObject('Trip History View/android.view.ViewGroup3'), 0)
+

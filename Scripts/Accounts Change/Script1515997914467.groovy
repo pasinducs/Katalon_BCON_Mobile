@@ -21,23 +21,25 @@ import internal.GlobalVariable as GlobalVariable
 
 Mobile.startApplication('C:\\Users\\Pasindu\\Desktop\\Avonet\\drive-download-20180104T074633Z-001\\app-passenger.apk', true)
 
-Mobile.tap(findTestObject('Favourtes/android.view.ViewGroup6'), 0)
+Mobile.tap(findTestObject('Accounts/android.view.ViewGroup7'), 0)
 
-Mobile.setText(findTestObject('Favourtes/android.widget.EditText0 - Mobile Number'), '0715645545', 0)
+Mobile.setText(findTestObject('Accounts/android.widget.EditText0 - Mobile Number'), '0715645545', 0)
 
-Mobile.setText(findTestObject('Favourtes/android.widget.EditText1'), 'password123', 0)
+Mobile.setText(findTestObject('Accounts/android.widget.EditText1'), 'password123', 0)
 
-Mobile.tap(findTestObject('Favourtes/android.view.ViewGroup9'), 0)
+Mobile.tap(findTestObject('Accounts/android.view.ViewGroup9'), 0)
 
-Mobile.tap(findTestObject('Favourtes/android.view.ViewGroup9 (1)'), 0)
+Mobile.tap(findTestObject('Accounts/android.view.ViewGroup9 (1)'), 0)
 
-Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(7, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Favourtes/android.view.ViewGroup5'), 0)
+Mobile.tap(findTestObject('Accounts/android.view.ViewGroup5'), 0)
 
-Mobile.tap(findTestObject('Favourtes/android.view.ViewGroup24'), 0)
+Mobile.tap(findTestObject('Accounts/android.view.ViewGroup16'), 0)
 
-Mobile.checkElement(findTestObject('Favourtes/android.widget.TextView0 - Favourites'), 0)
+Mobile.checkElement(findTestObject('Accounts/android.view.ViewGroup5 (1)'), 0)
+
+Mobile.tap(findTestObject('Accounts Change/android.view.ViewGroup16'), 0)
 
 Mobile.delay(7, FailureHandling.STOP_ON_FAILURE)
 

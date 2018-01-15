@@ -45,3 +45,7 @@ Mobile.tap(findTestObject('PromotionAdd/android.view.ViewGroup11'), 0)
 
 Mobile.checkElement(findTestObject('PromotionAdd/android.widget.TextView0 - Promotions'), 0)
 
+Mobile.delay(7, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.tap(findTestObject('Trip History View/android.view.ViewGroup3'), 0)
+

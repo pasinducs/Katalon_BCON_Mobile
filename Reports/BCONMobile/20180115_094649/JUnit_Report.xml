@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="BCONMobile" time="177" tests="2" failures="0" errors="0">
+   <testsuite name="BCONMobile" tests="2" failures="0" errors="0" time="177" timestamp="2018-01-15 09:46:56" hostname="Pasindu - DESKTOP-41D70DC" id="Test Suites/BCONMobile">
+      <properties>
+         <property name="deviceName" value="samsung SM-G532G 6.0.1"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Pasindu\\git\\Katalon_BCON_Mobile\\Reports\\BCONMobile\\20180115_094649"/>
+         <property name="logFiles" value="C:\\Users\\Pasindu\\git\\Katalon_BCON_Mobile\\Reports\\BCONMobile\\20180115_094649\\appium.log, C:\\Users\\Pasindu\\git\\Katalon_BCON_Mobile\\Reports\\BCONMobile\\20180115_094649\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Pasindu - DESKTOP-41D70DC"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.2.0.1"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.7.2"/>
+         <property name="deviceModel" value="SM-G532G"/>
+         <property name="hostAddress" value="192.168.8.104"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="deviceId" value="92013592309a8469"/>
+         <property name="deviceName" value="samsung SM-G532G 6.0.1"/>
+         <property name="deviceOSVersion" value="6.0.1"/>
+      </properties>
+      <testcase name="Test Cases/SignIn" classname="Test Cases/SignIn" status="PASSED">
+         <system-out><![CDATA[2018-01-15 09:46:56 - [TEST_CASE][PASSED] - Test Cases/SignIn: Test Cases/SignIn
+
+2018-01-15 09:46:56 - [TEST_STEP][PASSED] - startApplication: Started app at: 'C:\Users\Pasindu\Desktop\Avonet\drive-download-20180104T074633Z-001\app-passenger.apk'
+
+2018-01-15 09:48:35 - [MESSAGE][PASSED] - Started app at: 'C:\Users\Pasindu\Desktop\Avonet\drive-download-20180104T074633Z-001\app-passenger.apk'
+
+2018-01-15 09:48:35 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/SignIN/android.view.ViewGroup7'
+
+2018-01-15 09:48:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-15 09:48:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SignIN/android.view.ViewGroup7'
+
+2018-01-15 09:48:42 - [TEST_STEP][PASSED] - setText: Text '0715645545' has been set to element 'Object Repository/SignIN/android.widget.EditText0 - Mobile Number'
+
+2018-01-15 09:48:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-15 09:48:50 - [MESSAGE][PASSED] - Text '0715645545' has been set to element 'Object Repository/SignIN/android.widget.EditText0 - Mobile Number'
+
+2018-01-15 09:48:50 - [TEST_STEP][PASSED] - setText: Text 'password123' has been set to element 'Object Repository/SignIN/android.widget.EditText1'
+
+2018-01-15 09:48:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-15 09:49:02 - [MESSAGE][PASSED] - Text 'password123' has been set to element 'Object Repository/SignIN/android.widget.EditText1'
+
+2018-01-15 09:49:02 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/SignIN/android.view.ViewGroup9'
+
+2018-01-15 09:49:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-15 09:49:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SignIN/android.view.ViewGroup9'
+
+2018-01-15 09:49:02 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/SignIN/android.view.ViewGroup9 (1)'
+
+2018-01-15 09:49:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-15 09:49:03 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SignIN/android.view.ViewGroup9 (1)'
+
+2018-01-15 09:49:03 - [TEST_STEP][PASSED] - pinchToZoomInAtPosition: Zoomed in at [0, 0] with offset 0
+
+2018-01-15 09:49:04 - [MESSAGE][PASSED] - Zoomed in at [0, 0] with offset 0]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TripRequest - Copy" classname="Test Cases/TripRequest - Copy" status="PASSED">
+         <system-out><![CDATA[2018-01-15 09:49:04 - [TEST_CASE][PASSED] - Test Cases/TripRequest - Copy: Test Cases/TripRequest - Copy
+
+2018-01-15 09:49:04 - [TEST_STEP][PASSED] - setText: Text 'colombo' has been set to element 'Object Repository/TripRequest/android.view.ViewGroup10'
+
+2018-01-15 09:49:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-15 09:49:18 - [MESSAGE][PASSED] - Text 'colombo' has been set to element 'Object Repository/TripRequest/android.view.ViewGroup10'
+
+2018-01-15 09:49:18 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/TripRequest/android.view.ViewGroup13'
+
+2018-01-15 09:49:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-15 09:49:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TripRequest/android.view.ViewGroup13'
+
+2018-01-15 09:49:19 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/TripRequest/android.view.ViewGroup18'
+
+2018-01-15 09:49:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-15 09:49:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TripRequest/android.view.ViewGroup18'
+
+2018-01-15 09:49:21 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/TripRequest/android.view.ViewGroup18 (1)'
+
+2018-01-15 09:49:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-15 09:49:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TripRequest/android.view.ViewGroup18 (1)'
+
+2018-01-15 09:49:22 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/TripRequest/android.view.ViewGroup4'
+
+2018-01-15 09:49:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-15 09:49:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TripRequest/android.view.ViewGroup4']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-01-15 09:46:56 - [TEST_SUITE][PASSED] - BCONMobile: Test Cases/TripRequest - Copy]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

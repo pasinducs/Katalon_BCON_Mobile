@@ -37,5 +37,9 @@ Mobile.tap(findTestObject('Accounts/android.view.ViewGroup5'), 0)
 
 Mobile.tap(findTestObject('Accounts/android.view.ViewGroup16'), 0)
 
-Mobile.closeApplication()
+Mobile.checkElement(findTestObject('Accounts/android.view.ViewGroup5 (1)'), 0)
+
+Mobile.delay(7, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.tap(findTestObject('Trip History View/android.view.ViewGroup3'), 0)
 

@@ -39,5 +39,9 @@ Mobile.delay(7, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('ActiveTrips/android.view.ViewGroup18'), 0)
 
-Mobile.closeApplication()
+Mobile.checkElement(findTestObject('ActiveTrips/android.widget.TextView0 - Active Trips'), 0)
+
+Mobile.delay(7, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.tap(findTestObject('Trip History View/android.view.ViewGroup3'), 0)
 
