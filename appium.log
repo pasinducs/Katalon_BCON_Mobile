@@ -1,10 +1,10 @@
 [Appium] Welcome to Appium v1.7.2
 [Appium] Non-default server args:
-[Appium]   port: 65073
+[Appium]   port: 50952
 [Appium]   loglevel: info
-[Appium]   chromeDriverPort: 65074
-[Appium]   tmpDir: C:\Users\Pasindu\AppData\Local\Temp\\Katalon\Appium\Temp1516000788731
-[Appium] Appium REST http interface listener started on 0.0.0.0:65073
+[Appium]   chromeDriverPort: 50953
+[Appium]   tmpDir: C:\Users\Pasindu\AppData\Local\Temp\\Katalon\Appium\Temp1516009530142
+[Appium] Appium REST http interface listener started on 0.0.0.0:50952
 [HTTP] --> GET /wd/hub/status {}
 [HTTP] <-- GET /wd/hub/status 200 9 ms - 72 
 [HTTP] --> GET /wd/hub/status {}
@@ -23,7 +23,7 @@
 [Appium]   platformName: android
 [Appium]   udid: 92013592309a8469
 [BaseDriver] The following capabilities were provided, but are not recognized by appium: platform.
-[BaseDriver] Session created with session id: 4da23999-087a-4f14-962f-9b017dec6b7a
+[BaseDriver] Session created with session id: 9b43195a-a206-471e-9ded-f6025d4d8782
 [AndroidDriver] Java version is: 1.8.0_102
 [ADB] Checking whether adb is present
 [ADB] Using adb.exe from C:\Users\Pasindu\.katalon\tools\android_sdk\platform-tools\adb.exe
@@ -41,70 +41,74 @@
 [ADB] Checking whether aapt is present
 [ADB] Extracting package and launch activity from manifest
 [AndroidDriver] Remote apk path is /data/local/tmp/872f6dd04647cb9003991e6ecf0c62d8.apk
+[AndroidDriver] Apk is not yet installed
+[AndroidDriver] installing apk from remote
+[AndroidDriver] Clearing out any existing remote apks with the same hash
+[ADB] net.theavo.bcon.passenger was not uninstalled, because it was not present on the device
 [ADB] Checking whether aapt is present
 [ADB] Extracting package and launch activity from manifest
-[ADB] Cannot kill process 5046 in 1000 ms. Trying to force kill...
+[ADB] No uiautomator process found to kill, continuing...
 [AndroidBootstrap] Android bootstrap socket is now connected
 [AndroidDriver] Screen already unlocked, doing nothing
-[Appium] New AndroidDriver session created successfully, session 4da23999-087a-4f14-962f-9b017dec6b7a added to master session list
-[HTTP] <-- POST /wd/hub/session 200 69237 ms - 1189 
+[Appium] New AndroidDriver session created successfully, session 9b43195a-a206-471e-9ded-f6025d4d8782 added to master session list
+[HTTP] <-- POST /wd/hub/session 200 76214 ms - 1189 
 [HTTP] --> GET /wd/hub/status {}
 [HTTP] <-- GET /wd/hub/status 200 4 ms - 83 
-[HTTP] --> POST /wd/hub/session/4da23999-087a-4f14-962f-9b017dec6b7a/timeouts {"type":"implicit","ms":60000}
-[HTTP] <-- POST /wd/hub/session/4da23999-087a-4f14-962f-9b017dec6b7a/timeouts 200 8 ms - 76 
-[HTTP] --> GET /wd/hub/session/4da23999-087a-4f14-962f-9b017dec6b7a/source {}
-[HTTP] <-- GET /wd/hub/session/4da23999-087a-4f14-962f-9b017dec6b7a/source 200 85 ms - 2267 
-[HTTP] --> GET /wd/hub/session/4da23999-087a-4f14-962f-9b017dec6b7a/screenshot {}
-[HTTP] <-- GET /wd/hub/session/4da23999-087a-4f14-962f-9b017dec6b7a/screenshot 200 591 ms - 13430 
-[HTTP] --> GET /wd/hub/session/4da23999-087a-4f14-962f-9b017dec6b7a/source {}
-[HTTP] <-- GET /wd/hub/session/4da23999-087a-4f14-962f-9b017dec6b7a/source 200 73 ms - 11384 
-[HTTP] --> GET /wd/hub/session/4da23999-087a-4f14-962f-9b017dec6b7a/screenshot {}
-[HTTP] <-- GET /wd/hub/session/4da23999-087a-4f14-962f-9b017dec6b7a/screenshot 200 561 ms - 39422 
-[HTTP] --> GET /wd/hub/session/4da23999-087a-4f14-962f-9b017dec6b7a/window/current/size {}
-[HTTP] <-- GET /wd/hub/session/4da23999-087a-4f14-962f-9b017dec6b7a/window/current/size 200 8 ms - 98 
-[HTTP] --> POST /wd/hub/session/4da23999-087a-4f14-962f-9b017dec6b7a/elements {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[3]"}
-[HTTP] <-- POST /wd/hub/session/4da23999-087a-4f14-962f-9b017dec6b7a/elements 200 88 ms - 89 
-[HTTP] --> GET /wd/hub/session/4da23999-087a-4f14-962f-9b017dec6b7a {}
-[HTTP] <-- GET /wd/hub/session/4da23999-087a-4f14-962f-9b017dec6b7a 200 2 ms - 1189 
-[HTTP] --> GET /wd/hub/session/4da23999-087a-4f14-962f-9b017dec6b7a {}
-[HTTP] <-- GET /wd/hub/session/4da23999-087a-4f14-962f-9b017dec6b7a 200 3 ms - 1189 
-[HTTP] --> GET /wd/hub/session/4da23999-087a-4f14-962f-9b017dec6b7a {}
-[HTTP] <-- GET /wd/hub/session/4da23999-087a-4f14-962f-9b017dec6b7a 200 2 ms - 1189 
-[HTTP] --> GET /wd/hub/session/4da23999-087a-4f14-962f-9b017dec6b7a {}
-[HTTP] <-- GET /wd/hub/session/4da23999-087a-4f14-962f-9b017dec6b7a 200 2 ms - 1189 
-[HTTP] --> GET /wd/hub/session/4da23999-087a-4f14-962f-9b017dec6b7a/element/1/location {}
-[HTTP] <-- GET /wd/hub/session/4da23999-087a-4f14-962f-9b017dec6b7a/element/1/location 200 17 ms - 88 
-[HTTP] --> POST /wd/hub/session/4da23999-087a-4f14-962f-9b017dec6b7a/touch/perform {"actions":[{"action":"tap","options":{"element":"1","x":1,"y":1}}]}
-[HTTP] <-- POST /wd/hub/session/4da23999-087a-4f14-962f-9b017dec6b7a/touch/perform 200 407 ms - 76 
-[HTTP] --> GET /wd/hub/session/4da23999-087a-4f14-962f-9b017dec6b7a/source {}
-[HTTP] <-- GET /wd/hub/session/4da23999-087a-4f14-962f-9b017dec6b7a/source 200 77 ms - 8102 
-[HTTP] --> GET /wd/hub/session/4da23999-087a-4f14-962f-9b017dec6b7a/screenshot {}
-[HTTP] <-- GET /wd/hub/session/4da23999-087a-4f14-962f-9b017dec6b7a/screenshot 200 615 ms - 62346 
-[HTTP] --> GET /wd/hub/session/4da23999-087a-4f14-962f-9b017dec6b7a/source {}
-[HTTP] <-- GET /wd/hub/session/4da23999-087a-4f14-962f-9b017dec6b7a/source 200 61 ms - 10626 
-[HTTP] --> GET /wd/hub/session/4da23999-087a-4f14-962f-9b017dec6b7a/screenshot {}
-[HTTP] <-- GET /wd/hub/session/4da23999-087a-4f14-962f-9b017dec6b7a/screenshot 200 564 ms - 62342 
-[HTTP] --> GET /wd/hub/session/4da23999-087a-4f14-962f-9b017dec6b7a/window/current/size {}
-[HTTP] <-- GET /wd/hub/session/4da23999-087a-4f14-962f-9b017dec6b7a/window/current/size 200 5 ms - 98 
-[HTTP] --> POST /wd/hub/session/4da23999-087a-4f14-962f-9b017dec6b7a/elements {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]"}
-[HTTP] <-- POST /wd/hub/session/4da23999-087a-4f14-962f-9b017dec6b7a/elements 200 93 ms - 89 
-[HTTP] --> GET /wd/hub/session/4da23999-087a-4f14-962f-9b017dec6b7a {}
-[HTTP] <-- GET /wd/hub/session/4da23999-087a-4f14-962f-9b017dec6b7a 200 2 ms - 1189 
-[HTTP] --> GET /wd/hub/session/4da23999-087a-4f14-962f-9b017dec6b7a {}
-[HTTP] <-- GET /wd/hub/session/4da23999-087a-4f14-962f-9b017dec6b7a 200 2 ms - 1189 
-[HTTP] --> GET /wd/hub/session/4da23999-087a-4f14-962f-9b017dec6b7a {}
-[HTTP] <-- GET /wd/hub/session/4da23999-087a-4f14-962f-9b017dec6b7a 200 2 ms - 1189 
-[HTTP] --> GET /wd/hub/session/4da23999-087a-4f14-962f-9b017dec6b7a {}
-[HTTP] <-- GET /wd/hub/session/4da23999-087a-4f14-962f-9b017dec6b7a 200 2 ms - 1189 
-[HTTP] --> GET /wd/hub/session/4da23999-087a-4f14-962f-9b017dec6b7a/element/2/location {}
-[HTTP] <-- GET /wd/hub/session/4da23999-087a-4f14-962f-9b017dec6b7a/element/2/location 200 22 ms - 88 
-[HTTP] --> POST /wd/hub/session/4da23999-087a-4f14-962f-9b017dec6b7a/touch/perform {"actions":[{"action":"tap","options":{"element":"2","x":1,"y":1}}]}
-[HTTP] <-- POST /wd/hub/session/4da23999-087a-4f14-962f-9b017dec6b7a/touch/perform 200 172 ms - 76 
-[HTTP] --> GET /wd/hub/session/4da23999-087a-4f14-962f-9b017dec6b7a/source {}
-[HTTP] <-- GET /wd/hub/session/4da23999-087a-4f14-962f-9b017dec6b7a/source 200 106 ms - 10624 
-[HTTP] --> GET /wd/hub/session/4da23999-087a-4f14-962f-9b017dec6b7a/screenshot {}
-[HTTP] <-- GET /wd/hub/session/4da23999-087a-4f14-962f-9b017dec6b7a/screenshot 200 582 ms - 63682 
-[HTTP] --> DELETE /wd/hub/session/4da23999-087a-4f14-962f-9b017dec6b7a {}
-[Appium] Removing session 4da23999-087a-4f14-962f-9b017dec6b7a from our master session list
+[HTTP] --> POST /wd/hub/session/9b43195a-a206-471e-9ded-f6025d4d8782/timeouts {"type":"implicit","ms":60000}
+[HTTP] <-- POST /wd/hub/session/9b43195a-a206-471e-9ded-f6025d4d8782/timeouts 200 8 ms - 76 
+[HTTP] --> GET /wd/hub/session/9b43195a-a206-471e-9ded-f6025d4d8782/source {}
+[HTTP] <-- GET /wd/hub/session/9b43195a-a206-471e-9ded-f6025d4d8782/source 200 99 ms - 2267 
+[HTTP] --> GET /wd/hub/session/9b43195a-a206-471e-9ded-f6025d4d8782/screenshot {}
+[HTTP] <-- GET /wd/hub/session/9b43195a-a206-471e-9ded-f6025d4d8782/screenshot 200 586 ms - 13590 
+[HTTP] --> GET /wd/hub/session/9b43195a-a206-471e-9ded-f6025d4d8782/source {}
+[HTTP] <-- GET /wd/hub/session/9b43195a-a206-471e-9ded-f6025d4d8782/source 200 79 ms - 19612 
+[HTTP] --> GET /wd/hub/session/9b43195a-a206-471e-9ded-f6025d4d8782/screenshot {}
+[HTTP] <-- GET /wd/hub/session/9b43195a-a206-471e-9ded-f6025d4d8782/screenshot 200 1037 ms - 606722 
+[HTTP] --> GET /wd/hub/session/9b43195a-a206-471e-9ded-f6025d4d8782/source {}
+[HTTP] <-- GET /wd/hub/session/9b43195a-a206-471e-9ded-f6025d4d8782/source 200 108 ms - 21963 
+[HTTP] --> GET /wd/hub/session/9b43195a-a206-471e-9ded-f6025d4d8782/screenshot {}
+[HTTP] <-- GET /wd/hub/session/9b43195a-a206-471e-9ded-f6025d4d8782/screenshot 200 693 ms - 98734 
+[HTTP] --> GET /wd/hub/session/9b43195a-a206-471e-9ded-f6025d4d8782/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/9b43195a-a206-471e-9ded-f6025d4d8782/window/current/size 200 12 ms - 98 
+[HTTP] --> POST /wd/hub/session/9b43195a-a206-471e-9ded-f6025d4d8782/elements {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.support.v4.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[3]/android.view.ViewGroup[5]"}
+[HTTP] <-- POST /wd/hub/session/9b43195a-a206-471e-9ded-f6025d4d8782/elements 200 118 ms - 89 
+[HTTP] --> GET /wd/hub/session/9b43195a-a206-471e-9ded-f6025d4d8782 {}
+[HTTP] <-- GET /wd/hub/session/9b43195a-a206-471e-9ded-f6025d4d8782 200 2 ms - 1189 
+[HTTP] --> GET /wd/hub/session/9b43195a-a206-471e-9ded-f6025d4d8782 {}
+[HTTP] <-- GET /wd/hub/session/9b43195a-a206-471e-9ded-f6025d4d8782 200 2 ms - 1189 
+[HTTP] --> GET /wd/hub/session/9b43195a-a206-471e-9ded-f6025d4d8782 {}
+[HTTP] <-- GET /wd/hub/session/9b43195a-a206-471e-9ded-f6025d4d8782 200 2 ms - 1189 
+[HTTP] --> GET /wd/hub/session/9b43195a-a206-471e-9ded-f6025d4d8782 {}
+[HTTP] <-- GET /wd/hub/session/9b43195a-a206-471e-9ded-f6025d4d8782 200 2 ms - 1189 
+[HTTP] --> GET /wd/hub/session/9b43195a-a206-471e-9ded-f6025d4d8782/element/1/location {}
+[HTTP] <-- GET /wd/hub/session/9b43195a-a206-471e-9ded-f6025d4d8782/element/1/location 200 31 ms - 89 
+[HTTP] --> POST /wd/hub/session/9b43195a-a206-471e-9ded-f6025d4d8782/touch/perform {"actions":[{"action":"tap","options":{"element":"1","x":1,"y":1}}]}
+[HTTP] <-- POST /wd/hub/session/9b43195a-a206-471e-9ded-f6025d4d8782/touch/perform 200 241 ms - 76 
+[HTTP] --> GET /wd/hub/session/9b43195a-a206-471e-9ded-f6025d4d8782/source {}
+[HTTP] <-- GET /wd/hub/session/9b43195a-a206-471e-9ded-f6025d4d8782/source 200 57 ms - 8938 
+[HTTP] --> GET /wd/hub/session/9b43195a-a206-471e-9ded-f6025d4d8782/screenshot {}
+[HTTP] <-- GET /wd/hub/session/9b43195a-a206-471e-9ded-f6025d4d8782/screenshot 200 559 ms - 75378 
+[HTTP] --> GET /wd/hub/session/9b43195a-a206-471e-9ded-f6025d4d8782/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/9b43195a-a206-471e-9ded-f6025d4d8782/window/current/size 200 5 ms - 98 
+[HTTP] --> POST /wd/hub/session/9b43195a-a206-471e-9ded-f6025d4d8782/elements {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/9b43195a-a206-471e-9ded-f6025d4d8782/elements 200 75 ms - 89 
+[HTTP] --> GET /wd/hub/session/9b43195a-a206-471e-9ded-f6025d4d8782 {}
+[HTTP] <-- GET /wd/hub/session/9b43195a-a206-471e-9ded-f6025d4d8782 200 2 ms - 1189 
+[HTTP] --> GET /wd/hub/session/9b43195a-a206-471e-9ded-f6025d4d8782 {}
+[HTTP] <-- GET /wd/hub/session/9b43195a-a206-471e-9ded-f6025d4d8782 200 2 ms - 1189 
+[HTTP] --> GET /wd/hub/session/9b43195a-a206-471e-9ded-f6025d4d8782 {}
+[HTTP] <-- GET /wd/hub/session/9b43195a-a206-471e-9ded-f6025d4d8782 200 2 ms - 1189 
+[HTTP] --> GET /wd/hub/session/9b43195a-a206-471e-9ded-f6025d4d8782 {}
+[HTTP] <-- GET /wd/hub/session/9b43195a-a206-471e-9ded-f6025d4d8782 200 2 ms - 1189 
+[HTTP] --> GET /wd/hub/session/9b43195a-a206-471e-9ded-f6025d4d8782/element/2/location {}
+[HTTP] <-- GET /wd/hub/session/9b43195a-a206-471e-9ded-f6025d4d8782/element/2/location 200 12 ms - 88 
+[HTTP] --> POST /wd/hub/session/9b43195a-a206-471e-9ded-f6025d4d8782/touch/perform {"actions":[{"action":"tap","options":{"element":"2","x":1,"y":1}}]}
+[HTTP] <-- POST /wd/hub/session/9b43195a-a206-471e-9ded-f6025d4d8782/touch/perform 200 152 ms - 76 
+[HTTP] --> GET /wd/hub/session/9b43195a-a206-471e-9ded-f6025d4d8782/source {}
+[HTTP] <-- GET /wd/hub/session/9b43195a-a206-471e-9ded-f6025d4d8782/source 200 52 ms - 4796 
+[HTTP] --> GET /wd/hub/session/9b43195a-a206-471e-9ded-f6025d4d8782/screenshot {}
+[HTTP] <-- GET /wd/hub/session/9b43195a-a206-471e-9ded-f6025d4d8782/screenshot 200 554 ms - 68186 
+[HTTP] --> DELETE /wd/hub/session/9b43195a-a206-471e-9ded-f6025d4d8782 {}
+[Appium] Removing session 9b43195a-a206-471e-9ded-f6025d4d8782 from our master session list
 [ADB] No uiautomator process found to kill, continuing...
-[HTTP] <-- DELETE /wd/hub/session/4da23999-087a-4f14-962f-9b017dec6b7a 200 5470 ms - 76 
+[HTTP] <-- DELETE /wd/hub/session/9b43195a-a206-471e-9ded-f6025d4d8782 200 5742 ms - 76 
