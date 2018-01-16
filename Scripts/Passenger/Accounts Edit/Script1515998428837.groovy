@@ -21,31 +21,31 @@ import internal.GlobalVariable as GlobalVariable
 
 Mobile.startApplication('C:\\Users\\Pasindu\\Desktop\\Avonet\\drive-download-20180104T074633Z-001\\app-passenger.apk', true)
 
-Mobile.tap(findTestObject('Accounts/android.view.ViewGroup7'), 0)
+Mobile.tap(findTestObject('Passenger/Accounts/android.view.ViewGroup7'), 0)
 
-Mobile.setText(findTestObject('Accounts/android.widget.EditText0 - Mobile Number'), '0766500626', 0)
+Mobile.setText(findTestObject('Passenger/Accounts/android.widget.EditText0 - Mobile Number'), '0766500626', 0)
 
-Mobile.setText(findTestObject('Accounts/android.widget.EditText1'), 'Dilan6370', 0)
+Mobile.setText(findTestObject('Passenger/Accounts/android.widget.EditText1'), 'Dilan6370', 0)
 
-Mobile.tap(findTestObject('Accounts/android.view.ViewGroup9'), 0)
+Mobile.tap(findTestObject('Passenger/Accounts/android.view.ViewGroup9'), 0)
 
-Mobile.tap(findTestObject('Accounts/android.view.ViewGroup9 (1)'), 0)
-
-Mobile.delay(7, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.tap(findTestObject('Accounts/android.view.ViewGroup5'), 0)
-
-Mobile.tap(findTestObject('Accounts/android.view.ViewGroup16'), 0)
-
-Mobile.tap(findTestObject('Accounts Edit/android.view.ViewGroup6 (1)'), 0)
-
-Mobile.tap(findTestObject('Accounts Edit/android.view.ViewGroup8'), 0)
-
-Mobile.tap(findTestObject('Accounts Edit/android.view.ViewGroup10'), 0)
+Mobile.tap(findTestObject('Passenger/Accounts/android.view.ViewGroup9 (1)'), 0)
 
 Mobile.delay(7, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.checkElement(findTestObject('Accounts/android.view.ViewGroup5 (1)'), 0)
+Mobile.tap(findTestObject('Passenger/Accounts/android.view.ViewGroup5'), 0)
 
-Mobile.tap(findTestObject('Trip History View/android.view.ViewGroup3'), 0)
+Mobile.tap(findTestObject('Passenger/Accounts/android.view.ViewGroup16'), 0)
+
+Mobile.tap(findTestObject('Passenger/Accounts Edit/android.view.ViewGroup6 (1)'), 0)
+
+Mobile.tap(findTestObject('Passenger/Accounts Edit/android.view.ViewGroup8'), 0)
+
+Mobile.tap(findTestObject('Passenger/Accounts Edit/android.view.ViewGroup10'), 0)
+
+Mobile.delay(7, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.checkElement(findTestObject('Passenger/Accounts/android.view.ViewGroup5 (1)'), 0)
+
+Mobile.tap(findTestObject('Passenger/Trip History View/android.view.ViewGroup3'), 0)
 

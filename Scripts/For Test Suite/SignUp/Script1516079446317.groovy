@@ -21,71 +21,71 @@ import internal.GlobalVariable as GlobalVariable
 
 Mobile.startApplication('C:\\Users\\Pasindu\\Desktop\\Avonet\\drive-download-20180104T074633Z-001\\app-passenger.apk', true)
 
-Mobile.tap(findTestObject('Sign Up/android.view.ViewGroup4'), 0)
+Mobile.tap(findTestObject('Passenger/Sign Up/android.view.ViewGroup4'), 0)
 
-Mobile.setText(findTestObject('Sign Up/android.widget.EditText0 - Mobile Number'), '0715645545', 0)
+Mobile.setText(findTestObject('Passenger/Sign Up/android.widget.EditText0 - Mobile Number'), '0715645545', 0)
 
 Mobile.hideKeyboard()
 
-Mobile.tap(findTestObject('Sign Up/android.view.ViewGroup6'), 0)
+Mobile.tap(findTestObject('Passenger/Sign Up/android.view.ViewGroup6'), 0)
 
-Mobile.tap(findTestObject('Sign Up/android.view.ViewGroup6'), 0)
+Mobile.tap(findTestObject('Passenger/Sign Up/android.view.ViewGroup6'), 0)
 
 Mobile.delay(30, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Sign Up/android.widget.ImageView0'), 0)
+Mobile.tap(findTestObject('Passenger/Sign Up/android.widget.ImageView0'), 0)
 
-Mobile.tap(findTestObject('Sign Up/android.widget.ImageView0 (1)'), 0)
+Mobile.tap(findTestObject('Passenger/Sign Up/android.widget.ImageView0 (1)'), 0)
 
-Mobile.tap(findTestObject('Sign Up/android.widget.TextView1'), 0)
+Mobile.tap(findTestObject('Passenger/Sign Up/android.widget.TextView1'), 0)
 
-Mobile.setText(findTestObject('Sign Up/android.widget.EditText0 - First name (1)'), 'Pasindu', 0)
-
-Mobile.hideKeyboard()
-
-Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.setText(findTestObject('Sign Up/android.view.ViewGroup9'), 'Chathuranga', 0)
+Mobile.setText(findTestObject('Passenger/Sign Up/android.widget.EditText0 - First name (1)'), 'Pasindu', 0)
 
 Mobile.hideKeyboard()
 
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.setText(findTestObject('Sign Up/android.view.ViewGroup11'), 'pasinducs@gmail.com', 0)
+Mobile.setText(findTestObject('Passenger/Sign Up/android.view.ViewGroup9'), 'Chathuranga', 0)
 
 Mobile.hideKeyboard()
 
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.setText(findTestObject('Sign Up/android.view.ViewGroup15'), 'Aa1', 0)
+Mobile.setText(findTestObject('Passenger/Sign Up/android.view.ViewGroup11'), 'pasinducs@gmail.com', 0)
 
 Mobile.hideKeyboard()
 
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.setText(findTestObject('Sign Up/android.view.ViewGroup18'), 'Aa1', 0)
+Mobile.setText(findTestObject('Passenger/Sign Up/android.view.ViewGroup15'), 'Aa1', 0)
 
 Mobile.hideKeyboard()
 
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Sign Up/android.view.ViewGroup21 (1)'), 0)
+Mobile.setText(findTestObject('Passenger/Sign Up/android.view.ViewGroup18'), 'Aa1', 0)
 
-Mobile.tap(findTestObject('Sign Up/android.view.ViewGroup21 (1)'), 0)
-
-Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.tap(findTestObject('Sign Up/android.view.ViewGroup8 (1)'), 0)
-
-Mobile.tap(findTestObject('Sign Up/android.view.ViewGroup22 (1)'), 0)
+Mobile.hideKeyboard()
 
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Sign Up/android.view.ViewGroup5 (1)'), 0)
+Mobile.tap(findTestObject('Passenger/Sign Up/android.view.ViewGroup21 (1)'), 0)
 
-Mobile.tap(findTestObject('Sign Up/android.view.ViewGroup7 (1)'), 0)
+Mobile.tap(findTestObject('Passenger/Sign Up/android.view.ViewGroup21 (1)'), 0)
 
-Mobile.tap(findTestObject('Sign Up/android.view.ViewGroup6 (2)'), 0)
+Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.checkElement(findTestObject('Sign Up/android.view.ViewGroup6 (1)'), 0)
+Mobile.tap(findTestObject('Passenger/Sign Up/android.view.ViewGroup8 (1)'), 0)
+
+Mobile.tap(findTestObject('Passenger/Sign Up/android.view.ViewGroup22 (1)'), 0)
+
+Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.tap(findTestObject('Passenger/Sign Up/android.view.ViewGroup5 (1)'), 0)
+
+Mobile.tap(findTestObject('Passenger/Sign Up/android.view.ViewGroup7 (1)'), 0)
+
+Mobile.tap(findTestObject('Passenger/Sign Up/android.view.ViewGroup6 (2)'), 0)
+
+Mobile.checkElement(findTestObject('Passenger/Sign Up/android.view.ViewGroup6 (1)'), 0)
 

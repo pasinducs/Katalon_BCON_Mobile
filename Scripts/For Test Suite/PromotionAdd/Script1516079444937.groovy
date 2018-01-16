@@ -19,21 +19,21 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-Mobile.tap(findTestObject('PromotionAdd/android.view.ViewGroup5'), 0)
+Mobile.tap(findTestObject('Passenger/PromotionAdd/android.view.ViewGroup5'), 0)
 
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('PromotionAdd/android.view.ViewGroup26'), 0)
+Mobile.tap(findTestObject('Passenger/PromotionAdd/android.view.ViewGroup26'), 0)
 
-Mobile.setText(findTestObject('PromotionAdd/android.view.ViewGroup10'), 'D019', 0)
+Mobile.setText(findTestObject('Passenger/PromotionAdd/android.view.ViewGroup10'), 'D019', 0)
 
-Mobile.tap(findTestObject('PromotionAdd/android.view.ViewGroup11'), 0)
+Mobile.tap(findTestObject('Passenger/PromotionAdd/android.view.ViewGroup11'), 0)
 
-Mobile.tap(findTestObject('PromotionAdd/android.view.ViewGroup11'), 0)
+Mobile.tap(findTestObject('Passenger/PromotionAdd/android.view.ViewGroup11'), 0)
 
-Mobile.checkElement(findTestObject('PromotionAdd/android.widget.TextView0 - Promotions'), 0)
+Mobile.checkElement(findTestObject('Passenger/PromotionAdd/android.widget.TextView0 - Promotions'), 0)
 
 Mobile.delay(7, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Trip History View/android.view.ViewGroup3'), 0)
+Mobile.tap(findTestObject('Passenger/Trip History View/android.view.ViewGroup3'), 0)
 

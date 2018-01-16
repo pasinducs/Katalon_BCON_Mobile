@@ -21,21 +21,21 @@ import internal.GlobalVariable as GlobalVariable
 
 Mobile.delay(7, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Trip History/android.view.ViewGroup5'), 0)
+Mobile.tap(findTestObject('Passenger/Trip History/android.view.ViewGroup5'), 0)
 
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Trip History/android.view.ViewGroup20'), 0)
+Mobile.tap(findTestObject('Passenger/Trip History/android.view.ViewGroup20'), 0)
 
-Mobile.tap(findTestObject('Trip History View/android.view.ViewGroup5'), 0)
+Mobile.tap(findTestObject('Passenger/Trip History View/android.view.ViewGroup5'), 0)
 
-Mobile.tap(findTestObject('Trip History View/android.view.ViewGroup9'), 0)
+Mobile.tap(findTestObject('Passenger/Trip History View/android.view.ViewGroup9'), 0)
 
-Mobile.checkElement(findTestObject('Trip History View/android.widget.TextView7 - Pick up'), 0)
+Mobile.checkElement(findTestObject('Passenger/Trip History View/android.widget.TextView7 - Pick up'), 0)
 
 Mobile.delay(7, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Trip History View/android.view.ViewGroup3'), 0)
+Mobile.tap(findTestObject('Passenger/Trip History View/android.view.ViewGroup3'), 0)
 
-Mobile.tap(findTestObject('Trip History View/android.view.ViewGroup3'), 0)
+Mobile.tap(findTestObject('Passenger/Trip History View/android.view.ViewGroup3'), 0)
 

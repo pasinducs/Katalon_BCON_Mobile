@@ -19,25 +19,25 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-Mobile.setText(findTestObject('TripRequest/android.view.ViewGroup10'), 'colombo', 0)
+Mobile.setText(findTestObject('Passenger/TripRequest/android.view.ViewGroup10'), 'colombo', 0)
 
-Mobile.tap(findTestObject('TripRequest/android.view.ViewGroup13'), 0)
+Mobile.tap(findTestObject('Passenger/TripRequest/android.view.ViewGroup13'), 0)
 
-Mobile.tap(findTestObject('TripRequest/android.view.ViewGroup18'), 0)
+Mobile.tap(findTestObject('Passenger/TripRequest/android.view.ViewGroup18'), 0)
 
-Mobile.tap(findTestObject('TripRequest/android.view.ViewGroup18 (1)'), 0)
+Mobile.tap(findTestObject('Passenger/TripRequest/android.view.ViewGroup18 (1)'), 0)
 
-Mobile.tap(findTestObject('TripRequest/android.view.ViewGroup4'), 0)
-
-Mobile.delay(6, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.tap(findTestObject('Add Favourite Drivers/android.view.ViewGroup14'), 0)
-
-Mobile.tap(findTestObject('Add Favourite Drivers/android.view.ViewGroup15'), 0)
+Mobile.tap(findTestObject('Passenger/TripRequest/android.view.ViewGroup4'), 0)
 
 Mobile.delay(6, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Cancel Trip Request/android.view.ViewGroup19'), 0)
+Mobile.tap(findTestObject('Passenger/Add Favourite Drivers/android.view.ViewGroup14'), 0)
 
-Mobile.tap(findTestObject('Cancel Trip Request/android.view.ViewGroup7'), 0)
+Mobile.tap(findTestObject('Passenger/Add Favourite Drivers/android.view.ViewGroup15'), 0)
+
+Mobile.delay(6, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.tap(findTestObject('Passenger/Cancel Trip Request/android.view.ViewGroup19'), 0)
+
+Mobile.tap(findTestObject('Passenger/Cancel Trip Request/android.view.ViewGroup7'), 0)
 

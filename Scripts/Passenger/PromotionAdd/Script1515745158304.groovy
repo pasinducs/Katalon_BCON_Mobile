@@ -21,31 +21,31 @@ import internal.GlobalVariable as GlobalVariable
 
 Mobile.startApplication('C:\\Users\\Pasindu\\Desktop\\Avonet\\drive-download-20180104T074633Z-001\\app-passenger.apk', true)
 
-Mobile.tap(findTestObject('PromotionAdd/android.view.ViewGroup6'), 0)
+Mobile.tap(findTestObject('Passenger/PromotionAdd/android.view.ViewGroup6'), 0)
 
-Mobile.setText(findTestObject('PromotionAdd/android.widget.EditText0 - Mobile Number'), '0715645545', 0)
+Mobile.setText(findTestObject('Passenger/PromotionAdd/android.widget.EditText0 - Mobile Number'), '0715645545', 0)
 
-Mobile.setText(findTestObject('PromotionAdd/android.widget.EditText1'), 'password123', 0)
+Mobile.setText(findTestObject('Passenger/PromotionAdd/android.widget.EditText1'), 'password123', 0)
 
-Mobile.tap(findTestObject('PromotionAdd/android.view.ViewGroup9'), 0)
+Mobile.tap(findTestObject('Passenger/PromotionAdd/android.view.ViewGroup9'), 0)
 
-Mobile.tap(findTestObject('PromotionAdd/android.view.ViewGroup9 (1)'), 0)
+Mobile.tap(findTestObject('Passenger/PromotionAdd/android.view.ViewGroup9 (1)'), 0)
 
-Mobile.tap(findTestObject('PromotionAdd/android.view.ViewGroup5'), 0)
+Mobile.tap(findTestObject('Passenger/PromotionAdd/android.view.ViewGroup5'), 0)
 
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('PromotionAdd/android.view.ViewGroup26'), 0)
+Mobile.tap(findTestObject('Passenger/PromotionAdd/android.view.ViewGroup26'), 0)
 
-Mobile.setText(findTestObject('PromotionAdd/android.view.ViewGroup10'), 'D019', 0)
+Mobile.setText(findTestObject('Passenger/PromotionAdd/android.view.ViewGroup10'), 'D019', 0)
 
-Mobile.tap(findTestObject('PromotionAdd/android.view.ViewGroup11'), 0)
+Mobile.tap(findTestObject('Passenger/PromotionAdd/android.view.ViewGroup11'), 0)
 
-Mobile.tap(findTestObject('PromotionAdd/android.view.ViewGroup11'), 0)
+Mobile.tap(findTestObject('Passenger/PromotionAdd/android.view.ViewGroup11'), 0)
 
-Mobile.checkElement(findTestObject('PromotionAdd/android.widget.TextView0 - Promotions'), 0)
+Mobile.checkElement(findTestObject('Passenger/PromotionAdd/android.widget.TextView0 - Promotions'), 0)
 
 Mobile.delay(7, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Trip History View/android.view.ViewGroup3'), 0)
+Mobile.tap(findTestObject('Passenger/Trip History View/android.view.ViewGroup3'), 0)
 

@@ -21,25 +21,25 @@ import internal.GlobalVariable as GlobalVariable
 
 Mobile.delay(6, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Support/android.view.ViewGroup5'), 0)
+Mobile.tap(findTestObject('Passenger/Support/android.view.ViewGroup5'), 0)
 
-Mobile.tap(findTestObject('Support/android.view.ViewGroup28'), 0)
+Mobile.tap(findTestObject('Passenger/Support/android.view.ViewGroup28'), 0)
 
-Mobile.setText(findTestObject('Support/android.view.ViewGroup11'), 'hello', 0)
-
-Mobile.hideKeyboard()
-
-Mobile.setText(findTestObject('Support/android.view.ViewGroup13'), 'good driver', 0)
+Mobile.setText(findTestObject('Passenger/Support/android.view.ViewGroup11'), 'hello', 0)
 
 Mobile.hideKeyboard()
 
-Mobile.tap(findTestObject('Support/android.view.ViewGroup15'), 0)
+Mobile.setText(findTestObject('Passenger/Support/android.view.ViewGroup13'), 'good driver', 0)
 
-Mobile.tap(findTestObject('Support/android.view.ViewGroup15'), 0)
+Mobile.hideKeyboard()
 
-Mobile.checkElement(findTestObject('Support/android.view.ViewGroup5 (1)'), 0)
+Mobile.tap(findTestObject('Passenger/Support/android.view.ViewGroup15'), 0)
+
+Mobile.tap(findTestObject('Passenger/Support/android.view.ViewGroup15'), 0)
+
+Mobile.checkElement(findTestObject('Passenger/Support/android.view.ViewGroup5 (1)'), 0)
 
 Mobile.delay(7, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Trip History View/android.view.ViewGroup3'), 0)
+Mobile.tap(findTestObject('Passenger/Trip History View/android.view.ViewGroup3'), 0)
 

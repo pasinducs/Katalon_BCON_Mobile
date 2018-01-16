@@ -21,23 +21,23 @@ import internal.GlobalVariable as GlobalVariable
 
 Mobile.startApplication('C:\\Users\\Pasindu\\Desktop\\Avonet\\drive-download-20180104T074633Z-001\\app-passenger.apk', true)
 
-Mobile.tap(findTestObject('SignIN/android.view.ViewGroup7'), 0)
+Mobile.tap(findTestObject('Passenger/SignIN/android.view.ViewGroup7'), 0)
 
-Mobile.setText(findTestObject('SignIN/android.widget.EditText0 - Mobile Number'), '0715645545', 0)
+Mobile.setText(findTestObject('Passenger/SignIN/android.widget.EditText0 - Mobile Number'), '0715645545', 0)
 
-Mobile.setText(findTestObject('SignIN/android.widget.EditText1'), 'password123', 0)
+Mobile.setText(findTestObject('Passenger/SignIN/android.widget.EditText1'), 'password123', 0)
 
-Mobile.tap(findTestObject('SignIN/android.view.ViewGroup9'), 0)
+Mobile.tap(findTestObject('Passenger/SignIN/android.view.ViewGroup9'), 0)
 
-Mobile.tap(findTestObject('SignIN/android.view.ViewGroup9 (1)'), 0)
+Mobile.tap(findTestObject('Passenger/SignIN/android.view.ViewGroup9 (1)'), 0)
 
 Mobile.delay(6, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Sign out/android.view.ViewGroup5'), 0)
+Mobile.tap(findTestObject('Passenger/Sign out/android.view.ViewGroup5'), 0)
 
-Mobile.tap(findTestObject('Sign out/android.view.ViewGroup32'), 0)
+Mobile.tap(findTestObject('Passenger/Sign out/android.view.ViewGroup32'), 0)
 
-Mobile.tap(findTestObject('Sign out/android.view.ViewGroup4'), 0)
+Mobile.tap(findTestObject('Passenger/Sign out/android.view.ViewGroup4'), 0)
 
-Mobile.checkElement(findTestObject('Sign out/android.widget.ImageView0'), 0)
+Mobile.checkElement(findTestObject('Passenger/Sign out/android.widget.ImageView0'), 0)
 

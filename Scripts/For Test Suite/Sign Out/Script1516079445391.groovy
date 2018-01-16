@@ -21,11 +21,11 @@ import internal.GlobalVariable as GlobalVariable
 
 Mobile.delay(6, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Sign out/android.view.ViewGroup5'), 0)
+Mobile.tap(findTestObject('Passenger/Sign out/android.view.ViewGroup5'), 0)
 
-Mobile.tap(findTestObject('Sign out/android.view.ViewGroup32'), 0)
+Mobile.tap(findTestObject('Passenger/Sign out/android.view.ViewGroup32'), 0)
 
-Mobile.tap(findTestObject('Sign out/android.view.ViewGroup4'), 0)
+Mobile.tap(findTestObject('Passenger/Sign out/android.view.ViewGroup4'), 0)
 
-Mobile.checkElement(findTestObject('Sign out/android.widget.ImageView0'), 0)
+Mobile.checkElement(findTestObject('Passenger/Sign out/android.widget.ImageView0'), 0)
 

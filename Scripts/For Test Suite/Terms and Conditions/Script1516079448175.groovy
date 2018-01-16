@@ -21,13 +21,13 @@ import internal.GlobalVariable as GlobalVariable
 
 Mobile.delay(6, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Support/android.view.ViewGroup5'), 0)
+Mobile.tap(findTestObject('Passenger/Support/android.view.ViewGroup5'), 0)
 
-Mobile.tap(findTestObject('Terms and Conditions/android.view.ViewGroup30'), 0)
+Mobile.tap(findTestObject('Passenger/Terms and Conditions/android.view.ViewGroup30'), 0)
 
-Mobile.checkElement(findTestObject('Terms and Conditions/android.view.ViewGroup5'), 0)
+Mobile.checkElement(findTestObject('Passenger/Terms and Conditions/android.view.ViewGroup5'), 0)
 
 Mobile.delay(7, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Trip History View/android.view.ViewGroup3'), 0)
+Mobile.tap(findTestObject('Passenger/Trip History View/android.view.ViewGroup3'), 0)
 

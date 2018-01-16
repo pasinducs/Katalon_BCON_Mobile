@@ -21,37 +21,37 @@ import internal.GlobalVariable as GlobalVariable
 
 Mobile.startApplication('C:\\Users\\Pasindu\\Desktop\\Avonet\\drive-download-20180104T074633Z-001\\app-passenger.apk', true)
 
-Mobile.tap(findTestObject('SignIN/android.view.ViewGroup7'), 0)
+Mobile.tap(findTestObject('Passenger/SignIN/android.view.ViewGroup7'), 0)
 
-Mobile.setText(findTestObject('SignIN/android.widget.EditText0 - Mobile Number'), '0715645545', 0)
+Mobile.setText(findTestObject('Passenger/SignIN/android.widget.EditText0 - Mobile Number'), '0715645545', 0)
 
-Mobile.setText(findTestObject('SignIN/android.widget.EditText1'), 'password123', 0)
+Mobile.setText(findTestObject('Passenger/SignIN/android.widget.EditText1'), 'password123', 0)
 
-Mobile.tap(findTestObject('SignIN/android.view.ViewGroup9'), 0)
+Mobile.tap(findTestObject('Passenger/SignIN/android.view.ViewGroup9'), 0)
 
-Mobile.tap(findTestObject('SignIN/android.view.ViewGroup9 (1)'), 0)
+Mobile.tap(findTestObject('Passenger/SignIN/android.view.ViewGroup9 (1)'), 0)
 
 Mobile.delay(6, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Support/android.view.ViewGroup5'), 0)
+Mobile.tap(findTestObject('Passenger/Support/android.view.ViewGroup5'), 0)
 
-Mobile.tap(findTestObject('Support/android.view.ViewGroup28'), 0)
+Mobile.tap(findTestObject('Passenger/Support/android.view.ViewGroup28'), 0)
 
-Mobile.setText(findTestObject('Support/android.view.ViewGroup11'), 'hello', 0)
-
-Mobile.hideKeyboard()
-
-Mobile.setText(findTestObject('Support/android.view.ViewGroup13'), 'good driver', 0)
+Mobile.setText(findTestObject('Passenger/Support/android.view.ViewGroup11'), 'hello', 0)
 
 Mobile.hideKeyboard()
 
-Mobile.tap(findTestObject('Support/android.view.ViewGroup15'), 0)
+Mobile.setText(findTestObject('Passenger/Support/android.view.ViewGroup13'), 'good driver', 0)
 
-Mobile.tap(findTestObject('Support/android.view.ViewGroup15'), 0)
+Mobile.hideKeyboard()
 
-Mobile.checkElement(findTestObject('Support/android.view.ViewGroup5 (1)'), 0)
+Mobile.tap(findTestObject('Passenger/Support/android.view.ViewGroup15'), 0)
+
+Mobile.tap(findTestObject('Passenger/Support/android.view.ViewGroup15'), 0)
+
+Mobile.checkElement(findTestObject('Passenger/Support/android.view.ViewGroup5 (1)'), 0)
 
 Mobile.delay(7, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Trip History View/android.view.ViewGroup3'), 0)
+Mobile.tap(findTestObject('Passenger/Trip History View/android.view.ViewGroup3'), 0)
 

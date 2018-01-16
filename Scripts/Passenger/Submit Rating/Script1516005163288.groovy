@@ -21,29 +21,29 @@ import internal.GlobalVariable as GlobalVariable
 
 Mobile.startApplication('C:\\Users\\Pasindu\\Desktop\\Avonet\\drive-download-20180104T074633Z-001\\app-passenger.apk', true)
 
-Mobile.tap(findTestObject('TripRequest/android.view.ViewGroup7'), 0)
+Mobile.tap(findTestObject('Passenger/TripRequest/android.view.ViewGroup7'), 0)
 
-Mobile.setText(findTestObject('TripRequest/android.widget.EditText0 - Mobile Number'), '0715645545', 0)
+Mobile.setText(findTestObject('Passenger/TripRequest/android.widget.EditText0 - Mobile Number'), '0715645545', 0)
 
-Mobile.setText(findTestObject('TripRequest/android.widget.EditText1'), 'password123', 0)
+Mobile.setText(findTestObject('Passenger/TripRequest/android.widget.EditText1'), 'password123', 0)
 
-Mobile.tap(findTestObject('TripRequest/android.view.ViewGroup9'), 0)
+Mobile.tap(findTestObject('Passenger/TripRequest/android.view.ViewGroup9'), 0)
 
-Mobile.tap(findTestObject('TripRequest/android.view.ViewGroup9 (1)'), 0)
+Mobile.tap(findTestObject('Passenger/TripRequest/android.view.ViewGroup9 (1)'), 0)
 
-Mobile.setText(findTestObject('TripRequest/android.view.ViewGroup10'), 'colombo', 0)
+Mobile.setText(findTestObject('Passenger/TripRequest/android.view.ViewGroup10'), 'colombo', 0)
 
-Mobile.tap(findTestObject('TripRequest/android.view.ViewGroup13'), 0)
+Mobile.tap(findTestObject('Passenger/TripRequest/android.view.ViewGroup13'), 0)
 
-Mobile.tap(findTestObject('TripRequest/android.view.ViewGroup18'), 0)
+Mobile.tap(findTestObject('Passenger/TripRequest/android.view.ViewGroup18'), 0)
 
-Mobile.tap(findTestObject('TripRequest/android.view.ViewGroup18 (1)'), 0)
+Mobile.tap(findTestObject('Passenger/TripRequest/android.view.ViewGroup18 (1)'), 0)
 
-Mobile.tap(findTestObject('TripRequest/android.view.ViewGroup4'), 0)
+Mobile.tap(findTestObject('Passenger/TripRequest/android.view.ViewGroup4'), 0)
 
 Mobile.delay(15, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Add Favourite Drivers/android.view.ViewGroup14'), 0)
+Mobile.tap(findTestObject('Passenger/Add Favourite Drivers/android.view.ViewGroup14'), 0)
 
-Mobile.tap(findTestObject('Add Favourite Drivers/android.view.ViewGroup15'), 0)
+Mobile.tap(findTestObject('Passenger/Add Favourite Drivers/android.view.ViewGroup15'), 0)
 
