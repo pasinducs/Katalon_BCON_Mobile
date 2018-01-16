@@ -15,7 +15,7 @@
       <guid>0cbccc1e-c0e4-471b-8ed7-e176110d54dd</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/SignIn</testCaseId>
+      <testCaseId>Test Cases/Passenger/SignIn</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>c3ca0690-3c98-45ca-9787-97d2496a88e8</guid>
