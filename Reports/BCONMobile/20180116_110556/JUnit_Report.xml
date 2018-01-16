@@ -1,0 +1,797 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="BCONMobile" time="777" tests="13" failures="6" errors="0">
+   <testsuite name="BCONMobile" tests="13" failures="6" errors="0" time="777" timestamp="2018-01-16 11:05:58" hostname="Pasindu - DESKTOP-41D70DC" id="Test Suites/BCONMobile">
+      <properties>
+         <property name="deviceName" value="samsung SM-G570F 6.0.1"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Pasindu\\git\\Katalon_BCON_Mobile\\Reports\\BCONMobile\\20180116_110556"/>
+         <property name="logFiles" value="C:\\Users\\Pasindu\\git\\Katalon_BCON_Mobile\\Reports\\BCONMobile\\20180116_110556\\appium.log, C:\\Users\\Pasindu\\git\\Katalon_BCON_Mobile\\Reports\\BCONMobile\\20180116_110556\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Pasindu - DESKTOP-41D70DC"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.2.0.1"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.7.2"/>
+         <property name="deviceModel" value="SM-G570F"/>
+         <property name="hostAddress" value="192.168.8.105"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="deviceId" value="421041ecd284741f"/>
+         <property name="deviceName" value="samsung SM-G570F 6.0.1"/>
+         <property name="deviceOSVersion" value="6.0.1"/>
+      </properties>
+      <testcase name="Test Cases/For Test Suite/SignIn" classname="Test Cases/For Test Suite/SignIn" status="PASSED">
+         <system-out><![CDATA[2018-01-16 11:05:58 - [TEST_CASE][PASSED] - Test Cases/For Test Suite/SignIn: Test Cases/For Test Suite/SignIn
+
+2018-01-16 11:05:59 - [TEST_STEP][PASSED] - startApplication: Started app at: 'C:\Users\Pasindu\Desktop\Avonet\drive-download-20180104T074633Z-001\app-passenger.apk'
+
+2018-01-16 11:07:31 - [MESSAGE][PASSED] - Started app at: 'C:\Users\Pasindu\Desktop\Avonet\drive-download-20180104T074633Z-001\app-passenger.apk'
+
+2018-01-16 11:07:31 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/SignIN/android.view.ViewGroup7'
+
+2018-01-16 11:07:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-16 11:07:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SignIN/android.view.ViewGroup7'
+
+2018-01-16 11:07:38 - [TEST_STEP][PASSED] - setText: Text '0715645545' has been set to element 'Object Repository/SignIN/android.widget.EditText0 - Mobile Number'
+
+2018-01-16 11:07:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-16 11:07:46 - [MESSAGE][PASSED] - Text '0715645545' has been set to element 'Object Repository/SignIN/android.widget.EditText0 - Mobile Number'
+
+2018-01-16 11:07:46 - [TEST_STEP][PASSED] - setText: Text 'Aa1' has been set to element 'Object Repository/SignIN/android.widget.EditText1'
+
+2018-01-16 11:07:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-16 11:07:57 - [MESSAGE][PASSED] - Text 'Aa1' has been set to element 'Object Repository/SignIN/android.widget.EditText1'
+
+2018-01-16 11:07:57 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/SignIN/android.view.ViewGroup9'
+
+2018-01-16 11:07:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-16 11:07:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SignIN/android.view.ViewGroup9'
+
+2018-01-16 11:07:58 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/SignIN/android.view.ViewGroup9 (1)'
+
+2018-01-16 11:07:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-16 11:07:59 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SignIN/android.view.ViewGroup9 (1)']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/For Test Suite/ProfileChange" classname="Test Cases/For Test Suite/ProfileChange" status="PASSED">
+         <system-out><![CDATA[2018-01-16 11:07:59 - [TEST_CASE][PASSED] - Test Cases/For Test Suite/ProfileChange: Test Cases/For Test Suite/ProfileChange
+
+2018-01-16 11:07:59 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-01-16 11:08:04 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-01-16 11:08:04 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/ProfileChange/android.view.ViewGroup5'
+
+2018-01-16 11:08:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-16 11:08:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/ProfileChange/android.view.ViewGroup5'
+
+2018-01-16 11:08:05 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/ProfileChange/android.view.ViewGroup22'
+
+2018-01-16 11:08:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-16 11:08:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/ProfileChange/android.view.ViewGroup22'
+
+2018-01-16 11:08:07 - [TEST_STEP][PASSED] - setText: Text 'Pasindu' has been set to element 'Object Repository/ProfileChange/android.widget.EditText0 - chathura'
+
+2018-01-16 11:08:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-16 11:08:19 - [MESSAGE][PASSED] - Text 'Pasindu' has been set to element 'Object Repository/ProfileChange/android.widget.EditText0 - chathura'
+
+2018-01-16 11:08:19 - [TEST_STEP][PASSED] - checkElement: Element 'Object Repository/ProfileChange/android.view.ViewGroup11' is checked
+
+2018-01-16 11:08:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-16 11:08:20 - [MESSAGE][PASSED] - Element 'Object Repository/ProfileChange/android.view.ViewGroup11' is checked
+
+2018-01-16 11:08:20 - [TEST_STEP][PASSED] - delay: Delayed 7 second(s)
+
+2018-01-16 11:08:27 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2018-01-16 11:08:27 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Trip History View/android.view.ViewGroup3'
+
+2018-01-16 11:08:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-16 11:08:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Trip History View/android.view.ViewGroup3']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/For Test Suite/TripRequest" classname="Test Cases/For Test Suite/TripRequest" status="PASSED">
+         <system-out><![CDATA[2018-01-16 11:08:28 - [TEST_CASE][PASSED] - Test Cases/For Test Suite/TripRequest: Test Cases/For Test Suite/TripRequest
+
+2018-01-16 11:08:28 - [TEST_STEP][PASSED] - setText: Text 'colombo' has been set to element 'Object Repository/TripRequest/android.view.ViewGroup10'
+
+2018-01-16 11:08:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-16 11:08:40 - [MESSAGE][PASSED] - Text 'colombo' has been set to element 'Object Repository/TripRequest/android.view.ViewGroup10'
+
+2018-01-16 11:08:40 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/TripRequest/android.view.ViewGroup13'
+
+2018-01-16 11:08:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-16 11:08:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TripRequest/android.view.ViewGroup13'
+
+2018-01-16 11:08:41 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/TripRequest/android.view.ViewGroup18'
+
+2018-01-16 11:08:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-16 11:08:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TripRequest/android.view.ViewGroup18'
+
+2018-01-16 11:08:43 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/TripRequest/android.view.ViewGroup18 (1)'
+
+2018-01-16 11:08:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-16 11:08:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TripRequest/android.view.ViewGroup18 (1)'
+
+2018-01-16 11:08:45 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/TripRequest/android.view.ViewGroup4'
+
+2018-01-16 11:08:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-16 11:08:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TripRequest/android.view.ViewGroup4']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/For Test Suite/Trip History View" classname="Test Cases/For Test Suite/Trip History View" status="FAILED">
+         <failure type="FAILED" message="Failed to tap on element 'Object Repository/Trip History/android.view.ViewGroup20' (Root cause: Object Object Repository/Trip History/android.view.ViewGroup20 not found)"/>
+         <system-out><![CDATA[2018-01-16 11:08:46 - [TEST_CASE][FAILED] - Test Cases/For Test Suite/Trip History View: Test Cases/For Test Suite/Trip History View FAILED because (of) Failed to tap on element 'Object Repository/Trip History/android.view.ViewGroup20' (Root cause: Object Object Repository/Trip History/android.view.ViewGroup20 not found)
+
+2018-01-16 11:08:47 - [TEST_STEP][PASSED] - delay: Delayed 7 second(s)
+
+2018-01-16 11:08:54 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2018-01-16 11:08:54 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Trip History/android.view.ViewGroup5'
+
+2018-01-16 11:08:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-16 11:08:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Trip History/android.view.ViewGroup5'
+
+2018-01-16 11:08:54 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-01-16 11:08:59 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-01-16 11:08:59 - [TEST_STEP][FAILED] - tap: Failed to tap on element 'Object Repository/Trip History/android.view.ViewGroup20' (Root cause: Object Object Repository/Trip History/android.view.ViewGroup20 not found)
+
+2018-01-16 11:08:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-16 11:09:30 - [MESSAGE][FAILED] - Object Object Repository/Trip History/android.view.ViewGroup20 not found
+
+2018-01-16 11:09:30 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/Trip History/android.view.ViewGroup20' (Root cause: Object Object Repository/Trip History/android.view.ViewGroup20 not found)]]></system-out>
+         <system-err><![CDATA[2018-01-16 11:08:46 - [TEST_CASE][FAILED] - Test Cases/For Test Suite/Trip History View: Test Cases/For Test Suite/Trip History View FAILED because (of) Failed to tap on element 'Object Repository/Trip History/android.view.ViewGroup20' (Root cause: Object Object Repository/Trip History/android.view.ViewGroup20 not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/For Test Suite/Trip History" classname="Test Cases/For Test Suite/Trip History" status="FAILED">
+         <failure type="FAILED" message="Failed to check element 'Object Repository/Trip History/android.widget.TextView0 - Trip History' (Root cause: Object Object Repository/Trip History/android.widget.TextView0 - Trip History not found)"/>
+         <system-out><![CDATA[2018-01-16 11:09:30 - [TEST_CASE][FAILED] - Test Cases/For Test Suite/Trip History: Test Cases/For Test Suite/Trip History FAILED because (of) Failed to check element 'Object Repository/Trip History/android.widget.TextView0 - Trip History' (Root cause: Object Object Repository/Trip History/android.widget.TextView0 - Trip History not found)
+
+2018-01-16 11:09:30 - [TEST_STEP][PASSED] - delay: Delayed 7 second(s)
+
+2018-01-16 11:09:37 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2018-01-16 11:09:37 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Trip History/android.view.ViewGroup5'
+
+2018-01-16 11:09:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-16 11:09:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Trip History/android.view.ViewGroup5'
+
+2018-01-16 11:09:38 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-01-16 11:09:43 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-01-16 11:09:43 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Trip History/android.view.ViewGroup20'
+
+2018-01-16 11:09:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-16 11:09:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Trip History/android.view.ViewGroup20'
+
+2018-01-16 11:09:44 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Trip History/android.view.ViewGroup5 (1)'
+
+2018-01-16 11:09:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-16 11:09:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Trip History/android.view.ViewGroup5 (1)'
+
+2018-01-16 11:09:45 - [TEST_STEP][FAILED] - checkElement: Failed to check element 'Object Repository/Trip History/android.widget.TextView0 - Trip History' (Root cause: Object Object Repository/Trip History/android.widget.TextView0 - Trip History not found)
+
+2018-01-16 11:09:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-16 11:10:16 - [MESSAGE][FAILED] - Failed to check element 'Object Repository/Trip History/android.widget.TextView0 - Trip History' (Root cause: Object Object Repository/Trip History/android.widget.TextView0 - Trip History not found)]]></system-out>
+         <system-err><![CDATA[2018-01-16 11:09:30 - [TEST_CASE][FAILED] - Test Cases/For Test Suite/Trip History: Test Cases/For Test Suite/Trip History FAILED because (of) Failed to check element 'Object Repository/Trip History/android.widget.TextView0 - Trip History' (Root cause: Object Object Repository/Trip History/android.widget.TextView0 - Trip History not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/For Test Suite/Submit Rating" classname="Test Cases/For Test Suite/Submit Rating" status="FAILED">
+         <failure type="FAILED" message="Failed to tap on element 'Object Repository/TripRequest/android.view.ViewGroup18' (Root cause: Object Object Repository/TripRequest/android.view.ViewGroup18 not found)"/>
+         <system-out><![CDATA[2018-01-16 11:10:16 - [TEST_CASE][FAILED] - Test Cases/For Test Suite/Submit Rating: Test Cases/For Test Suite/Submit Rating FAILED because (of) Failed to tap on element 'Object Repository/TripRequest/android.view.ViewGroup18' (Root cause: Object Object Repository/TripRequest/android.view.ViewGroup18 not found)
+
+2018-01-16 11:10:16 - [TEST_STEP][PASSED] - setText: Text 'colombo' has been set to element 'Object Repository/TripRequest/android.view.ViewGroup10'
+
+2018-01-16 11:10:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-16 11:10:29 - [MESSAGE][PASSED] - Text 'colombo' has been set to element 'Object Repository/TripRequest/android.view.ViewGroup10'
+
+2018-01-16 11:10:29 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/TripRequest/android.view.ViewGroup13'
+
+2018-01-16 11:10:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-16 11:10:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TripRequest/android.view.ViewGroup13'
+
+2018-01-16 11:10:30 - [TEST_STEP][FAILED] - tap: Failed to tap on element 'Object Repository/TripRequest/android.view.ViewGroup18' (Root cause: Object Object Repository/TripRequest/android.view.ViewGroup18 not found)
+
+2018-01-16 11:10:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-16 11:11:01 - [MESSAGE][FAILED] - Object Object Repository/TripRequest/android.view.ViewGroup18 not found
+
+2018-01-16 11:11:01 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/TripRequest/android.view.ViewGroup18' (Root cause: Object Object Repository/TripRequest/android.view.ViewGroup18 not found)]]></system-out>
+         <system-err><![CDATA[2018-01-16 11:10:16 - [TEST_CASE][FAILED] - Test Cases/For Test Suite/Submit Rating: Test Cases/For Test Suite/Submit Rating FAILED because (of) Failed to tap on element 'Object Repository/TripRequest/android.view.ViewGroup18' (Root cause: Object Object Repository/TripRequest/android.view.ViewGroup18 not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/For Test Suite/Skip Rating" classname="Test Cases/For Test Suite/Skip Rating" status="PASSED">
+         <system-out><![CDATA[2018-01-16 11:11:01 - [TEST_CASE][PASSED] - Test Cases/For Test Suite/Skip Rating: Test Cases/For Test Suite/Skip Rating
+
+2018-01-16 11:11:01 - [TEST_STEP][PASSED] - setText: Text 'colombo' has been set to element 'Object Repository/TripRequest/android.view.ViewGroup10'
+
+2018-01-16 11:11:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-16 11:11:13 - [MESSAGE][PASSED] - Text 'colombo' has been set to element 'Object Repository/TripRequest/android.view.ViewGroup10'
+
+2018-01-16 11:11:13 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/TripRequest/android.view.ViewGroup13'
+
+2018-01-16 11:11:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-16 11:11:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TripRequest/android.view.ViewGroup13'
+
+2018-01-16 11:11:14 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/TripRequest/android.view.ViewGroup18'
+
+2018-01-16 11:11:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-16 11:11:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TripRequest/android.view.ViewGroup18'
+
+2018-01-16 11:11:16 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/TripRequest/android.view.ViewGroup18 (1)'
+
+2018-01-16 11:11:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-16 11:11:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TripRequest/android.view.ViewGroup18 (1)'
+
+2018-01-16 11:11:18 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/TripRequest/android.view.ViewGroup4'
+
+2018-01-16 11:11:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-16 11:11:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TripRequest/android.view.ViewGroup4'
+
+2018-01-16 11:11:25 - [TEST_STEP][PASSED] - delay: Delayed 15 second(s)
+
+2018-01-16 11:11:40 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2018-01-16 11:11:40 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Skip Rating/android.view.ViewGroup26'
+
+2018-01-16 11:11:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-16 11:11:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Skip Rating/android.view.ViewGroup26'
+
+2018-01-16 11:11:40 - [TEST_STEP][PASSED] - delay: Delayed 7 second(s)
+
+2018-01-16 11:11:47 - [MESSAGE][PASSED] - Delayed 7 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/For Test Suite/PromotionAdd" classname="Test Cases/For Test Suite/PromotionAdd" status="FAILED">
+         <failure type="FAILED" message="Failed to tap on element 'Object Repository/PromotionAdd/android.view.ViewGroup26' (Root cause: Object Object Repository/PromotionAdd/android.view.ViewGroup26 not found)"/>
+         <system-out><![CDATA[2018-01-16 11:11:47 - [TEST_CASE][FAILED] - Test Cases/For Test Suite/PromotionAdd: Test Cases/For Test Suite/PromotionAdd FAILED because (of) Failed to tap on element 'Object Repository/PromotionAdd/android.view.ViewGroup26' (Root cause: Object Object Repository/PromotionAdd/android.view.ViewGroup26 not found)
+
+2018-01-16 11:11:47 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/PromotionAdd/android.view.ViewGroup5'
+
+2018-01-16 11:11:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-16 11:11:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/PromotionAdd/android.view.ViewGroup5'
+
+2018-01-16 11:11:48 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-01-16 11:11:53 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-01-16 11:11:53 - [TEST_STEP][FAILED] - tap: Failed to tap on element 'Object Repository/PromotionAdd/android.view.ViewGroup26' (Root cause: Object Object Repository/PromotionAdd/android.view.ViewGroup26 not found)
+
+2018-01-16 11:11:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-16 11:12:24 - [MESSAGE][FAILED] - Object Object Repository/PromotionAdd/android.view.ViewGroup26 not found
+
+2018-01-16 11:12:24 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/PromotionAdd/android.view.ViewGroup26' (Root cause: Object Object Repository/PromotionAdd/android.view.ViewGroup26 not found)]]></system-out>
+         <system-err><![CDATA[2018-01-16 11:11:47 - [TEST_CASE][FAILED] - Test Cases/For Test Suite/PromotionAdd: Test Cases/For Test Suite/PromotionAdd FAILED because (of) Failed to tap on element 'Object Repository/PromotionAdd/android.view.ViewGroup26' (Root cause: Object Object Repository/PromotionAdd/android.view.ViewGroup26 not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/For Test Suite/Profile" classname="Test Cases/For Test Suite/Profile" status="PASSED">
+         <system-out><![CDATA[2018-01-16 11:12:24 - [TEST_CASE][PASSED] - Test Cases/For Test Suite/Profile: Test Cases/For Test Suite/Profile
+
+2018-01-16 11:12:24 - [TEST_STEP][PASSED] - delay: Delayed 6 second(s)
+
+2018-01-16 11:12:30 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2018-01-16 11:12:30 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Profile/android.view.ViewGroup5'
+
+2018-01-16 11:12:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-16 11:12:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Profile/android.view.ViewGroup5'
+
+2018-01-16 11:12:31 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Profile/android.view.ViewGroup22'
+
+2018-01-16 11:12:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-16 11:12:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Profile/android.view.ViewGroup22'
+
+2018-01-16 11:12:33 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Profile/android.view.ViewGroup11'
+
+2018-01-16 11:12:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-16 11:12:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Profile/android.view.ViewGroup11'
+
+2018-01-16 11:12:35 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Profile/android.widget.TextView0 - Profile'
+
+2018-01-16 11:12:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-16 11:12:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Profile/android.widget.TextView0 - Profile'
+
+2018-01-16 11:12:37 - [TEST_STEP][PASSED] - checkElement: Element 'Object Repository/Profile/android.widget.TextView0 - Profile' is checked
+
+2018-01-16 11:12:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-16 11:12:38 - [MESSAGE][PASSED] - Element 'Object Repository/Profile/android.widget.TextView0 - Profile' is checked
+
+2018-01-16 11:12:38 - [TEST_STEP][PASSED] - delay: Delayed 7 second(s)
+
+2018-01-16 11:12:45 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2018-01-16 11:12:45 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Trip History View/android.view.ViewGroup3'
+
+2018-01-16 11:12:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-16 11:12:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Trip History View/android.view.ViewGroup3']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/For Test Suite/Terms and Conditions" classname="Test Cases/For Test Suite/Terms and Conditions" status="PASSED">
+         <system-out><![CDATA[2018-01-16 11:12:46 - [TEST_CASE][PASSED] - Test Cases/For Test Suite/Terms and Conditions: Test Cases/For Test Suite/Terms and Conditions
+
+2018-01-16 11:12:46 - [TEST_STEP][PASSED] - delay: Delayed 6 second(s)
+
+2018-01-16 11:12:52 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2018-01-16 11:12:52 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Support/android.view.ViewGroup5'
+
+2018-01-16 11:12:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-16 11:12:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Support/android.view.ViewGroup5'
+
+2018-01-16 11:12:53 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Terms and Conditions/android.view.ViewGroup30'
+
+2018-01-16 11:12:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-16 11:12:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Terms and Conditions/android.view.ViewGroup30'
+
+2018-01-16 11:12:55 - [TEST_STEP][PASSED] - checkElement: Element 'Object Repository/Terms and Conditions/android.view.ViewGroup5' is checked
+
+2018-01-16 11:12:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-16 11:12:57 - [MESSAGE][PASSED] - Element 'Object Repository/Terms and Conditions/android.view.ViewGroup5' is checked
+
+2018-01-16 11:12:57 - [TEST_STEP][PASSED] - delay: Delayed 7 second(s)
+
+2018-01-16 11:13:04 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2018-01-16 11:13:04 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Trip History View/android.view.ViewGroup3'
+
+2018-01-16 11:13:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-16 11:13:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Trip History View/android.view.ViewGroup3']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/For Test Suite/Favourites" classname="Test Cases/For Test Suite/Favourites" status="FAILED">
+         <failure type="FAILED" message="Failed to check element 'Object Repository/Favourtes/android.widget.TextView0 - Favourites' (Root cause: Object Object Repository/Favourtes/android.widget.TextView0 - Favourites not found)"/>
+         <system-out><![CDATA[2018-01-16 11:13:05 - [TEST_CASE][FAILED] - Test Cases/For Test Suite/Favourites: Test Cases/For Test Suite/Favourites FAILED because (of) Failed to check element 'Object Repository/Favourtes/android.widget.TextView0 - Favourites' (Root cause: Object Object Repository/Favourtes/android.widget.TextView0 - Favourites not found)
+
+2018-01-16 11:13:05 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-01-16 11:13:10 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-01-16 11:13:10 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Favourtes/android.view.ViewGroup5'
+
+2018-01-16 11:13:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-16 11:13:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Favourtes/android.view.ViewGroup5'
+
+2018-01-16 11:13:12 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Favourtes/android.view.ViewGroup24'
+
+2018-01-16 11:13:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-16 11:13:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Favourtes/android.view.ViewGroup24'
+
+2018-01-16 11:13:13 - [TEST_STEP][FAILED] - checkElement: Failed to check element 'Object Repository/Favourtes/android.widget.TextView0 - Favourites' (Root cause: Object Object Repository/Favourtes/android.widget.TextView0 - Favourites not found)
+
+2018-01-16 11:13:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-16 11:13:44 - [MESSAGE][FAILED] - Failed to check element 'Object Repository/Favourtes/android.widget.TextView0 - Favourites' (Root cause: Object Object Repository/Favourtes/android.widget.TextView0 - Favourites not found)]]></system-out>
+         <system-err><![CDATA[2018-01-16 11:13:05 - [TEST_CASE][FAILED] - Test Cases/For Test Suite/Favourites: Test Cases/For Test Suite/Favourites FAILED because (of) Failed to check element 'Object Repository/Favourtes/android.widget.TextView0 - Favourites' (Root cause: Object Object Repository/Favourtes/android.widget.TextView0 - Favourites not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/For Test Suite/Cancell Trip Request" classname="Test Cases/For Test Suite/Cancell Trip Request" status="PASSED">
+         <system-out><![CDATA[2018-01-16 11:13:44 - [TEST_CASE][PASSED] - Test Cases/For Test Suite/Cancell Trip Request: Test Cases/For Test Suite/Cancell Trip Request
+
+2018-01-16 11:13:44 - [TEST_STEP][PASSED] - setText: Text 'colombo' has been set to element 'Object Repository/TripRequest/android.view.ViewGroup10'
+
+2018-01-16 11:13:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-16 11:13:57 - [MESSAGE][PASSED] - Text 'colombo' has been set to element 'Object Repository/TripRequest/android.view.ViewGroup10'
+
+2018-01-16 11:13:57 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/TripRequest/android.view.ViewGroup13'
+
+2018-01-16 11:13:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-16 11:13:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TripRequest/android.view.ViewGroup13'
+
+2018-01-16 11:13:58 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/TripRequest/android.view.ViewGroup18'
+
+2018-01-16 11:13:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-16 11:14:00 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TripRequest/android.view.ViewGroup18'
+
+2018-01-16 11:14:00 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/TripRequest/android.view.ViewGroup18 (1)'
+
+2018-01-16 11:14:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-16 11:14:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TripRequest/android.view.ViewGroup18 (1)'
+
+2018-01-16 11:14:02 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/TripRequest/android.view.ViewGroup4'
+
+2018-01-16 11:14:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-16 11:14:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TripRequest/android.view.ViewGroup4'
+
+2018-01-16 11:14:10 - [TEST_STEP][PASSED] - delay: Delayed 6 second(s)
+
+2018-01-16 11:14:16 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2018-01-16 11:14:16 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Add Favourite Drivers/android.view.ViewGroup14'
+
+2018-01-16 11:14:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-16 11:14:17 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Add Favourite Drivers/android.view.ViewGroup14'
+
+2018-01-16 11:14:17 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Add Favourite Drivers/android.view.ViewGroup15'
+
+2018-01-16 11:14:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-16 11:14:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Add Favourite Drivers/android.view.ViewGroup15'
+
+2018-01-16 11:14:18 - [TEST_STEP][PASSED] - delay: Delayed 6 second(s)
+
+2018-01-16 11:14:24 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2018-01-16 11:14:24 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Cancel Trip Request/android.view.ViewGroup19'
+
+2018-01-16 11:14:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-16 11:14:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Cancel Trip Request/android.view.ViewGroup19'
+
+2018-01-16 11:14:25 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Cancel Trip Request/android.view.ViewGroup7'
+
+2018-01-16 11:14:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-16 11:14:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Cancel Trip Request/android.view.ViewGroup7']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/For Test Suite/Add Favourite Driver" classname="Test Cases/For Test Suite/Add Favourite Driver" status="PASSED">
+         <system-out><![CDATA[2018-01-16 11:14:26 - [TEST_CASE][PASSED] - Test Cases/For Test Suite/Add Favourite Driver: Test Cases/For Test Suite/Add Favourite Driver
+
+2018-01-16 11:14:26 - [TEST_STEP][PASSED] - setText: Text 'colombo' has been set to element 'Object Repository/TripRequest/android.view.ViewGroup10'
+
+2018-01-16 11:14:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-16 11:14:42 - [MESSAGE][PASSED] - Text 'colombo' has been set to element 'Object Repository/TripRequest/android.view.ViewGroup10'
+
+2018-01-16 11:14:42 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/TripRequest/android.view.ViewGroup13'
+
+2018-01-16 11:14:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-16 11:14:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TripRequest/android.view.ViewGroup13'
+
+2018-01-16 11:14:43 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/TripRequest/android.view.ViewGroup18'
+
+2018-01-16 11:14:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-16 11:14:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TripRequest/android.view.ViewGroup18'
+
+2018-01-16 11:14:45 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/TripRequest/android.view.ViewGroup18 (1)'
+
+2018-01-16 11:14:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-16 11:14:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TripRequest/android.view.ViewGroup18 (1)'
+
+2018-01-16 11:14:47 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/TripRequest/android.view.ViewGroup4'
+
+2018-01-16 11:14:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-16 11:14:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/TripRequest/android.view.ViewGroup4'
+
+2018-01-16 11:14:55 - [TEST_STEP][PASSED] - delay: Delayed 15 second(s)
+
+2018-01-16 11:15:10 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2018-01-16 11:15:10 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Add Favourite Drivers/android.widget.Switch0 - OFF'
+
+2018-01-16 11:15:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-16 11:15:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Add Favourite Drivers/android.widget.Switch0 - OFF'
+
+2018-01-16 11:15:12 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Add Favourite Drivers/android.view.ViewGroup14'
+
+2018-01-16 11:15:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-16 11:15:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Add Favourite Drivers/android.view.ViewGroup14'
+
+2018-01-16 11:15:13 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Add Favourite Drivers/android.view.ViewGroup15'
+
+2018-01-16 11:15:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-16 11:15:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Add Favourite Drivers/android.view.ViewGroup15']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/For Test Suite/ActiveTrips" classname="Test Cases/For Test Suite/ActiveTrips" status="PASSED">
+         <system-out><![CDATA[2018-01-16 11:15:15 - [TEST_CASE][PASSED] - Test Cases/For Test Suite/ActiveTrips: Test Cases/For Test Suite/ActiveTrips
+
+2018-01-16 11:15:15 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-01-16 11:15:25 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-01-16 11:15:25 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/ActiveTrips/android.view.ViewGroup5'
+
+2018-01-16 11:15:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-16 11:15:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/ActiveTrips/android.view.ViewGroup5'
+
+2018-01-16 11:15:26 - [TEST_STEP][PASSED] - delay: Delayed 7 second(s)
+
+2018-01-16 11:15:33 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2018-01-16 11:15:33 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/ActiveTrips/android.view.ViewGroup18'
+
+2018-01-16 11:15:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-16 11:15:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/ActiveTrips/android.view.ViewGroup18'
+
+2018-01-16 11:15:34 - [TEST_STEP][PASSED] - checkElement: Element 'Object Repository/ActiveTrips/android.widget.TextView0 - Active Trips' is checked
+
+2018-01-16 11:15:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-16 11:15:36 - [MESSAGE][PASSED] - Element 'Object Repository/ActiveTrips/android.widget.TextView0 - Active Trips' is checked
+
+2018-01-16 11:15:36 - [TEST_STEP][PASSED] - delay: Delayed 7 second(s)
+
+2018-01-16 11:15:43 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2018-01-16 11:15:43 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Trip History View/android.view.ViewGroup3'
+
+2018-01-16 11:15:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-16 11:15:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Trip History View/android.view.ViewGroup3']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/For Test Suite/Accounts" classname="Test Cases/For Test Suite/Accounts" status="PASSED">
+         <system-out><![CDATA[2018-01-16 11:15:44 - [TEST_CASE][PASSED] - Test Cases/For Test Suite/Accounts: Test Cases/For Test Suite/Accounts
+
+2018-01-16 11:15:45 - [TEST_STEP][PASSED] - delay: Delayed 7 second(s)
+
+2018-01-16 11:15:52 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2018-01-16 11:15:52 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Accounts/android.view.ViewGroup5'
+
+2018-01-16 11:15:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-16 11:15:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Accounts/android.view.ViewGroup5'
+
+2018-01-16 11:15:52 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Accounts/android.view.ViewGroup16'
+
+2018-01-16 11:15:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-16 11:15:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Accounts/android.view.ViewGroup16'
+
+2018-01-16 11:15:54 - [TEST_STEP][PASSED] - checkElement: Element 'Object Repository/Accounts/android.view.ViewGroup5 (1)' is checked
+
+2018-01-16 11:15:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-16 11:15:56 - [MESSAGE][PASSED] - Element 'Object Repository/Accounts/android.view.ViewGroup5 (1)' is checked
+
+2018-01-16 11:15:56 - [TEST_STEP][PASSED] - delay: Delayed 7 second(s)
+
+2018-01-16 11:16:03 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2018-01-16 11:16:03 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Trip History View/android.view.ViewGroup3'
+
+2018-01-16 11:16:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-16 11:16:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Trip History View/android.view.ViewGroup3']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/For Test Suite/Support" classname="Test Cases/For Test Suite/Support" status="PASSED">
+         <system-out><![CDATA[2018-01-16 11:16:04 - [TEST_CASE][PASSED] - Test Cases/For Test Suite/Support: Test Cases/For Test Suite/Support
+
+2018-01-16 11:16:05 - [TEST_STEP][PASSED] - delay: Delayed 6 second(s)
+
+2018-01-16 11:16:11 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2018-01-16 11:16:11 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Support/android.view.ViewGroup5'
+
+2018-01-16 11:16:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-16 11:16:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Support/android.view.ViewGroup5'
+
+2018-01-16 11:16:11 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Support/android.view.ViewGroup28'
+
+2018-01-16 11:16:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-16 11:16:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Support/android.view.ViewGroup28'
+
+2018-01-16 11:16:13 - [TEST_STEP][PASSED] - setText: Text 'hello' has been set to element 'Object Repository/Support/android.view.ViewGroup11'
+
+2018-01-16 11:16:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-16 11:16:57 - [MESSAGE][PASSED] - Text 'hello' has been set to element 'Object Repository/Support/android.view.ViewGroup11'
+
+2018-01-16 11:16:57 - [TEST_STEP][PASSED] - hideKeyboard: Keyboard is hidden
+
+2018-01-16 11:16:58 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2018-01-16 11:16:58 - [TEST_STEP][PASSED] - setText: Text 'good driver' has been set to element 'Object Repository/Support/android.view.ViewGroup13'
+
+2018-01-16 11:16:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-16 11:17:11 - [MESSAGE][PASSED] - Text 'good driver' has been set to element 'Object Repository/Support/android.view.ViewGroup13'
+
+2018-01-16 11:17:11 - [TEST_STEP][PASSED] - hideKeyboard: Keyboard is hidden
+
+2018-01-16 11:17:12 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2018-01-16 11:17:12 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Support/android.view.ViewGroup15'
+
+2018-01-16 11:17:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-16 11:17:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Support/android.view.ViewGroup15'
+
+2018-01-16 11:17:13 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Support/android.view.ViewGroup15'
+
+2018-01-16 11:17:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-16 11:17:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Support/android.view.ViewGroup15'
+
+2018-01-16 11:17:14 - [TEST_STEP][PASSED] - checkElement: Element 'Object Repository/Support/android.view.ViewGroup5 (1)' is checked
+
+2018-01-16 11:17:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-16 11:17:16 - [MESSAGE][PASSED] - Element 'Object Repository/Support/android.view.ViewGroup5 (1)' is checked
+
+2018-01-16 11:17:16 - [TEST_STEP][PASSED] - delay: Delayed 7 second(s)
+
+2018-01-16 11:17:23 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2018-01-16 11:17:23 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Trip History View/android.view.ViewGroup3'
+
+2018-01-16 11:17:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-16 11:17:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Trip History View/android.view.ViewGroup3']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/For Test Suite/Accounts Edit" classname="Test Cases/For Test Suite/Accounts Edit" status="PASSED">
+         <system-out><![CDATA[2018-01-16 11:17:24 - [TEST_CASE][PASSED] - Test Cases/For Test Suite/Accounts Edit: Test Cases/For Test Suite/Accounts Edit
+
+2018-01-16 11:17:24 - [TEST_STEP][PASSED] - delay: Delayed 7 second(s)
+
+2018-01-16 11:17:31 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2018-01-16 11:17:31 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Accounts/android.view.ViewGroup5'
+
+2018-01-16 11:17:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-16 11:17:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Accounts/android.view.ViewGroup5'
+
+2018-01-16 11:17:32 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Accounts/android.view.ViewGroup16'
+
+2018-01-16 11:17:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-16 11:17:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Accounts/android.view.ViewGroup16'
+
+2018-01-16 11:17:34 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Accounts Edit/android.view.ViewGroup6 (1)'
+
+2018-01-16 11:17:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-16 11:17:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Accounts Edit/android.view.ViewGroup6 (1)'
+
+2018-01-16 11:17:36 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Accounts Edit/android.view.ViewGroup8'
+
+2018-01-16 11:17:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-16 11:17:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Accounts Edit/android.view.ViewGroup8'
+
+2018-01-16 11:17:38 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Accounts Edit/android.view.ViewGroup10'
+
+2018-01-16 11:17:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-16 11:17:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Accounts Edit/android.view.ViewGroup10'
+
+2018-01-16 11:17:39 - [TEST_STEP][PASSED] - delay: Delayed 7 second(s)
+
+2018-01-16 11:17:46 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2018-01-16 11:17:46 - [TEST_STEP][PASSED] - checkElement: Element 'Object Repository/Accounts/android.view.ViewGroup5 (1)' is checked
+
+2018-01-16 11:17:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-16 11:17:47 - [MESSAGE][PASSED] - Element 'Object Repository/Accounts/android.view.ViewGroup5 (1)' is checked
+
+2018-01-16 11:17:47 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Trip History View/android.view.ViewGroup3'
+
+2018-01-16 11:17:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-16 11:17:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Trip History View/android.view.ViewGroup3']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/For Test Suite/Accounts Change" classname="Test Cases/For Test Suite/Accounts Change" status="FAILED">
+         <failure type="FAILED" message="Failed to tap on element 'Object Repository/Accounts Change/android.view.ViewGroup16' (Root cause: Object Object Repository/Accounts Change/android.view.ViewGroup16 not found)"/>
+         <system-out><![CDATA[2018-01-16 11:17:48 - [TEST_CASE][FAILED] - Test Cases/For Test Suite/Accounts Change: Test Cases/For Test Suite/Accounts Change FAILED because (of) Failed to tap on element 'Object Repository/Accounts Change/android.view.ViewGroup16' (Root cause: Object Object Repository/Accounts Change/android.view.ViewGroup16 not found)
+
+2018-01-16 11:17:48 - [TEST_STEP][PASSED] - delay: Delayed 7 second(s)
+
+2018-01-16 11:17:55 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2018-01-16 11:17:55 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Accounts/android.view.ViewGroup5'
+
+2018-01-16 11:17:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-16 11:17:56 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Accounts/android.view.ViewGroup5'
+
+2018-01-16 11:17:56 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Accounts/android.view.ViewGroup16'
+
+2018-01-16 11:17:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-16 11:17:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Accounts/android.view.ViewGroup16'
+
+2018-01-16 11:17:58 - [TEST_STEP][PASSED] - checkElement: Element 'Object Repository/Accounts/android.view.ViewGroup5 (1)' is checked
+
+2018-01-16 11:17:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-16 11:18:00 - [MESSAGE][PASSED] - Element 'Object Repository/Accounts/android.view.ViewGroup5 (1)' is checked
+
+2018-01-16 11:18:00 - [TEST_STEP][FAILED] - tap: Failed to tap on element 'Object Repository/Accounts Change/android.view.ViewGroup16' (Root cause: Object Object Repository/Accounts Change/android.view.ViewGroup16 not found)
+
+2018-01-16 11:18:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-16 11:18:31 - [MESSAGE][FAILED] - Object Object Repository/Accounts Change/android.view.ViewGroup16 not found
+
+2018-01-16 11:18:31 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/Accounts Change/android.view.ViewGroup16' (Root cause: Object Object Repository/Accounts Change/android.view.ViewGroup16 not found)]]></system-out>
+         <system-err><![CDATA[2018-01-16 11:17:48 - [TEST_CASE][FAILED] - Test Cases/For Test Suite/Accounts Change: Test Cases/For Test Suite/Accounts Change FAILED because (of) Failed to tap on element 'Object Repository/Accounts Change/android.view.ViewGroup16' (Root cause: Object Object Repository/Accounts Change/android.view.ViewGroup16 not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/For Test Suite/Sign Out" classname="Test Cases/For Test Suite/Sign Out" status="PASSED">
+         <system-out><![CDATA[2018-01-16 11:18:31 - [TEST_CASE][PASSED] - Test Cases/For Test Suite/Sign Out: Test Cases/For Test Suite/Sign Out
+
+2018-01-16 11:18:31 - [TEST_STEP][PASSED] - delay: Delayed 6 second(s)
+
+2018-01-16 11:18:37 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2018-01-16 11:18:37 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sign out/android.view.ViewGroup5'
+
+2018-01-16 11:18:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-16 11:18:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sign out/android.view.ViewGroup5'
+
+2018-01-16 11:18:38 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sign out/android.view.ViewGroup32'
+
+2018-01-16 11:18:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-16 11:18:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sign out/android.view.ViewGroup32'
+
+2018-01-16 11:18:40 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sign out/android.view.ViewGroup4'
+
+2018-01-16 11:18:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-16 11:18:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sign out/android.view.ViewGroup4'
+
+2018-01-16 11:18:42 - [TEST_STEP][PASSED] - checkElement: Element 'Object Repository/Sign out/android.widget.ImageView0' is checked
+
+2018-01-16 11:18:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-16 11:18:44 - [MESSAGE][PASSED] - Element 'Object Repository/Sign out/android.widget.ImageView0' is checked]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-01-16 11:05:58 - [TEST_SUITE][FAILED] - BCONMobile: Test Cases/For Test Suite/Trip History View FAILED because (of) Failed to tap on element 'Object Repository/Trip History/android.view.ViewGroup20' (Root cause: Object Object Repository/Trip History/android.view.ViewGroup20 not found)]]></system-out>
+      <system-err><![CDATA[2018-01-16 11:05:58 - [TEST_SUITE][FAILED] - BCONMobile: Test Cases/For Test Suite/Trip History View FAILED because (of) Failed to tap on element 'Object Repository/Trip History/android.view.ViewGroup20' (Root cause: Object Object Repository/Trip History/android.view.ViewGroup20 not found)]]></system-err>
+   </testsuite>
+</testsuites>

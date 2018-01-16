@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TripRequest - Copy</name>
+   <name>Trip History</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>d88f0f90-0a38-434b-89d8-3c08515ca755</testCaseGuid>
+   <testCaseGuid>f06694af-e82c-4931-869b-727fca541cc4</testCaseGuid>
 </TestCaseEntity>

@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="BCONMobile" time="84" tests="0" failures="18" errors="0">
+   <testsuite name="BCONMobile" tests="0" failures="18" errors="0" time="84" timestamp="2018-01-16 10:59:33" hostname="Pasindu - DESKTOP-41D70DC" id="Test Suites/BCONMobile">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Pasindu\\git\\Katalon_BCON_Mobile\\Reports\\BCONMobile\\20180116_105932"/>
+         <property name="logFiles" value="C:\\Users\\Pasindu\\git\\Katalon_BCON_Mobile\\Reports\\BCONMobile\\20180116_105932\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Pasindu - DESKTOP-41D70DC"/>
+         <property name="hostAddress" value="192.168.8.105"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.2.0.1"/>
+      </properties>
+      <testcase name="Test Cases/For Test Suite/ProfileChange" classname="Test Cases/For Test Suite/ProfileChange" status="FAILED">
+         <failure type="FAILED" message="Failed to tap on element 'Object Repository/ProfileChange/android.view.ViewGroup5' (Root cause: No application is started yet.)"/>
+         <system-out><![CDATA[2018-01-16 10:59:34 - [TEST_CASE][FAILED] - Test Cases/For Test Suite/ProfileChange: Test Cases/For Test Suite/ProfileChange FAILED because (of) Failed to tap on element 'Object Repository/ProfileChange/android.view.ViewGroup5' (Root cause: No application is started yet.)
+
+2018-01-16 10:59:34 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-01-16 10:59:39 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-01-16 10:59:39 - [TEST_STEP][FAILED] - tap: Failed to tap on element 'Object Repository/ProfileChange/android.view.ViewGroup5' (Root cause: No application is started yet.)
+
+2018-01-16 10:59:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-16 10:59:40 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/ProfileChange/android.view.ViewGroup5' (Root cause: No application is started yet.)]]></system-out>
+         <system-err><![CDATA[2018-01-16 10:59:34 - [TEST_CASE][FAILED] - Test Cases/For Test Suite/ProfileChange: Test Cases/For Test Suite/ProfileChange FAILED because (of) Failed to tap on element 'Object Repository/ProfileChange/android.view.ViewGroup5' (Root cause: No application is started yet.)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/For Test Suite/TripRequest" classname="Test Cases/For Test Suite/TripRequest" status="FAILED">
+         <failure type="FAILED" message="Failed to set text into element (Root cause: No application is started yet.)"/>
+         <system-out><![CDATA[2018-01-16 10:59:40 - [TEST_CASE][FAILED] - Test Cases/For Test Suite/TripRequest: Test Cases/For Test Suite/TripRequest FAILED because (of) Failed to set text into element (Root cause: No application is started yet.)
+
+2018-01-16 10:59:40 - [TEST_STEP][FAILED] - setText: Failed to set text into element (Root cause: No application is started yet.)
+
+2018-01-16 10:59:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-16 10:59:40 - [MESSAGE][FAILED] - Failed to set text into element (Root cause: No application is started yet.)]]></system-out>
+         <system-err><![CDATA[2018-01-16 10:59:40 - [TEST_CASE][FAILED] - Test Cases/For Test Suite/TripRequest: Test Cases/For Test Suite/TripRequest FAILED because (of) Failed to set text into element (Root cause: No application is started yet.)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/For Test Suite/Trip History View" classname="Test Cases/For Test Suite/Trip History View" status="FAILED">
+         <failure type="FAILED" message="Failed to tap on element 'Object Repository/Trip History/android.view.ViewGroup5' (Root cause: No application is started yet.)"/>
+         <system-out><![CDATA[2018-01-16 10:59:40 - [TEST_CASE][FAILED] - Test Cases/For Test Suite/Trip History View: Test Cases/For Test Suite/Trip History View FAILED because (of) Failed to tap on element 'Object Repository/Trip History/android.view.ViewGroup5' (Root cause: No application is started yet.)
+
+2018-01-16 10:59:40 - [TEST_STEP][PASSED] - delay: Delayed 7 second(s)
+
+2018-01-16 10:59:47 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2018-01-16 10:59:47 - [TEST_STEP][FAILED] - tap: Failed to tap on element 'Object Repository/Trip History/android.view.ViewGroup5' (Root cause: No application is started yet.)
+
+2018-01-16 10:59:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-16 10:59:47 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/Trip History/android.view.ViewGroup5' (Root cause: No application is started yet.)]]></system-out>
+         <system-err><![CDATA[2018-01-16 10:59:40 - [TEST_CASE][FAILED] - Test Cases/For Test Suite/Trip History View: Test Cases/For Test Suite/Trip History View FAILED because (of) Failed to tap on element 'Object Repository/Trip History/android.view.ViewGroup5' (Root cause: No application is started yet.)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/For Test Suite/Trip History" classname="Test Cases/For Test Suite/Trip History" status="FAILED">
+         <failure type="FAILED" message="Failed to tap on element 'Object Repository/Trip History/android.view.ViewGroup5' (Root cause: No application is started yet.)"/>
+         <system-out><![CDATA[2018-01-16 10:59:47 - [TEST_CASE][FAILED] - Test Cases/For Test Suite/Trip History: Test Cases/For Test Suite/Trip History FAILED because (of) Failed to tap on element 'Object Repository/Trip History/android.view.ViewGroup5' (Root cause: No application is started yet.)
+
+2018-01-16 10:59:47 - [TEST_STEP][PASSED] - delay: Delayed 7 second(s)
+
+2018-01-16 10:59:54 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2018-01-16 10:59:54 - [TEST_STEP][FAILED] - tap: Failed to tap on element 'Object Repository/Trip History/android.view.ViewGroup5' (Root cause: No application is started yet.)
+
+2018-01-16 10:59:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-16 10:59:54 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/Trip History/android.view.ViewGroup5' (Root cause: No application is started yet.)]]></system-out>
+         <system-err><![CDATA[2018-01-16 10:59:47 - [TEST_CASE][FAILED] - Test Cases/For Test Suite/Trip History: Test Cases/For Test Suite/Trip History FAILED because (of) Failed to tap on element 'Object Repository/Trip History/android.view.ViewGroup5' (Root cause: No application is started yet.)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/For Test Suite/Submit Rating" classname="Test Cases/For Test Suite/Submit Rating" status="FAILED">
+         <failure type="FAILED" message="Failed to set text into element (Root cause: No application is started yet.)"/>
+         <system-out><![CDATA[2018-01-16 10:59:54 - [TEST_CASE][FAILED] - Test Cases/For Test Suite/Submit Rating: Test Cases/For Test Suite/Submit Rating FAILED because (of) Failed to set text into element (Root cause: No application is started yet.)
+
+2018-01-16 10:59:55 - [TEST_STEP][FAILED] - setText: Failed to set text into element (Root cause: No application is started yet.)
+
+2018-01-16 10:59:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-16 10:59:55 - [MESSAGE][FAILED] - Failed to set text into element (Root cause: No application is started yet.)]]></system-out>
+         <system-err><![CDATA[2018-01-16 10:59:54 - [TEST_CASE][FAILED] - Test Cases/For Test Suite/Submit Rating: Test Cases/For Test Suite/Submit Rating FAILED because (of) Failed to set text into element (Root cause: No application is started yet.)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/For Test Suite/Skip Rating" classname="Test Cases/For Test Suite/Skip Rating" status="FAILED">
+         <failure type="FAILED" message="Failed to set text into element (Root cause: No application is started yet.)"/>
+         <system-out><![CDATA[2018-01-16 10:59:55 - [TEST_CASE][FAILED] - Test Cases/For Test Suite/Skip Rating: Test Cases/For Test Suite/Skip Rating FAILED because (of) Failed to set text into element (Root cause: No application is started yet.)
+
+2018-01-16 10:59:55 - [TEST_STEP][FAILED] - setText: Failed to set text into element (Root cause: No application is started yet.)
+
+2018-01-16 10:59:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-16 10:59:55 - [MESSAGE][FAILED] - Failed to set text into element (Root cause: No application is started yet.)]]></system-out>
+         <system-err><![CDATA[2018-01-16 10:59:55 - [TEST_CASE][FAILED] - Test Cases/For Test Suite/Skip Rating: Test Cases/For Test Suite/Skip Rating FAILED because (of) Failed to set text into element (Root cause: No application is started yet.)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/For Test Suite/PromotionAdd" classname="Test Cases/For Test Suite/PromotionAdd" status="FAILED">
+         <failure type="FAILED" message="Failed to tap on element 'Object Repository/PromotionAdd/android.view.ViewGroup5' (Root cause: No application is started yet.)"/>
+         <system-out><![CDATA[2018-01-16 10:59:55 - [TEST_CASE][FAILED] - Test Cases/For Test Suite/PromotionAdd: Test Cases/For Test Suite/PromotionAdd FAILED because (of) Failed to tap on element 'Object Repository/PromotionAdd/android.view.ViewGroup5' (Root cause: No application is started yet.)
+
+2018-01-16 10:59:55 - [TEST_STEP][FAILED] - tap: Failed to tap on element 'Object Repository/PromotionAdd/android.view.ViewGroup5' (Root cause: No application is started yet.)
+
+2018-01-16 10:59:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-16 10:59:55 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/PromotionAdd/android.view.ViewGroup5' (Root cause: No application is started yet.)]]></system-out>
+         <system-err><![CDATA[2018-01-16 10:59:55 - [TEST_CASE][FAILED] - Test Cases/For Test Suite/PromotionAdd: Test Cases/For Test Suite/PromotionAdd FAILED because (of) Failed to tap on element 'Object Repository/PromotionAdd/android.view.ViewGroup5' (Root cause: No application is started yet.)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/For Test Suite/Profile" classname="Test Cases/For Test Suite/Profile" status="FAILED">
+         <failure type="FAILED" message="Failed to tap on element 'Object Repository/Profile/android.view.ViewGroup5' (Root cause: No application is started yet.)"/>
+         <system-out><![CDATA[2018-01-16 10:59:55 - [TEST_CASE][FAILED] - Test Cases/For Test Suite/Profile: Test Cases/For Test Suite/Profile FAILED because (of) Failed to tap on element 'Object Repository/Profile/android.view.ViewGroup5' (Root cause: No application is started yet.)
+
+2018-01-16 10:59:55 - [TEST_STEP][PASSED] - delay: Delayed 6 second(s)
+
+2018-01-16 11:00:01 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2018-01-16 11:00:01 - [TEST_STEP][FAILED] - tap: Failed to tap on element 'Object Repository/Profile/android.view.ViewGroup5' (Root cause: No application is started yet.)
+
+2018-01-16 11:00:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-16 11:00:01 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/Profile/android.view.ViewGroup5' (Root cause: No application is started yet.)]]></system-out>
+         <system-err><![CDATA[2018-01-16 10:59:55 - [TEST_CASE][FAILED] - Test Cases/For Test Suite/Profile: Test Cases/For Test Suite/Profile FAILED because (of) Failed to tap on element 'Object Repository/Profile/android.view.ViewGroup5' (Root cause: No application is started yet.)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/For Test Suite/Terms and Conditions" classname="Test Cases/For Test Suite/Terms and Conditions" status="FAILED">
+         <failure type="FAILED" message="Failed to tap on element 'Object Repository/Support/android.view.ViewGroup5' (Root cause: No application is started yet.)"/>
+         <system-out><![CDATA[2018-01-16 11:00:01 - [TEST_CASE][FAILED] - Test Cases/For Test Suite/Terms and Conditions: Test Cases/For Test Suite/Terms and Conditions FAILED because (of) Failed to tap on element 'Object Repository/Support/android.view.ViewGroup5' (Root cause: No application is started yet.)
+
+2018-01-16 11:00:02 - [TEST_STEP][PASSED] - delay: Delayed 6 second(s)
+
+2018-01-16 11:00:08 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2018-01-16 11:00:08 - [TEST_STEP][FAILED] - tap: Failed to tap on element 'Object Repository/Support/android.view.ViewGroup5' (Root cause: No application is started yet.)
+
+2018-01-16 11:00:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-16 11:00:08 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/Support/android.view.ViewGroup5' (Root cause: No application is started yet.)]]></system-out>
+         <system-err><![CDATA[2018-01-16 11:00:01 - [TEST_CASE][FAILED] - Test Cases/For Test Suite/Terms and Conditions: Test Cases/For Test Suite/Terms and Conditions FAILED because (of) Failed to tap on element 'Object Repository/Support/android.view.ViewGroup5' (Root cause: No application is started yet.)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/For Test Suite/Favourites" classname="Test Cases/For Test Suite/Favourites" status="FAILED">
+         <failure type="FAILED" message="Failed to tap on element 'Object Repository/Favourtes/android.view.ViewGroup5' (Root cause: No application is started yet.)"/>
+         <system-out><![CDATA[2018-01-16 11:00:08 - [TEST_CASE][FAILED] - Test Cases/For Test Suite/Favourites: Test Cases/For Test Suite/Favourites FAILED because (of) Failed to tap on element 'Object Repository/Favourtes/android.view.ViewGroup5' (Root cause: No application is started yet.)
+
+2018-01-16 11:00:08 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-01-16 11:00:13 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-01-16 11:00:13 - [TEST_STEP][FAILED] - tap: Failed to tap on element 'Object Repository/Favourtes/android.view.ViewGroup5' (Root cause: No application is started yet.)
+
+2018-01-16 11:00:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-16 11:00:13 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/Favourtes/android.view.ViewGroup5' (Root cause: No application is started yet.)]]></system-out>
+         <system-err><![CDATA[2018-01-16 11:00:08 - [TEST_CASE][FAILED] - Test Cases/For Test Suite/Favourites: Test Cases/For Test Suite/Favourites FAILED because (of) Failed to tap on element 'Object Repository/Favourtes/android.view.ViewGroup5' (Root cause: No application is started yet.)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/For Test Suite/Cancell Trip Request" classname="Test Cases/For Test Suite/Cancell Trip Request" status="FAILED">
+         <failure type="FAILED" message="Failed to set text into element (Root cause: No application is started yet.)"/>
+         <system-out><![CDATA[2018-01-16 11:00:13 - [TEST_CASE][FAILED] - Test Cases/For Test Suite/Cancell Trip Request: Test Cases/For Test Suite/Cancell Trip Request FAILED because (of) Failed to set text into element (Root cause: No application is started yet.)
+
+2018-01-16 11:00:13 - [TEST_STEP][FAILED] - setText: Failed to set text into element (Root cause: No application is started yet.)
+
+2018-01-16 11:00:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-16 11:00:13 - [MESSAGE][FAILED] - Failed to set text into element (Root cause: No application is started yet.)]]></system-out>
+         <system-err><![CDATA[2018-01-16 11:00:13 - [TEST_CASE][FAILED] - Test Cases/For Test Suite/Cancell Trip Request: Test Cases/For Test Suite/Cancell Trip Request FAILED because (of) Failed to set text into element (Root cause: No application is started yet.)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/For Test Suite/Add Favourite Driver" classname="Test Cases/For Test Suite/Add Favourite Driver" status="FAILED">
+         <failure type="FAILED" message="Failed to set text into element (Root cause: No application is started yet.)"/>
+         <system-out><![CDATA[2018-01-16 11:00:13 - [TEST_CASE][FAILED] - Test Cases/For Test Suite/Add Favourite Driver: Test Cases/For Test Suite/Add Favourite Driver FAILED because (of) Failed to set text into element (Root cause: No application is started yet.)
+
+2018-01-16 11:00:13 - [TEST_STEP][FAILED] - setText: Failed to set text into element (Root cause: No application is started yet.)
+
+2018-01-16 11:00:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-16 11:00:13 - [MESSAGE][FAILED] - Failed to set text into element (Root cause: No application is started yet.)]]></system-out>
+         <system-err><![CDATA[2018-01-16 11:00:13 - [TEST_CASE][FAILED] - Test Cases/For Test Suite/Add Favourite Driver: Test Cases/For Test Suite/Add Favourite Driver FAILED because (of) Failed to set text into element (Root cause: No application is started yet.)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/For Test Suite/ActiveTrips" classname="Test Cases/For Test Suite/ActiveTrips" status="FAILED">
+         <failure type="FAILED" message="Failed to tap on element 'Object Repository/ActiveTrips/android.view.ViewGroup5' (Root cause: No application is started yet.)"/>
+         <system-out><![CDATA[2018-01-16 11:00:13 - [TEST_CASE][FAILED] - Test Cases/For Test Suite/ActiveTrips: Test Cases/For Test Suite/ActiveTrips FAILED because (of) Failed to tap on element 'Object Repository/ActiveTrips/android.view.ViewGroup5' (Root cause: No application is started yet.)
+
+2018-01-16 11:00:13 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-01-16 11:00:23 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-01-16 11:00:23 - [TEST_STEP][FAILED] - tap: Failed to tap on element 'Object Repository/ActiveTrips/android.view.ViewGroup5' (Root cause: No application is started yet.)
+
+2018-01-16 11:00:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-16 11:00:23 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/ActiveTrips/android.view.ViewGroup5' (Root cause: No application is started yet.)]]></system-out>
+         <system-err><![CDATA[2018-01-16 11:00:13 - [TEST_CASE][FAILED] - Test Cases/For Test Suite/ActiveTrips: Test Cases/For Test Suite/ActiveTrips FAILED because (of) Failed to tap on element 'Object Repository/ActiveTrips/android.view.ViewGroup5' (Root cause: No application is started yet.)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/For Test Suite/Accounts" classname="Test Cases/For Test Suite/Accounts" status="FAILED">
+         <failure type="FAILED" message="Failed to tap on element 'Object Repository/Accounts/android.view.ViewGroup5' (Root cause: No application is started yet.)"/>
+         <system-out><![CDATA[2018-01-16 11:00:24 - [TEST_CASE][FAILED] - Test Cases/For Test Suite/Accounts: Test Cases/For Test Suite/Accounts FAILED because (of) Failed to tap on element 'Object Repository/Accounts/android.view.ViewGroup5' (Root cause: No application is started yet.)
+
+2018-01-16 11:00:24 - [TEST_STEP][PASSED] - delay: Delayed 7 second(s)
+
+2018-01-16 11:00:31 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2018-01-16 11:00:31 - [TEST_STEP][FAILED] - tap: Failed to tap on element 'Object Repository/Accounts/android.view.ViewGroup5' (Root cause: No application is started yet.)
+
+2018-01-16 11:00:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-16 11:00:31 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/Accounts/android.view.ViewGroup5' (Root cause: No application is started yet.)]]></system-out>
+         <system-err><![CDATA[2018-01-16 11:00:24 - [TEST_CASE][FAILED] - Test Cases/For Test Suite/Accounts: Test Cases/For Test Suite/Accounts FAILED because (of) Failed to tap on element 'Object Repository/Accounts/android.view.ViewGroup5' (Root cause: No application is started yet.)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/For Test Suite/Support" classname="Test Cases/For Test Suite/Support" status="FAILED">
+         <failure type="FAILED" message="Failed to tap on element 'Object Repository/Support/android.view.ViewGroup5' (Root cause: No application is started yet.)"/>
+         <system-out><![CDATA[2018-01-16 11:00:31 - [TEST_CASE][FAILED] - Test Cases/For Test Suite/Support: Test Cases/For Test Suite/Support FAILED because (of) Failed to tap on element 'Object Repository/Support/android.view.ViewGroup5' (Root cause: No application is started yet.)
+
+2018-01-16 11:00:31 - [TEST_STEP][PASSED] - delay: Delayed 6 second(s)
+
+2018-01-16 11:00:37 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2018-01-16 11:00:37 - [TEST_STEP][FAILED] - tap: Failed to tap on element 'Object Repository/Support/android.view.ViewGroup5' (Root cause: No application is started yet.)
+
+2018-01-16 11:00:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-16 11:00:37 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/Support/android.view.ViewGroup5' (Root cause: No application is started yet.)]]></system-out>
+         <system-err><![CDATA[2018-01-16 11:00:31 - [TEST_CASE][FAILED] - Test Cases/For Test Suite/Support: Test Cases/For Test Suite/Support FAILED because (of) Failed to tap on element 'Object Repository/Support/android.view.ViewGroup5' (Root cause: No application is started yet.)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/For Test Suite/Accounts Edit" classname="Test Cases/For Test Suite/Accounts Edit" status="FAILED">
+         <failure type="FAILED" message="Failed to tap on element 'Object Repository/Accounts/android.view.ViewGroup5' (Root cause: No application is started yet.)"/>
+         <system-out><![CDATA[2018-01-16 11:00:37 - [TEST_CASE][FAILED] - Test Cases/For Test Suite/Accounts Edit: Test Cases/For Test Suite/Accounts Edit FAILED because (of) Failed to tap on element 'Object Repository/Accounts/android.view.ViewGroup5' (Root cause: No application is started yet.)
+
+2018-01-16 11:00:37 - [TEST_STEP][PASSED] - delay: Delayed 7 second(s)
+
+2018-01-16 11:00:44 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2018-01-16 11:00:44 - [TEST_STEP][FAILED] - tap: Failed to tap on element 'Object Repository/Accounts/android.view.ViewGroup5' (Root cause: No application is started yet.)
+
+2018-01-16 11:00:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-16 11:00:44 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/Accounts/android.view.ViewGroup5' (Root cause: No application is started yet.)]]></system-out>
+         <system-err><![CDATA[2018-01-16 11:00:37 - [TEST_CASE][FAILED] - Test Cases/For Test Suite/Accounts Edit: Test Cases/For Test Suite/Accounts Edit FAILED because (of) Failed to tap on element 'Object Repository/Accounts/android.view.ViewGroup5' (Root cause: No application is started yet.)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/For Test Suite/Accounts Change" classname="Test Cases/For Test Suite/Accounts Change" status="FAILED">
+         <failure type="FAILED" message="Failed to tap on element 'Object Repository/Accounts/android.view.ViewGroup5' (Root cause: No application is started yet.)"/>
+         <system-out><![CDATA[2018-01-16 11:00:44 - [TEST_CASE][FAILED] - Test Cases/For Test Suite/Accounts Change: Test Cases/For Test Suite/Accounts Change FAILED because (of) Failed to tap on element 'Object Repository/Accounts/android.view.ViewGroup5' (Root cause: No application is started yet.)
+
+2018-01-16 11:00:44 - [TEST_STEP][PASSED] - delay: Delayed 7 second(s)
+
+2018-01-16 11:00:51 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2018-01-16 11:00:51 - [TEST_STEP][FAILED] - tap: Failed to tap on element 'Object Repository/Accounts/android.view.ViewGroup5' (Root cause: No application is started yet.)
+
+2018-01-16 11:00:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-16 11:00:51 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/Accounts/android.view.ViewGroup5' (Root cause: No application is started yet.)]]></system-out>
+         <system-err><![CDATA[2018-01-16 11:00:44 - [TEST_CASE][FAILED] - Test Cases/For Test Suite/Accounts Change: Test Cases/For Test Suite/Accounts Change FAILED because (of) Failed to tap on element 'Object Repository/Accounts/android.view.ViewGroup5' (Root cause: No application is started yet.)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/For Test Suite/Sign Out" classname="Test Cases/For Test Suite/Sign Out" status="FAILED">
+         <failure type="FAILED" message="Failed to tap on element 'Object Repository/Sign out/android.view.ViewGroup5' (Root cause: No application is started yet.)"/>
+         <system-out><![CDATA[2018-01-16 11:00:51 - [TEST_CASE][FAILED] - Test Cases/For Test Suite/Sign Out: Test Cases/For Test Suite/Sign Out FAILED because (of) Failed to tap on element 'Object Repository/Sign out/android.view.ViewGroup5' (Root cause: No application is started yet.)
+
+2018-01-16 11:00:51 - [TEST_STEP][PASSED] - delay: Delayed 6 second(s)
+
+2018-01-16 11:00:57 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2018-01-16 11:00:57 - [TEST_STEP][FAILED] - tap: Failed to tap on element 'Object Repository/Sign out/android.view.ViewGroup5' (Root cause: No application is started yet.)
+
+2018-01-16 11:00:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-16 11:00:58 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/Sign out/android.view.ViewGroup5' (Root cause: No application is started yet.)]]></system-out>
+         <system-err><![CDATA[2018-01-16 11:00:51 - [TEST_CASE][FAILED] - Test Cases/For Test Suite/Sign Out: Test Cases/For Test Suite/Sign Out FAILED because (of) Failed to tap on element 'Object Repository/Sign out/android.view.ViewGroup5' (Root cause: No application is started yet.)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-01-16 10:59:33 - [TEST_SUITE][FAILED] - BCONMobile: Test Cases/For Test Suite/ProfileChange FAILED because (of) Failed to tap on element 'Object Repository/ProfileChange/android.view.ViewGroup5' (Root cause: No application is started yet.)]]></system-out>
+      <system-err><![CDATA[2018-01-16 10:59:33 - [TEST_SUITE][FAILED] - BCONMobile: Test Cases/For Test Suite/ProfileChange FAILED because (of) Failed to tap on element 'Object Repository/ProfileChange/android.view.ViewGroup5' (Root cause: No application is started yet.)]]></system-err>
+   </testsuite>
+</testsuites>
