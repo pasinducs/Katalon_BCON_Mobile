@@ -41,5 +41,13 @@ Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Driver/Trip History/android.widget.ImageView2'), 0)
 
+Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+
 Mobile.checkElement(findTestObject('Driver/Trip History/android.widget.TextView6 - Pick up'), 0)
+
+Mobile.tap(findTestObject('Driver/Dashborad/android.view.ViewGroup4'), 0)
+
+Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.tap(findTestObject('Driver/Dashborad/android.view.ViewGroup4'), 0)
 
