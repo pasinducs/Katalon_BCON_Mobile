@@ -21,19 +21,23 @@ import internal.GlobalVariable as GlobalVariable
 
 Mobile.startApplication('C:\\Users\\Pasindu\\Desktop\\Avonet\\drive-download-20180104T074633Z-001\\app-driver.apk', true)
 
-Mobile.tap(findTestObject('Driver/Sign In/android.view.ViewGroup6'), 0)
+Mobile.tap(findTestObject('Driver/Trip History/android.view.ViewGroup6'), 0)
 
-Mobile.setText(findTestObject('Driver/Sign In/android.view.ViewGroup4'), '0766500626', 0)
+Mobile.setText(findTestObject('Driver/Trip History/android.view.ViewGroup4'), '0766500626', 0)
 
-Mobile.setText(findTestObject('Driver/Sign In/android.view.ViewGroup6 (1)'), 'Dilan6370', 0)
+Mobile.setText(findTestObject('Driver/Trip History/android.view.ViewGroup6 (1)'), 'Dilan6370', 0)
 
-Mobile.tap(findTestObject('Driver/Sign In/android.view.ViewGroup9'), 0)
+Mobile.tap(findTestObject('Driver/Trip History/android.view.ViewGroup9'), 0)
 
-Mobile.tap(findTestObject('Driver/Sign In/android.view.ViewGroup9 (1)'), 0)
+Mobile.tap(findTestObject('Driver/Trip History/android.view.ViewGroup9 (1)'), 0)
 
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Driver/Get Road pickup/android.view.ViewGroup6'), 0)
+Mobile.tap(findTestObject('Driver/Trip History/android.view.ViewGroup5'), 0)
 
-Mobile.tap(findTestObject('Driver/Get Road pickup/android.view.ViewGroup8'), 0)
+Mobile.tap(findTestObject('Driver/Trip History/android.view.ViewGroup16'), 0)
+
+Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.checkElement(findTestObject('Driver/Trip History/android.view.ViewGroup5 (1)'), 0)
 

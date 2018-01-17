@@ -31,5 +31,5 @@ Mobile.tap(findTestObject('Driver/Sign In/android.view.ViewGroup9'), 0)
 
 Mobile.tap(findTestObject('Driver/Sign In/android.view.ViewGroup9 (1)'), 0)
 
-Mobile.checkElement(findTestObject('Driver/Sign In/android.widget.TextView1 - BCON'), 0)
+Mobile.checkElement(findTestObject('Driver/Switch on Trafic Map/android.view.ViewGroup4'), 0)
 

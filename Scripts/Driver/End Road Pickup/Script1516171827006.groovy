@@ -47,5 +47,5 @@ Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Driver/Get Road pickup/android.view.ViewGroup5'), 0)
 
-Mobile.checkElement(findTestObject('Driver/Get Road pickup/android.widget.TextView1 - BCON'), 0)
+Mobile.checkElement(findTestObject('Driver/Switch on Trafic Map/android.view.ViewGroup4'), 0)
 

@@ -33,7 +33,7 @@ Mobile.tap(findTestObject('Driver/Sign In/android.view.ViewGroup9 (1)'), 0)
 
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Driver/Get Road pickup/android.view.ViewGroup6'), 0)
+Mobile.tap(findTestObject('Driver/Switch on Trafic Map/android.view.ViewGroup7'), 0)
 
-Mobile.tap(findTestObject('Driver/Get Road pickup/android.view.ViewGroup8'), 0)
+Mobile.checkElement(findTestObject('Driver/Switch on Trafic Map/android.view.ViewGroup4'), 0)
 
