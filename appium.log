@@ -1,10 +1,10 @@
 [Appium] Welcome to Appium v1.7.2
 [Appium] Non-default server args:
-[Appium]   port: 61996
+[Appium]   port: 54875
 [Appium]   loglevel: info
-[Appium]   chromeDriverPort: 61997
-[Appium]   tmpDir: C:\Users\Pasindu\AppData\Local\Temp\\Katalon\Appium\Temp1516186128267
-[Appium] Appium REST http interface listener started on 0.0.0.0:61996
+[Appium]   chromeDriverPort: 54876
+[Appium]   tmpDir: C:\Users\Pasindu\AppData\Local\Temp\\Katalon\Appium\Temp1516255609013
+[Appium] Appium REST http interface listener started on 0.0.0.0:54875
 [HTTP] --> GET /wd/hub/status {}
 [HTTP] <-- GET /wd/hub/status 200 8 ms - 72 
 [HTTP] --> GET /wd/hub/status {}
@@ -23,7 +23,7 @@
 [Appium]   platformName: android
 [Appium]   udid: 421041ecd284741f
 [BaseDriver] The following capabilities were provided, but are not recognized by appium: platform.
-[BaseDriver] Session created with session id: ec0683b1-0cca-4dbc-987e-2021eee02dca
+[BaseDriver] Session created with session id: f5dc5052-7bee-4385-abad-842f80319980
 [AndroidDriver] Java version is: 1.8.0_102
 [ADB] Checking whether adb is present
 [ADB] Using adb.exe from C:\Users\Pasindu\.katalon\tools\android_sdk\platform-tools\adb.exe
@@ -43,340 +43,894 @@
 [AndroidDriver] Remote apk path is /data/local/tmp/f27e262b5b2c4f78ef1b50a2d421f703.apk
 [ADB] Checking whether aapt is present
 [ADB] Extracting package and launch activity from manifest
-[ADB] Cannot kill process 13167 in 1000 ms. Trying to force kill...
+[ADB] Cannot kill process 32344 in 1000 ms. Trying to force kill...
 [AndroidBootstrap] Android bootstrap socket is now connected
 [AndroidDriver] Screen already unlocked, doing nothing
-[Appium] New AndroidDriver session created successfully, session ec0683b1-0cca-4dbc-987e-2021eee02dca added to master session list
-[HTTP] <-- POST /wd/hub/session 200 61963 ms - 1172 
+[Appium] New AndroidDriver session created successfully, session f5dc5052-7bee-4385-abad-842f80319980 added to master session list
+[HTTP] <-- POST /wd/hub/session 200 61812 ms - 1172 
 [HTTP] --> GET /wd/hub/status {}
 [HTTP] <-- GET /wd/hub/status 200 4 ms - 83 
-[HTTP] --> POST /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/timeouts {"type":"implicit","ms":60000}
-[HTTP] <-- POST /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/timeouts 200 7 ms - 76 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/source {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/source 200 81 ms - 2256 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/screenshot {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/screenshot 200 761 ms - 22182 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/source {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/source 200 59 ms - 7632 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/screenshot {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/screenshot 200 772 ms - 48930 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/window/current/size {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/window/current/size 200 10 ms - 99 
-[HTTP] --> POST /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/elements {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]"}
-[HTTP] <-- POST /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/elements 200 92 ms - 89 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca 200 2 ms - 1172 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca 200 2 ms - 1172 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca 200 1 ms - 1172 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca 200 2 ms - 1172 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/element/1/location {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/element/1/location 200 10 ms - 89 
-[HTTP] --> POST /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/touch/perform {"actions":[{"action":"tap","options":{"element":"1","x":1,"y":1}}]}
-[HTTP] <-- POST /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/touch/perform 200 338 ms - 76 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/source {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/source 200 70 ms - 9684 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/screenshot {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/screenshot 200 710 ms - 62110 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/window/current/size {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/window/current/size 200 10 ms - 99 
-[HTTP] --> POST /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/elements {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]"}
-[HTTP] <-- POST /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/elements 200 86 ms - 89 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca 200 2 ms - 1172 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca 200 2 ms - 1172 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca 200 1 ms - 1172 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca 200 2 ms - 1172 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/element/2/location {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/element/2/location 200 14 ms - 89 
-[HTTP] --> POST /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/element/2/clear {"id":"2"}
-[HTTP] <-- POST /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/element/2/clear 200 8269 ms - 76 
-[HTTP] --> POST /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/element/2/value {"id":"2","value":["0766500626"]}
-[HTTP] <-- POST /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/element/2/value 200 5199 ms - 76 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/source {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/source 200 92 ms - 9234 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/screenshot {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/screenshot 200 781 ms - 118610 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/window/current/size {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/window/current/size 200 8 ms - 99 
-[HTTP] --> POST /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/elements {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]"}
-[HTTP] <-- POST /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/elements 200 73 ms - 89 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca 200 2 ms - 1172 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca 200 2 ms - 1172 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca 200 2 ms - 1172 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca 200 2 ms - 1172 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/element/3/location {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/element/3/location 200 14 ms - 89 
-[HTTP] --> POST /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/element/3/clear {"id":"3"}
-[HTTP] <-- POST /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/element/3/clear 200 5330 ms - 76 
-[HTTP] --> POST /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/element/3/value {"id":"3","value":["Dilan6370"]}
-[HTTP] <-- POST /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/element/3/value 200 6009 ms - 76 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/source {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/source 200 71 ms - 9234 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/screenshot {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/screenshot 200 746 ms - 135258 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/window/current/size {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/window/current/size 200 9 ms - 99 
-[HTTP] --> POST /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/elements {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[3]"}
-[HTTP] <-- POST /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/elements 200 108 ms - 89 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca 200 2 ms - 1172 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca 200 2 ms - 1172 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca 200 2 ms - 1172 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca 200 1 ms - 1172 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/element/4/location {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/element/4/location 200 19 ms - 89 
-[HTTP] --> POST /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/touch/perform {"actions":[{"action":"tap","options":{"element":"4","x":1,"y":1}}]}
-[HTTP] <-- POST /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/touch/perform 200 252 ms - 76 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/source {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/source 200 65 ms - 9681 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/screenshot {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/screenshot 200 712 ms - 61082 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/window/current/size {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/window/current/size 200 9 ms - 99 
-[HTTP] --> POST /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/elements {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[3]"}
-[HTTP] <-- POST /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/elements 200 95 ms - 89 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca 200 2 ms - 1172 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca 200 2 ms - 1172 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca 200 3 ms - 1172 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca 200 2 ms - 1172 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/element/5/location {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/element/5/location 200 17 ms - 89 
-[HTTP] --> POST /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/touch/perform {"actions":[{"action":"tap","options":{"element":"5","x":1,"y":1}}]}
-[HTTP] <-- POST /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/touch/perform 200 286 ms - 76 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/source {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/source 200 104 ms - 10509 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/screenshot {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/screenshot 200 754 ms - 61426 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/source {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/source 200 76 ms - 10942 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/screenshot {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/screenshot 200 857 ms - 277406 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/window/current/size {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/window/current/size 200 6 ms - 99 
-[HTTP] --> POST /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/elements {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.support.v4.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]"}
-[HTTP] <-- POST /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/elements 200 476 ms - 89 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca 200 2 ms - 1172 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca 200 2 ms - 1172 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca 200 2 ms - 1172 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca 200 2 ms - 1172 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/element/6/location {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/element/6/location 200 24 ms - 86 
-[HTTP] --> POST /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/touch/perform {"actions":[{"action":"tap","options":{"element":"6","x":1,"y":1}}]}
-[HTTP] <-- POST /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/touch/perform 200 342 ms - 76 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/source {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/source 200 93 ms - 27265 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/screenshot {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/screenshot 200 717 ms - 152666 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/window/current/size {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/window/current/size 200 6 ms - 99 
-[HTTP] --> POST /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/elements {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.support.v4.widget.DrawerLayout[1]/android.view.ViewGroup[2]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[5]"}
-[HTTP] <-- POST /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/elements 200 490 ms - 89 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca 200 2 ms - 1172 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca 200 2 ms - 1172 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca 200 2 ms - 1172 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca 200 1 ms - 1172 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/element/7/location {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/element/7/location 200 44 ms - 87 
-[HTTP] --> POST /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/touch/perform {"actions":[{"action":"tap","options":{"element":"7","x":1,"y":1}}]}
-[HTTP] <-- POST /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/touch/perform 200 341 ms - 76 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/source {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/source 200 148 ms - 17223 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/screenshot {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/screenshot 200 711 ms - 120326 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/window/current/size {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/window/current/size 200 10 ms - 99 
-[HTTP] --> POST /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/elements {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.ViewGroup[2]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[3]"}
-[HTTP] <-- POST /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/elements 200 60121 ms - 74 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/source {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/source 200 52 ms - 14738 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/screenshot {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/screenshot 200 694 ms - 116926 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/window/current/size {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/window/current/size 200 8 ms - 99 
-[HTTP] --> POST /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/elements {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[3]"}
-[HTTP] <-- POST /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/elements 200 87 ms - 89 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca 200 2 ms - 1172 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca 200 1 ms - 1172 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca 200 1 ms - 1172 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca 200 1 ms - 1172 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/element/8/location {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/element/8/location 200 20 ms - 88 
-[HTTP] --> POST /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/element/8/clear {"id":"8"}
-[HTTP] <-- POST /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/element/8/clear 200 4785 ms - 76 
-[HTTP] --> POST /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/element/8/value {"id":"8","value":["Hello"]}
-[HTTP] <-- POST /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/element/8/value 200 5668 ms - 76 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/source {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/source 200 129 ms - 13508 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/screenshot {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/screenshot 200 743 ms - 199506 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/context {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/context 200 2 ms - 84 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/contexts {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/contexts 200 117 ms - 86 
-[HTTP] --> POST /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/context {"name":"NATIVE_APP"}
-[HTTP] <-- POST /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/context 200 122 ms - 76 
-[HTTP] --> POST /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/appium/device/hide_keyboard {}
-[HTTP] <-- POST /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/appium/device/hide_keyboard 200 299 ms - 76 
-[HTTP] --> POST /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/context {"name":"NATIVE_APP"}
-[HTTP] <-- POST /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/context 200 107 ms - 76 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/source {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/source 200 103 ms - 14735 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/screenshot {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/screenshot 200 668 ms - 115146 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/window/current/size {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/window/current/size 200 5 ms - 99 
-[HTTP] --> POST /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/elements {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]"}
-[HTTP] <-- POST /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/elements 200 442 ms - 89 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca 200 2 ms - 1172 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca 200 2 ms - 1172 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca 200 2 ms - 1172 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca 200 2 ms - 1172 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/element/9/location {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/element/9/location 200 41 ms - 88 
-[HTTP] --> POST /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/element/9/clear {"id":"9"}
-[HTTP] <-- POST /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/element/9/clear 200 4851 ms - 76 
-[HTTP] --> POST /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/element/9/value {"id":"9","value":["Good passenger"]}
-[HTTP] <-- POST /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/element/9/value 200 7144 ms - 76 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/source {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/source 200 94 ms - 11334 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/screenshot {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/screenshot 200 709 ms - 147578 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/context {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/context 200 3 ms - 84 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/contexts {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/contexts 200 158 ms - 86 
-[HTTP] --> POST /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/context {"name":"NATIVE_APP"}
-[HTTP] <-- POST /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/context 200 106 ms - 76 
-[HTTP] --> POST /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/appium/device/hide_keyboard {}
-[HTTP] <-- POST /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/appium/device/hide_keyboard 200 439 ms - 76 
-[HTTP] --> POST /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/context {"name":"NATIVE_APP"}
-[HTTP] <-- POST /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/context 200 169 ms - 76 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/source {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/source 200 69 ms - 14733 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/screenshot {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/screenshot 200 672 ms - 117202 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/window/current/size {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/window/current/size 200 8 ms - 99 
-[HTTP] --> POST /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/elements {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[5]"}
-[HTTP] <-- POST /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/elements 200 229 ms - 90 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca 200 2 ms - 1172 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca 200 1 ms - 1172 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca 200 1 ms - 1172 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca 200 1 ms - 1172 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/element/10/location {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/element/10/location 200 34 ms - 89 
-[HTTP] --> POST /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/touch/perform {"actions":[{"action":"tap","options":{"element":"10","x":1,"y":1}}]}
-[HTTP] <-- POST /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/touch/perform 200 364 ms - 76 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/source {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/source 200 87 ms - 14734 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/screenshot {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/screenshot 200 662 ms - 117194 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/window/current/size {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/window/current/size 200 8 ms - 99 
-[HTTP] --> POST /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/elements {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[5]"}
-[HTTP] <-- POST /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/elements 200 504 ms - 90 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca 200 2 ms - 1172 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca 200 2 ms - 1172 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca 200 2 ms - 1172 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca 200 1 ms - 1172 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/element/11/location {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/element/11/location 200 38 ms - 89 
-[HTTP] --> POST /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/touch/perform {"actions":[{"action":"tap","options":{"element":"11","x":1,"y":1}}]}
-[HTTP] <-- POST /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/touch/perform 200 342 ms - 76 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/source {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/source 200 59 ms - 4770 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/screenshot {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/screenshot 200 650 ms - 111622 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/source {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/source 200 83 ms - 14738 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/screenshot {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/screenshot 200 669 ms - 116890 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/window/current/size {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/window/current/size 200 6 ms - 99 
-[HTTP] --> POST /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/elements {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]"}
-[HTTP] <-- POST /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/elements 200 89 ms - 90 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca 200 2 ms - 1172 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca 200 2 ms - 1172 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca 200 2 ms - 1172 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca 200 2 ms - 1172 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/element/12/location {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/element/12/location 200 15 ms - 86 
-[HTTP] --> POST /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/touch/perform {"actions":[{"action":"tap","options":{"element":"12","x":1,"y":1}}]}
-[HTTP] <-- POST /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/touch/perform 200 873 ms - 76 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/source {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/source 200 73 ms - 10942 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/screenshot {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/screenshot 200 853 ms - 274186 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/source {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/source 200 101 ms - 14738 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/screenshot {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/screenshot 200 720 ms - 116890 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/window/current/size {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/window/current/size 200 6 ms - 99 
-[HTTP] --> POST /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/elements {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]"}
-[HTTP] <-- POST /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/elements 200 492 ms - 90 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca 200 2 ms - 1172 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca 200 1 ms - 1172 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca 200 1 ms - 1172 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca 200 1 ms - 1172 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/element/13/location {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/element/13/location 200 35 ms - 88 
-[HTTP] --> POST /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/touch/perform {"actions":[{"action":"tap","options":{"element":"13","x":1,"y":1}}]}
-[HTTP] <-- POST /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/touch/perform 200 315 ms - 76 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/source {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/source 200 89 ms - 14738 
-[HTTP] --> GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/screenshot {}
-[HTTP] <-- GET /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca/screenshot 200 652 ms - 116890 
-[HTTP] --> DELETE /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca {}
-[Appium] Removing session ec0683b1-0cca-4dbc-987e-2021eee02dca from our master session list
+[HTTP] --> POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/timeouts {"type":"implicit","ms":60000}
+[HTTP] <-- POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/timeouts 200 7 ms - 76 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/source {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/source 200 88 ms - 2256 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/screenshot {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/screenshot 200 707 ms - 21526 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/source {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/source 200 63 ms - 7632 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/screenshot {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/screenshot 200 679 ms - 48870 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/window/current/size 200 10 ms - 99 
+[HTTP] --> POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/elements {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]"}
+[HTTP] <-- POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/elements 200 89 ms - 89 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 3 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 2 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 2 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 2 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/element/1/location {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/element/1/location 200 9 ms - 89 
+[HTTP] --> POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/touch/perform {"actions":[{"action":"tap","options":{"element":"1","x":1,"y":1}}]}
+[HTTP] <-- POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/touch/perform 200 379 ms - 76 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/source {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/source 200 67 ms - 9684 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/screenshot {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/screenshot 200 701 ms - 61818 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/window/current/size 200 8 ms - 99 
+[HTTP] --> POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/elements {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/elements 200 91 ms - 89 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 2 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 3 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 1 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 2 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/element/2/location {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/element/2/location 200 13 ms - 89 
+[HTTP] --> POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/touch/perform {"actions":[{"action":"tap","options":{"element":"2","x":1,"y":1}}]}
+[HTTP] <-- POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/touch/perform 200 343 ms - 76 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/source {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/source 200 40 ms - 9237 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/screenshot {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/screenshot 200 746 ms - 115658 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/window/current/size 200 10 ms - 99 
+[HTTP] --> POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/elements {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.EditText[1]"}
+[HTTP] <-- POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/elements 200 95 ms - 89 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 2 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 2 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 2 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 2 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/element/3/location {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/element/3/location 200 21 ms - 89 
+[HTTP] --> POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/element/3/clear {"id":"3"}
+[HTTP] <-- POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/element/3/clear 200 5390 ms - 76 
+[HTTP] --> POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/element/3/value {"id":"3","value":["0766500626"]}
+[HTTP] <-- POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/element/3/value 200 5297 ms - 76 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/source {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/source 200 83 ms - 9234 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/screenshot {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/screenshot 200 845 ms - 117754 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/window/current/size 200 8 ms - 99 
+[HTTP] --> POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/elements {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]"}
+[HTTP] <-- POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/elements 200 98 ms - 89 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 2 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 2 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 2 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 2 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/element/4/location {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/element/4/location 200 15 ms - 89 
+[HTTP] --> POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/element/4/clear {"id":"4"}
+[HTTP] <-- POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/element/4/clear 200 5416 ms - 76 
+[HTTP] --> POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/element/4/value {"id":"4","value":["Dilan6370"]}
+[HTTP] <-- POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/element/4/value 200 5576 ms - 76 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/source {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/source 200 78 ms - 9234 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/screenshot {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/screenshot 200 790 ms - 134910 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/window/current/size 200 8 ms - 99 
+[HTTP] --> POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/elements {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[3]"}
+[HTTP] <-- POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/elements 200 109 ms - 89 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 2 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 3 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 2 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 1 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/element/5/location {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/element/5/location 200 28 ms - 89 
+[HTTP] --> POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/touch/perform {"actions":[{"action":"tap","options":{"element":"5","x":1,"y":1}}]}
+[HTTP] <-- POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/touch/perform 200 276 ms - 76 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/source {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/source 200 66 ms - 9681 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/screenshot {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/screenshot 200 679 ms - 60382 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/window/current/size 200 9 ms - 99 
+[HTTP] --> POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/elements {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[3]"}
+[HTTP] <-- POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/elements 200 93 ms - 89 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 2 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 2 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 2 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 3 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/element/6/location {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/element/6/location 200 15 ms - 89 
+[HTTP] --> POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/touch/perform {"actions":[{"action":"tap","options":{"element":"6","x":1,"y":1}}]}
+[HTTP] <-- POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/touch/perform 200 267 ms - 76 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/source {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/source 200 72 ms - 10509 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/screenshot {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/screenshot 200 681 ms - 60886 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/source {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/source 200 69 ms - 10942 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/screenshot {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/screenshot 200 1193 ms - 902734 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/window/current/size 200 8 ms - 99 
+[HTTP] --> POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/elements {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.support.v4.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/elements 200 94 ms - 89 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 2 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 1 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 2 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 1 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/element/7/location {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/element/7/location 200 15 ms - 86 
+[HTTP] --> POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/touch/perform {"actions":[{"action":"tap","options":{"element":"7","x":1,"y":1}}]}
+[HTTP] <-- POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/touch/perform 200 327 ms - 76 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/source {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/source 200 188 ms - 27265 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/screenshot {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/screenshot 200 760 ms - 233102 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/window/current/size 200 5 ms - 99 
+[HTTP] --> POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/elements {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.support.v4.widget.DrawerLayout[1]/android.view.ViewGroup[2]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[3]"}
+[HTTP] <-- POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/elements 200 85 ms - 89 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 2 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 2 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 1 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 1 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/element/8/location {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/element/8/location 200 14 ms - 87 
+[HTTP] --> POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/touch/perform {"actions":[{"action":"tap","options":{"element":"8","x":1,"y":1}}]}
+[HTTP] <-- POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/touch/perform 200 933 ms - 76 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/source {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/source 200 165 ms - 26621 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/screenshot {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/screenshot 200 687 ms - 64706 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/window/current/size 200 9 ms - 99 
+[HTTP] --> POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/elements {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.support.v4.view.ViewPager[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]"}
+[HTTP] <-- POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/elements 200 114 ms - 89 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 2 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 2 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 2 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 2 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/element/9/location {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/element/9/location 200 21 ms - 88 
+[HTTP] --> POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/element/9/clear {"id":"9"}
+[HTTP] <-- POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/element/9/clear 200 5777 ms - 76 
+[HTTP] --> POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/element/9/value {"id":"9","value":["Lakshan"]}
+[HTTP] <-- POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/element/9/value 200 5168 ms - 76 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/source {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/source 200 195 ms - 22056 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/screenshot {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/screenshot 200 803 ms - 185702 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/context {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/context 200 4 ms - 84 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/contexts {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/contexts 200 156 ms - 86 
+[HTTP] --> POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/context {"name":"NATIVE_APP"}
+[HTTP] <-- POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/context 200 117 ms - 76 
+[HTTP] --> POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/appium/device/hide_keyboard {}
+[HTTP] <-- POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/appium/device/hide_keyboard 200 212 ms - 76 
+[HTTP] --> POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/context {"name":"NATIVE_APP"}
+[HTTP] <-- POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/context 200 124 ms - 76 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/source {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/source 200 173 ms - 33536 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/screenshot {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/screenshot 200 822 ms - 118498 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/window/current/size 200 6 ms - 99 
+[HTTP] --> POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/elements {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.support.v4.view.ViewPager[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[3]"}
+[HTTP] <-- POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/elements 200 102 ms - 90 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 4 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 2 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 2 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 2 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/element/10/location {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/element/10/location 200 17 ms - 88 
+[HTTP] --> POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/element/10/clear {"id":"10"}
+[HTTP] <-- POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/element/10/clear 200 5123 ms - 76 
+[HTTP] --> POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/element/10/value {"id":"10","value":["supun"]}
+[HTTP] <-- POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/element/10/value 200 7027 ms - 76 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/source {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/source 200 155 ms - 23688 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/screenshot {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/screenshot 200 727 ms - 159930 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/source {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/source 200 202 ms - 35169 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/screenshot {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/screenshot 200 667 ms - 94886 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/window/current/size 200 7 ms - 99 
+[HTTP] --> POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/elements {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.support.v4.view.ViewPager[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[3]"}
+[HTTP] <-- POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/elements 200 120 ms - 90 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 3 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 2 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 1 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 3 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/element/11/location {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/element/11/location 200 18 ms - 88 
+[HTTP] --> POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/element/11/clear {"id":"11"}
+[HTTP] <-- POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/element/11/clear 200 5358 ms - 76 
+[HTTP] --> POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/element/11/value {"id":"11","value":["supun"]}
+[HTTP] <-- POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/element/11/value 200 5059 ms - 76 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/source {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/source 200 189 ms - 23684 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/screenshot {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/screenshot 200 738 ms - 154682 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/context {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/context 200 2 ms - 84 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/contexts {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/contexts 200 106 ms - 86 
+[HTTP] --> POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/context {"name":"NATIVE_APP"}
+[HTTP] <-- POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/context 200 122 ms - 76 
+[HTTP] --> POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/appium/device/hide_keyboard {}
+[HTTP] <-- POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/appium/device/hide_keyboard 200 203 ms - 76 
+[HTTP] --> POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/context {"name":"NATIVE_APP"}
+[HTTP] <-- POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/context 200 121 ms - 76 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/source {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/source 200 219 ms - 35164 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/screenshot {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/screenshot 200 651 ms - 93294 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/window/current/size 200 7 ms - 99 
+[HTTP] --> POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/elements {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.support.v4.view.ViewPager[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/elements 200 99 ms - 90 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 2 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 2 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 2 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 1 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/element/12/location {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/element/12/location 200 18 ms - 88 
+[HTTP] --> POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/touch/perform {"actions":[{"action":"tap","options":{"element":"12","x":1,"y":1}}]}
+[HTTP] <-- POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/touch/perform 200 175 ms - 76 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/source {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/source 200 390 ms - 35996 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/screenshot {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/screenshot 200 731 ms - 110242 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/source {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/source 200 129 ms - 31505 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/screenshot {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/screenshot 200 717 ms - 167566 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/source {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/source 200 140 ms - 33179 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/screenshot {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/screenshot 200 642 ms - 121690 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/window/current/size 200 6 ms - 99 
+[HTTP] --> POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/elements {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.support.v4.view.ViewPager[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]"}
+[HTTP] <-- POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/elements 200 115 ms - 90 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 2 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 2 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 2 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 1 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/element/13/location {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/element/13/location 200 26 ms - 88 
+[HTTP] --> POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/touch/perform {"actions":[{"action":"tap","options":{"element":"13","x":1,"y":1}}]}
+[HTTP] <-- POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/touch/perform 200 222 ms - 76 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/source {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/source 200 135 ms - 33179 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/screenshot {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/screenshot 200 703 ms - 121526 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/window/current/size 200 5 ms - 99 
+[HTTP] --> POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/elements {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.support.v4.view.ViewPager[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]"}
+[HTTP] <-- POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/elements 200 100 ms - 90 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 2 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 2 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 2 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 1 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/element/14/location {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/element/14/location 200 27 ms - 88 
+[HTTP] --> POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/touch/perform {"actions":[{"action":"tap","options":{"element":"14","x":1,"y":1}}]}
+[HTTP] <-- POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/touch/perform 200 201 ms - 76 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/source {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/source 200 54 ms - 8746 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/screenshot {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/screenshot 200 669 ms - 99382 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/window/current/size 200 13 ms - 99 
+[HTTP] --> POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/elements {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.DatePicker[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.NumberPicker[3]/android.widget.Button[1]"}
+[HTTP] <-- POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/elements 200 105 ms - 90 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 2 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 2 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 1 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 2 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/element/15/location {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/element/15/location 200 9 ms - 89 
+[HTTP] --> POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/touch/perform {"actions":[{"action":"tap","options":{"element":"15","x":1,"y":1}}]}
+[HTTP] <-- POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/touch/perform 200 3131 ms - 76 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/source {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/source 200 43 ms - 8746 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/screenshot {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/screenshot 200 680 ms - 99382 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/window/current/size 200 6 ms - 99 
+[HTTP] --> POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/elements {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.DatePicker[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.NumberPicker[3]/android.widget.Button[1]"}
+[HTTP] <-- POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/elements 200 87 ms - 90 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 2 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 1 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 2 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 2 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/element/16/location {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/element/16/location 200 11 ms - 89 
+[HTTP] --> POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/touch/perform {"actions":[{"action":"tap","options":{"element":"16","x":1,"y":1}}]}
+[HTTP] <-- POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/touch/perform 200 3163 ms - 76 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/source {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/source 200 66 ms - 8746 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/screenshot {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/screenshot 200 669 ms - 99382 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/window/current/size 200 9 ms - 99 
+[HTTP] --> POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/elements {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.DatePicker[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.NumberPicker[1]/android.widget.Button[1]"}
+[HTTP] <-- POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/elements 200 59 ms - 90 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 2 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 2 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 2 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 1 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/element/17/location {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/element/17/location 200 11 ms - 89 
+[HTTP] --> POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/touch/perform {"actions":[{"action":"tap","options":{"element":"17","x":1,"y":1}}]}
+[HTTP] <-- POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/touch/perform 200 3135 ms - 76 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/source {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/source 200 47 ms - 8746 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/screenshot {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/screenshot 200 655 ms - 99458 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/window/current/size 200 8 ms - 99 
+[HTTP] --> POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/elements {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[2]"}
+[HTTP] <-- POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/elements 200 102 ms - 90 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 2 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 2 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 2 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 2 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/element/18/location {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/element/18/location 200 16 ms - 89 
+[HTTP] --> POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/touch/perform {"actions":[{"action":"tap","options":{"element":"18","x":1,"y":1}}]}
+[HTTP] <-- POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/touch/perform 200 238 ms - 76 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/source {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/source 200 146 ms - 33185 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/screenshot {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/screenshot 200 631 ms - 124102 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/window/current/size 200 6 ms - 99 
+[HTTP] --> POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/elements {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.support.v4.view.ViewPager[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[3]"}
+[HTTP] <-- POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/elements 200 100 ms - 90 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 1 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 1 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 1 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 1 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/element/19/location {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/element/19/location 200 24 ms - 88 
+[HTTP] --> POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/element/19/clear {"id":"19"}
+[HTTP] <-- POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/element/19/clear 200 5193 ms - 76 
+[HTTP] --> POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/element/19/value {"id":"19","value":["954566540V"]}
+[HTTP] <-- POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/element/19/value 200 6160 ms - 76 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/source {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/source 200 205 ms - 27760 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/screenshot {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/screenshot 200 769 ms - 169338 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/context {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/context 200 3 ms - 84 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/contexts {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/contexts 200 115 ms - 86 
+[HTTP] --> POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/context {"name":"NATIVE_APP"}
+[HTTP] <-- POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/context 200 106 ms - 76 
+[HTTP] --> POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/appium/device/hide_keyboard {}
+[HTTP] <-- POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/appium/device/hide_keyboard 200 195 ms - 76 
+[HTTP] --> POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/context {"name":"NATIVE_APP"}
+[HTTP] <-- POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/context 200 113 ms - 76 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/source {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/source 200 194 ms - 34818 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/screenshot {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/screenshot 200 647 ms - 121310 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/window/current/size 200 12 ms - 99 
+[HTTP] --> POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/elements {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.support.v4.view.ViewPager[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]"}
+[HTTP] <-- POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/elements 200 134 ms - 90 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 2 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 1 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 1 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 2 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/element/20/location {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/element/20/location 200 31 ms - 88 
+[HTTP] --> POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/element/20/clear {"id":"20"}
+[HTTP] <-- POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/element/20/clear 200 5622 ms - 76 
+[HTTP] --> POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/element/20/value {"id":"20","value":["0715645545"]}
+[HTTP] <-- POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/element/20/value 200 7115 ms - 76 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/source {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/source 200 229 ms - 24539 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/screenshot {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/screenshot 200 707 ms - 150134 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/source {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/source 200 153 ms - 29930 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/screenshot {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/screenshot 200 645 ms - 124258 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/window/current/size 200 8 ms - 99 
+[HTTP] --> POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/elements {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.support.v4.view.ViewPager[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[3]"}
+[HTTP] <-- POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/elements 200 126 ms - 90 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 2 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 1 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 2 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 2 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/element/21/location {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/element/21/location 200 20 ms - 88 
+[HTTP] --> POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/element/21/clear {"id":"21"}
+[HTTP] <-- POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/element/21/clear 200 5228 ms - 76 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/source {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/source 200 133 ms - 24545 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/screenshot {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/screenshot 200 742 ms - 148366 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/window/current/size 200 9 ms - 99 
+[HTTP] --> POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/elements {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.support.v4.view.ViewPager[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[3]"}
+[HTTP] <-- POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/elements 200 126 ms - 90 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 2 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 1 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 1 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 1 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/element/22/location {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/element/22/location 200 20 ms - 88 
+[HTTP] --> POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/element/22/clear {"id":"22"}
+[HTTP] <-- POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/element/22/clear 200 5362 ms - 76 
+[HTTP] --> POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/element/22/value {"id":"22","value":["0515645545"]}
+[HTTP] <-- POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/element/22/value 200 5408 ms - 76 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/source {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/source 200 170 ms - 24531 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/screenshot {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/screenshot 200 694 ms - 144570 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/context {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/context 200 3 ms - 84 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/contexts {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/contexts 200 170 ms - 86 
+[HTTP] --> POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/context {"name":"NATIVE_APP"}
+[HTTP] <-- POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/context 200 120 ms - 76 
+[HTTP] --> POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/appium/device/hide_keyboard {}
+[HTTP] <-- POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/appium/device/hide_keyboard 200 206 ms - 76 
+[HTTP] --> POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/context {"name":"NATIVE_APP"}
+[HTTP] <-- POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/context 200 119 ms - 76 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/source {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/source 200 191 ms - 29929 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/screenshot {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/screenshot 200 644 ms - 123514 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/window/current/size 200 10 ms - 99 
+[HTTP] --> POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/elements {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.support.v4.view.ViewPager[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]"}
+[HTTP] <-- POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/elements 200 111 ms - 90 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 3 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 2 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 2 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 2 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/element/23/location {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/element/23/location 200 21 ms - 88 
+[HTTP] --> POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/element/23/clear {"id":"23"}
+[HTTP] <-- POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/element/23/clear 200 5579 ms - 76 
+[HTTP] --> POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/element/23/value {"id":"23","value":["kULIYAPITIYA"]}
+[HTTP] <-- POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/element/23/value 200 7501 ms - 76 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/source {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/source 200 41 ms - 4339 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/screenshot {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/screenshot 200 805 ms - 177378 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/source {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/source 200 204 ms - 29127 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/screenshot {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/screenshot 200 1037 ms - 206234 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/window/current/size 200 9 ms - 99 
+[HTTP] --> POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/elements {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.support.v4.view.ViewPager[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]"}
+[HTTP] <-- POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/elements 200 111 ms - 90 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 2 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 2 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 1 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 2 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/element/24/location {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/element/24/location 200 21 ms - 88 
+[HTTP] --> POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/element/24/clear {"id":"24"}
+[HTTP] <-- POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/element/24/clear 200 4734 ms - 76 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/source {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/source 200 120 ms - 29128 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/screenshot {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/screenshot 200 825 ms - 206370 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/window/current/size 200 7 ms - 99 
+[HTTP] --> POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/elements {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.support.v4.view.ViewPager[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]"}
+[HTTP] <-- POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/elements 200 132 ms - 90 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 3 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 1 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 2 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 2 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/element/25/location {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/element/25/location 200 20 ms - 88 
+[HTTP] --> POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/element/25/clear {"id":"25"}
+[HTTP] <-- POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/element/25/clear 200 4989 ms - 76 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/source {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/source 200 213 ms - 24149 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/screenshot {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/screenshot 200 730 ms - 178486 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/window/current/size 200 9 ms - 99 
+[HTTP] --> POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/elements {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.support.v4.view.ViewPager[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[3]"}
+[HTTP] <-- POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/elements 200 124 ms - 90 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 1 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 2 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 1 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 2 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/element/26/location {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/element/26/location 200 22 ms - 88 
+[HTTP] --> POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/element/26/clear {"id":"26"}
+[HTTP] <-- POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/element/26/clear 200 5779 ms - 76 
+[HTTP] --> POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/element/26/value {"id":"26","value":["a1234567"]}
+[HTTP] <-- POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/element/26/value 200 5273 ms - 76 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/source {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/source 200 197 ms - 24134 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/screenshot {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/screenshot 200 850 ms - 170334 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/context {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/context 200 5 ms - 84 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/contexts {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/contexts 200 122 ms - 86 
+[HTTP] --> POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/context {"name":"NATIVE_APP"}
+[HTTP] <-- POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/context 200 104 ms - 76 
+[HTTP] --> POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/appium/device/hide_keyboard {}
+[HTTP] <-- POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/appium/device/hide_keyboard 200 190 ms - 76 
+[HTTP] --> POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/context {"name":"NATIVE_APP"}
+[HTTP] <-- POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/context 200 109 ms - 76 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/source {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/source 200 175 ms - 27476 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/screenshot {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/screenshot 200 732 ms - 217906 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/window/current/size 200 6 ms - 99 
+[HTTP] --> POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/elements {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.support.v4.view.ViewPager[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/elements 200 95 ms - 90 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 2 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 2 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 2 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 1 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/element/27/location {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/element/27/location 200 23 ms - 88 
+[HTTP] --> POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/element/27/clear {"id":"27"}
+[HTTP] <-- POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/element/27/clear 200 5580 ms - 76 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/source {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/source 200 102 ms - 27477 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/screenshot {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/screenshot 200 808 ms - 217866 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/window/current/size 200 6 ms - 99 
+[HTTP] --> POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/elements {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.support.v4.view.ViewPager[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[4]"}
+[HTTP] <-- POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/elements 200 536 ms - 90 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 2 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 1 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 1 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 1 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/element/28/location {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/element/28/location 200 30 ms - 88 
+[HTTP] --> POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/touch/perform {"actions":[{"action":"tap","options":{"element":"28","x":1,"y":1}}]}
+[HTTP] <-- POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/touch/perform 200 236 ms - 76 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/source {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/source 200 62 ms - 9137 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/screenshot {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/screenshot 200 705 ms - 106426 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/window/current/size 200 8 ms - 99 
+[HTTP] --> POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/elements {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.DatePicker[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.NumberPicker[3]/android.widget.Button[1]"}
+[HTTP] <-- POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/elements 200 91 ms - 90 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 1 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 1 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 2 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 1 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/element/29/location {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/element/29/location 200 14 ms - 89 
+[HTTP] --> POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/touch/perform {"actions":[{"action":"tap","options":{"element":"29","x":1,"y":1}}]}
+[HTTP] <-- POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/touch/perform 200 3146 ms - 76 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/source {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/source 200 63 ms - 9137 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/screenshot {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/screenshot 200 690 ms - 106426 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/window/current/size 200 8 ms - 99 
+[HTTP] --> POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/elements {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[2]"}
+[HTTP] <-- POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/elements 200 76 ms - 90 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 1 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 2 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 2 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 1 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/element/30/location {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/element/30/location 200 9 ms - 89 
+[HTTP] --> POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/touch/perform {"actions":[{"action":"tap","options":{"element":"30","x":1,"y":1}}]}
+[HTTP] <-- POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/touch/perform 200 183 ms - 76 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/source {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/source 200 168 ms - 27483 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/screenshot {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/screenshot 200 738 ms - 220662 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/window/current/size 200 8 ms - 99 
+[HTTP] --> POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/elements {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.support.v4.view.ViewPager[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[5]"}
+[HTTP] <-- POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/elements 200 109 ms - 90 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 3 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 2 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 1 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 1 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/element/31/location {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/element/31/location 200 16 ms - 88 
+[HTTP] --> POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/touch/perform {"actions":[{"action":"tap","options":{"element":"31","x":1,"y":1}}]}
+[HTTP] <-- POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/touch/perform 200 307 ms - 76 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/source {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/source 200 61 ms - 5944 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/screenshot {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/screenshot 200 789 ms - 30986 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/source {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/source 200 34 ms - 5944 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/screenshot {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/screenshot 200 999 ms - 433930 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/window/current/size 200 6 ms - 99 
+[HTTP] --> POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/elements {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[3]"}
+[HTTP] <-- POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/elements 200 68 ms - 90 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 2 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 2 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 3 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 1 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/element/32/location {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/element/32/location 200 9 ms - 90 
+[HTTP] --> POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/touch/perform {"actions":[{"action":"tap","options":{"element":"32","x":1,"y":1}}]}
+[HTTP] <-- POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/touch/perform 200 372 ms - 76 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/source {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/source 200 30 ms - 5331 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/screenshot {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/screenshot 200 654 ms - 27826 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/source {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/source 200 110 ms - 33787 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/screenshot {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/screenshot 200 1004 ms - 555262 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/window/current/size 200 6 ms - 99 
+[HTTP] --> POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/elements {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.support.v4.widget.DrawerLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.GridView[1]/android.widget.FrameLayout[3]/android.widget.ImageView[1]"}
+[HTTP] <-- POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/elements 200 90 ms - 90 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 2 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 1 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 1 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 1 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/element/33/location {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/element/33/location 200 18 ms - 87 
+[HTTP] --> POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/touch/perform {"actions":[{"action":"tap","options":{"element":"33","x":1,"y":1}}]}
+[HTTP] <-- POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/touch/perform 200 171 ms - 76 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/source {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/source 200 33 ms - 6378 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/screenshot {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/screenshot 200 607 ms - 34174 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/source {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/source 200 56 ms - 5944 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/screenshot {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/screenshot 200 694 ms - 128114 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/window/current/size 200 8 ms - 99 
+[HTTP] --> POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/elements {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]"}
+[HTTP] <-- POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/elements 200 71 ms - 90 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 1 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 1 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 1 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 1 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/element/34/location {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/element/34/location 200 8 ms - 89 
+[HTTP] --> POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/touch/perform {"actions":[{"action":"tap","options":{"element":"34","x":1,"y":1}}]}
+[HTTP] <-- POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/touch/perform 200 2778 ms - 76 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/source {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/source 200 143 ms - 27483 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/screenshot {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/screenshot 200 725 ms - 119430 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/window/current/size 200 8 ms - 99 
+[HTTP] --> POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/elements {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.support.v4.view.ViewPager[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]"}
+[HTTP] <-- POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/elements 200 289 ms - 90 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 1 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 1 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 2 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 1 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/element/35/location {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/element/35/location 200 25 ms - 88 
+[HTTP] --> POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/touch/perform {"actions":[{"action":"tap","options":{"element":"35","x":1,"y":1}}]}
+[HTTP] <-- POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/touch/perform 200 206 ms - 76 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/source {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/source 200 324 ms - 28315 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/screenshot {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/screenshot 200 706 ms - 120586 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/source {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/source 200 134 ms - 34373 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/screenshot {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/screenshot 200 669 ms - 111118 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/window/current/size 200 5 ms - 99 
+[HTTP] --> POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/elements {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.support.v4.view.ViewPager[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.ViewGroup[1]/android.view.ViewGroup[2]"}
+[HTTP] <-- POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/elements 200 445 ms - 90 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 1 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 2 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 1 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 1 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/element/36/location {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/element/36/location 200 28 ms - 89 
+[HTTP] --> POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/touch/perform {"actions":[{"action":"tap","options":{"element":"36","x":1,"y":1}}]}
+[HTTP] <-- POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/touch/perform 200 212 ms - 76 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/source {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/source 200 198 ms - 34373 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/screenshot {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/screenshot 200 709 ms - 111546 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/window/current/size 200 5 ms - 99 
+[HTTP] --> POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/elements {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]"}
+[HTTP] <-- POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/elements 200 117 ms - 90 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 2 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 1 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 3 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 2 ms - 1172 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/element/37/location {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/element/37/location 200 24 ms - 88 
+[HTTP] --> POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/touch/perform {"actions":[{"action":"tap","options":{"element":"37","x":1,"y":1}}]}
+[HTTP] <-- POST /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/touch/perform 200 3180 ms - 76 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/source {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/source 200 163 ms - 34373 
+[HTTP] --> GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/screenshot {}
+[HTTP] <-- GET /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980/screenshot 200 675 ms - 111614 
+[HTTP] --> DELETE /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 {}
+[Appium] Removing session f5dc5052-7bee-4385-abad-842f80319980 from our master session list
 [ADB] No uiautomator process found to kill, continuing...
-[HTTP] <-- DELETE /wd/hub/session/ec0683b1-0cca-4dbc-987e-2021eee02dca 200 4878 ms - 76 
+[HTTP] <-- DELETE /wd/hub/session/f5dc5052-7bee-4385-abad-842f80319980 200 4957 ms - 76 

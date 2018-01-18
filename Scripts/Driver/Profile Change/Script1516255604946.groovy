@@ -59,6 +59,8 @@ Mobile.tap(findTestObject('Driver/Profile Change/android.view.ViewGroup15'), 0)
 
 Mobile.tap(findTestObject('Driver/Profile Change/android.view.ViewGroup15'), 0)
 
+Mobile.scrollToText('Driver/Profile Change/android.view.ViewGroup18 (1)', FailureHandling.STOP_ON_FAILURE)
+
 Mobile.tap(findTestObject('Driver/Profile Change/android.widget.Button3 - OK'), 0)
 
 Mobile.setText(findTestObject('Driver/Profile Change/android.view.ViewGroup18 (1)'), '954566540V', 0)
